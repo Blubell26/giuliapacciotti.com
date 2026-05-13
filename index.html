@@ -754,19 +754,19 @@ footer { grid-template-columns:1fr; padding:3rem 1.5rem 2rem; gap:2.5rem; }
   </div>
 </section>
 
-<form class="newsletter-form" onsubmit="submitForm(event)">
-  <input type="email" id="email-input" placeholder="your@email.com" required>
-  <button type="submit">Send me the letters</button>
-</form>
-
-<script>
-function submitForm(e) {
-  e.preventDefault();
-  var email = document.getElementById('email-input').value;
-  window.location.href = 'https://app.systeme.io/api/optin?funnel_step_id=23275172&email=' + encodeURIComponent(email);
-}
-</script>
-
+<!-- NEWSLETTER -->
+<section id="newsletter" class="newsletter">
+  <div class="newsletter-inner">
+    <p class="sec-label peach">The Freedom Letters</p>
+    <h2 class="newsletter-h">Income that can travel with you<br>and <em>doesn't reset at the end of the month.</em></h2>
+    <p class="newsletter-p">You've been told there's one way to earn. Work more, hustle harder, trade your hours until there are none left. I questioned that model. What I found changed everything. Seven emails. Everything I learned when I did.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="your@email.com">
+      <button type="button">Send me the letters</button>
+    </div>
+    <p class="newsletter-note">No spam. Unsubscribe whenever. Just writing that actually says something.</p>
+  </div>
+</section>
 
 
 <!-- LIVEGOOD -->
