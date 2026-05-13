@@ -840,6 +840,21 @@ document.querySelectorAll('#navLinks a').forEach(a => {
   });
 });
 
+// Tap to flip for mobile
+document.querySelectorAll('.flip-wrap').forEach(card => {
+  card.addEventListener('click', function(e) {
+    e.preventDefault();
+    const inner = this.querySelector('.flip-inner');
+    if (inner.style.transform === 'rotateX(180deg)') {
+      inner.style.transform = '';
+      // Navigate after a short delay if it was already flipped
+      setTimeout(() => { window.location.href = this.href; }, 100);
+    } else {
+      inner.style.transform = 'rotateX(180deg)';
+    }
+  });
+});
+
 // Sidebar active state on scroll
 const sections = document.querySelectorAll('section[id], div[id]');
 const sidebarLinks = document.querySelectorAll('.sidebar a');
