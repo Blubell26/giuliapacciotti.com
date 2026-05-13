@@ -478,8 +478,10 @@ font-weight:300; margin-bottom:1.5rem;
 background:white; color:var(–dark);
 padding:0.65rem 1.6rem; border-radius:2px;
 font-size:0.78rem; font-weight:500; letter-spacing:0.04em;
-display:inline-block;
+display:inline-block; cursor:pointer;
+transition: opacity 0.2s;
 }
+.flip-back-btn:hover { opacity:0.85; }
 
 @media (max-width:600px) {
 .flip-grid { grid-template-columns:1fr; }
@@ -840,19 +842,50 @@ document.querySelectorAll('#navLinks a').forEach(a => {
   });
 });
 
-// Tap to flip for mobile
-document.querySelectorAll('.flip-wrap').forEach(card => {
-  card.addEventListener('click', function(e) {
-    e.preventDefault();
-    const inner = this.querySelector('.flip-inner');
-    if (inner.style.transform === 'rotateX(180deg)') {
-      inner.style.transform = '';
-      // Navigate after a short delay if it was already flipped
-      setTimeout(() => { window.location.href = this.href; }, 100);
-    } else {
-      inner.style.transform = 'rotateX(180deg)';
+const allCards = document.querySelectorAll('.flip-wrap');
+
+function closeAll(except) {
+  allCards.forEach(c => {
+    if (c !== except) {
+      c.querySelector('.flip-inner').style.transform = '';
     }
   });
+}
+
+allCards.forEach(card => {
+  const inner = card.querySelector('.flip-inner');
+  const front = card.querySelector('.flip-front');
+  const back = card.querySelector('.flip-back');
+  const btn = card.querySelector('.flip-back-btn');
+  const href = card.getAttribute('href');
+
+  card.removeAttribute('href');
+  card.style.cursor = 'pointer';
+
+  if (btn && href) {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      window.open(href, '_blank');
+    });
+  }
+
+  front.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closeAll(card);
+    inner.style.transform = 'rotateX(180deg)';
+  });
+
+  back.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (e.target !== btn && !btn.contains(e.target)) {
+      inner.style.transform = '';
+    }
+  });
+});
+
+// Tap outside any card closes all
+document.addEventListener('click', function() {
+  closeAll(null);
 });
 
 // Sidebar active state on scroll
