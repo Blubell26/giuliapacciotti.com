@@ -469,13 +469,22 @@ document.querySelectorAll('#navLinks a').forEach(a => {
 
 const allCards = document.querySelectorAll('.flip-wrap');
 function closeAll(except) {
-  allCards.forEach(c => { if (c !== except) c.classList.remove('flipped'); });
+  allCards.forEach(c => {
+    if (c !== except) {
+      const i = c.querySelector('.flip-inner');
+      i.style.transform = '';
+      i.style.webkitTransform = '';
+    }
+  });
 }
 allCards.forEach(card => {
+  const inner = card.querySelector('.flip-inner');
+  const front = card.querySelector('.flip-front');
   const back = card.querySelector('.flip-back');
   const btn = card.querySelector('.flip-back-btn');
   const href = card.getAttribute('href');
   card.removeAttribute('href');
+  card.style.cursor = 'pointer';
   if (btn && href) {
     btn.addEventListener('click', function(e) {
       e.stopPropagation();
@@ -483,18 +492,22 @@ allCards.forEach(card => {
       else { window.open(href, '_blank'); }
     });
   }
-  card.addEventListener('click', function(e) {
-    if (card.classList.contains('flipped')) {
-      if (e.target !== btn && !btn.contains(e.target)) { card.classList.remove('flipped'); }
-    } else {
-      closeAll(card);
-      card.classList.add('flipped');
+  front.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closeAll(card);
+    inner.style.transform = 'rotateX(180deg)';
+    inner.style.webkitTransform = 'rotateX(180deg)';
+  });
+  back.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (e.target !== btn && !btn.contains(e.target)) {
+      inner.style.transform = '';
+      inner.style.webkitTransform = '';
     }
   });
 });
-document.addEventListener('click', function(e) {
-  if (!e.target.closest('.flip-wrap')) closeAll(null);
-});
+document.addEventListener('click', () => closeAll(null));
+
 
 const sections = document.querySelectorAll('section[id]');
 const sidebarLinks = document.querySelectorAll('.sidebar a');
