@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -26,130 +27,129 @@ html { scroll-behavior:smooth; }
 body { font-family:'DM Sans',sans-serif; background:var(--white); color:var(--dark); overflow-x:hidden; }
 
 .topnav {
-  position:fixed; top:0; left:0; right:0; z-index:300;
-  background:white; border-bottom:1px solid #ebebeb;
-  display:flex; align-items:center; justify-content:space-between;
-  padding:0 2rem; height:62px;
+position:fixed; top:0; left:0; right:0; z-index:300;
+background:white; border-bottom:1px solid #ebebeb;
+display:flex; align-items:center; justify-content:space-between;
+padding:0 2rem; height:62px;
 }
-.topnav-logo { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.15rem; color:var(--dark); text-decoration:none; }
+.topnav-logo { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.15rem; color:var(–dark); text-decoration:none; }
 .topnav-right { display:flex; align-items:center; gap:2rem; list-style:none; }
-.topnav-right a { font-size:0.76rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); text-decoration:none; font-weight:400; transition:color 0.18s; }
-.topnav-right a:hover { color:var(--peach); }
-.nav-btn { background:var(--peach); color:white !important; padding:0.5rem 1.3rem; border-radius:2px; font-weight:500 !important; }
-.nav-btn:hover { background:var(--peach-light) !important; }
+.topnav-right a { font-size:0.76rem; letter-spacing:0.08em; text-transform:uppercase; color:var(–mid); text-decoration:none; font-weight:400; transition:color 0.18s; }
+.topnav-right a:hover { color:var(–peach); }
+.nav-btn { background:var(–peach); color:white !important; padding:0.5rem 1.3rem; border-radius:2px; font-weight:500 !important; transition:background 0.18s !important; }
+.nav-btn:hover { background:var(–peach-light) !important; }
 .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; }
-.hamburger span { display:block; width:22px; height:1.5px; background:var(--dark); }
+.hamburger span { display:block; width:22px; height:1.5px; background:var(–dark); transition:all 0.3s; }
 
 .shell { display:flex; padding-top:62px; }
 
 .sidebar {
-  position:fixed; top:62px; left:0; width:210px; height:calc(100vh - 62px);
-  border-right:1px solid #ebebeb; background:white; padding:2rem 1.2rem;
-  display:flex; flex-direction:column; gap:0.25rem; overflow-y:auto; z-index:200;
+position:fixed; top:62px; left:0; width:210px; height:calc(100vh - 62px);
+border-right:1px solid #ebebeb; background:white; padding:2rem 1.2rem;
+display:flex; flex-direction:column; gap:0.25rem; overflow-y:auto; z-index:200;
 }
-.sidebar-group-label { font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--soft); font-weight:500; padding:0 0.6rem; margin-top:1.2rem; margin-bottom:0.3rem; }
+.sidebar-group-label { font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(–soft); font-weight:500; padding:0 0.6rem; margin-top:1.2rem; margin-bottom:0.3rem; }
 .sidebar-group-label:first-child { margin-top:0; }
-.sidebar a { display:block; padding:0.55rem 0.8rem; font-size:0.86rem; color:var(--mid); text-decoration:none; border-radius:3px; transition:all 0.18s; font-weight:300; border:1px solid transparent; }
-.sidebar a:hover, .sidebar a.active { background:var(--peach-pale); color:var(--peach); border-color:var(--peach-light); }
-.sidebar a.active { font-weight:500; }
+.sidebar a { display:block; padding:0.55rem 0.8rem; font-size:0.86rem; color:var(–mid); text-decoration:none; border-radius:3px; transition:all 0.18s; font-weight:300; border:1px solid transparent; }
+.sidebar a:hover { background:var(–peach-pale); color:var(–peach); border-color:var(–peach-light); }
+.sidebar a.active { background:var(–peach-pale); color:var(–peach); border-color:var(–peach-light); font-weight:500; }
 .sidebar-divider { height:1px; background:#ebebeb; margin:0.8rem 0; }
 
 .main { margin-left:210px; flex:1; min-width:0; }
 
 .hero { display:grid; grid-template-columns:1fr 1fr; min-height:calc(100vh - 62px); border-bottom:1px solid #ebebeb; }
 .hero-text { padding:5rem 4rem 4rem; display:flex; flex-direction:column; justify-content:center; border-right:1px solid #ebebeb; }
-.hero-eyebrow { font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--teal); font-weight:500; margin-bottom:1.5rem; }
-.hero-h1 { font-family:'Cormorant Garamond',serif; font-size:clamp(2.6rem,4.5vw,3.8rem); font-weight:300; line-height:1.1; color:var(--dark); margin-bottom:1.8rem; }
-.hero-h1 em { font-style:italic; color:var(--peach); }
-.hero-p { font-size:1rem; line-height:1.8; color:var(--mid); font-weight:300; max-width:420px; margin-bottom:2.5rem; }
+.hero-eyebrow { font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(–teal); font-weight:500; margin-bottom:1.5rem; }
+.hero-h1 { font-family:‘Cormorant Garamond’,serif; font-size:clamp(2.6rem,4.5vw,3.8rem); font-weight:300; line-height:1.1; color:var(–dark); margin-bottom:1.8rem; }
+.hero-h1 em { font-style:italic; color:var(–peach); }
+.hero-p { font-size:1rem; line-height:1.8; color:var(–mid); font-weight:300; max-width:420px; margin-bottom:2.5rem; }
 .hero-btns { display:flex; gap:1rem; flex-wrap:wrap; }
+.btn-peach { background:var(–peach); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; letter-spacing:0.03em; border:1.5px solid var(–peach); transition:all 0.2s; display:inline-block; }
+.btn-peach:hover { background:white; color:var(–peach); }
+.btn-ghost { background:white; color:var(–mid); padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:400; border:1.5px solid #ddd; transition:all 0.2s; display:inline-block; }
+.btn-ghost:hover { border-color:var(–peach); color:var(–peach); }
+.btn-teal { background:var(–teal); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; border:1.5px solid var(–teal); transition:all 0.2s; display:inline-block; }
+.btn-teal:hover { background:white; color:var(–teal); }
 
-.btn-peach { background:var(--peach); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; letter-spacing:0.03em; border:1.5px solid var(--peach); transition:all 0.2s; display:inline-block; }
-.btn-peach:hover { background:white; color:var(--peach); }
-.btn-ghost { background:white; color:var(--mid); padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:400; border:1.5px solid #ddd; transition:all 0.2s; display:inline-block; }
-.btn-ghost:hover { border-color:var(--peach); color:var(--peach); }
-.btn-teal { background:var(--teal); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; border:1.5px solid var(--teal); transition:all 0.2s; display:inline-block; }
-.btn-teal:hover { background:white; color:var(--teal); }
-
-.hero-image { background:#f5f0ea; position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+.hero-image { background:#f5f0ea; position:relative; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; }
 .hero-photo-slot { width:100%; height:100%; min-height:500px; background:linear-gradient(160deg,#f0ebe3 0%,#e8ddd2 100%); display:flex; align-items:center; justify-content:center; }
-.photo-hint { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:0.9rem; color:rgba(0,0,0,0.2); }
+.photo-hint { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:0.9rem; color:rgba(0,0,0,0.2); }
 
-.strip { background:var(--peach-pale); border-bottom:1px solid #f0d8c8; padding:0.9rem 4rem; text-align:center; }
-.strip p { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.1rem; color:var(--peach); font-weight:400; }
+.strip { background:var(–peach-pale); border-bottom:1px solid #f0d8c8; padding:0.9rem 4rem; text-align:center; }
+.strip p { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.1rem; color:var(–peach); font-weight:400; }
 
 section { padding:5.5rem 4rem; border-bottom:1px solid #ebebeb; }
+section:last-child { border-bottom:none; }
 
 .sec-label { font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; margin-bottom:1rem; display:block; }
-.sec-label.peach { color:var(--peach); }
-.sec-label.teal { color:var(--teal); }
-
-.sec-h2 { font-family:'Cormorant Garamond',serif; font-size:clamp(1.8rem,3vw,2.6rem); font-weight:300; line-height:1.2; color:var(--dark); margin-bottom:1.2rem; }
-.sec-h2 em { font-style:italic; color:var(--peach); }
-.sec-h2 em.teal { color:var(--teal); }
-.sec-rule { width:40px; height:2px; background:var(--peach); margin-bottom:2rem; }
-.sec-rule.teal { background:var(--teal); }
+.sec-label.peach { color:var(–peach); }
+.sec-label.teal { color:var(–teal); }
+.sec-h2 { font-family:‘Cormorant Garamond’,serif; font-size:clamp(1.8rem,3vw,2.6rem); font-weight:300; line-height:1.2; color:var(–dark); margin-bottom:1.2rem; }
+.sec-h2 em { font-style:italic; color:var(–peach); }
+.sec-h2 em.teal { color:var(–teal); }
+.sec-rule { width:40px; height:2px; background:var(–peach); margin-bottom:2rem; }
+.sec-rule.teal { background:var(–teal); }
 
 .about-grid { display:grid; grid-template-columns:1fr 1.3fr; gap:5rem; align-items:start; }
-.about-body p { font-size:0.98rem; line-height:1.85; color:var(--mid); font-weight:300; margin-bottom:1.3rem; }
-.about-body p strong { color:var(--dark); font-weight:500; }
-.about-pull { background:var(--peach-pale); border-left:3px solid var(--peach); padding:2rem; margin-top:2rem; border-radius:0 2px 2px 0; }
-.about-pull blockquote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.35rem; color:var(--dark); line-height:1.5; font-weight:300; margin-bottom:0.8rem; }
-.about-pull cite { font-size:0.78rem; color:var(--peach); letter-spacing:0.08em; text-transform:uppercase; }
-.about-aside { background:var(--offwhite); border:1px solid #ebebeb; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
-.about-aside-title { font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--dark); margin-bottom:1rem; font-weight:400; }
-.about-aside p { font-size:0.88rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:1.5rem; }
+.about-body p { font-size:0.98rem; line-height:1.85; color:var(–mid); font-weight:300; margin-bottom:1.3rem; }
+.about-body p strong { color:var(–dark); font-weight:500; }
+.about-pull { background:var(–peach-pale); border-left:3px solid var(–peach); padding:2rem; margin-top:2rem; border-radius:0 2px 2px 0; }
+.about-pull blockquote { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.35rem; color:var(–dark); line-height:1.5; font-weight:300; margin-bottom:0.8rem; }
+.about-pull cite { font-size:0.78rem; color:var(–peach); letter-spacing:0.08em; text-transform:uppercase; }
+.about-aside { background:var(–offwhite); border:1px solid #ebebeb; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
+.about-aside-title { font-family:‘Cormorant Garamond’,serif; font-size:1.4rem; color:var(–dark); margin-bottom:1rem; font-weight:400; }
+.about-aside p { font-size:0.88rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:1.5rem; }
 .about-facts { list-style:none; margin-bottom:2rem; display:flex; flex-direction:column; gap:0.7rem; }
-.about-facts li { font-size:0.88rem; color:var(--mid); display:flex; align-items:flex-start; gap:0.7rem; font-weight:300; }
-.about-facts li::before { content:'✦'; color:var(--peach); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
+.about-facts li { font-size:0.88rem; color:var(–mid); display:flex; align-items:flex-start; gap:0.7rem; font-weight:300; }
+.about-facts li::before { content:‘✦’; color:var(–peach); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
 
 .parenting-grid { display:grid; grid-template-columns:1.1fr 1fr; gap:4.5rem; align-items:start; }
 .parenting-list { list-style:none; margin:1.5rem 0 2.5rem; }
-.parenting-list li { padding:1rem 0; border-bottom:1px solid #ebebeb; font-size:0.92rem; line-height:1.65; color:var(--mid); font-weight:300; display:flex; gap:0.9rem; align-items:flex-start; }
-.parenting-list li::before { content:'✦'; color:var(--teal); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
-.parenting-aside { background:var(--teal-pale); border:1px solid #cce0e0; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
-.parenting-aside-h { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.4rem; color:var(--teal); margin-bottom:1.2rem; line-height:1.35; }
-.parenting-aside p { font-size:0.88rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:1.5rem; }
+.parenting-list li { padding:1rem 0; border-bottom:1px solid #ebebeb; font-size:0.92rem; line-height:1.65; color:var(–mid); font-weight:300; display:flex; gap:0.9rem; align-items:flex-start; }
+.parenting-list li::before { content:‘✦’; color:var(–teal); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
+.parenting-aside { background:var(–teal-pale); border:1px solid #cce0e0; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
+.parenting-aside-h { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.4rem; color:var(–teal); margin-bottom:1.2rem; line-height:1.35; }
+.parenting-aside p { font-size:0.88rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:1.5rem; }
 
-.testimonials { background:var(--offwhite); }
+.testimonials { background:var(–offwhite); }
 .testi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-top:3rem; }
 .testi-card { background:white; border:1px solid #ebebeb; border-radius:2px; padding:2rem 1.8rem; }
-.testi-stars { color:var(--peach); font-size:0.8rem; letter-spacing:0.1em; margin-bottom:1rem; }
-.testi-quote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.1rem; line-height:1.6; color:var(--dark); font-weight:300; margin-bottom:1.2rem; }
-.testi-name { font-size:0.78rem; color:var(--soft); letter-spacing:0.06em; text-transform:uppercase; }
+.testi-stars { color:var(–peach); font-size:0.8rem; letter-spacing:0.1em; margin-bottom:1rem; }
+.testi-quote { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.1rem; line-height:1.6; color:var(–dark); font-weight:300; margin-bottom:1.2rem; }
+.testi-name { font-size:0.78rem; color:var(–soft); letter-spacing:0.06em; text-transform:uppercase; }
 
 .newsletter { background:white; text-align:center; }
 .newsletter-inner { max-width:520px; margin:0 auto; }
-.newsletter-h { font-family:'Cormorant Garamond',serif; font-size:clamp(1.8rem,3vw,2.5rem); font-weight:300; color:var(--dark); margin-bottom:1rem; line-height:1.2; }
-.newsletter-h em { font-style:italic; color:var(--peach); }
-.newsletter-p { font-size:0.95rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:2.2rem; }
+.newsletter-h { font-family:‘Cormorant Garamond’,serif; font-size:clamp(1.8rem,3vw,2.5rem); font-weight:300; color:var(–dark); margin-bottom:1rem; line-height:1.2; }
+.newsletter-h em { font-style:italic; color:var(–peach); }
+.newsletter-p { font-size:0.95rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:2.2rem; }
 .newsletter-form { display:flex; flex-direction:column; gap:0.7rem; max-width:420px; margin:0 auto; }
-.newsletter-form input { width:100%; padding:0.85rem 1.1rem; border:1.5px solid #ddd; border-radius:2px; font-family:'DM Sans',sans-serif; font-size:0.9rem; color:var(--dark); outline:none; transition:border 0.18s; }
-.newsletter-form input:focus { border-color:var(--peach); }
-.newsletter-form input::placeholder { color:var(--soft); }
-.newsletter-form button { background:var(--peach); color:white; border:none; padding:0.85rem 1.8rem; border-radius:2px; font-family:'DM Sans',sans-serif; font-size:0.85rem; font-weight:500; cursor:pointer; transition:background 0.18s; letter-spacing:0.03em; }
-.newsletter-form button:hover { background:var(--peach-light); }
-.newsletter-note { font-size:0.75rem; color:var(--soft); margin-top:1rem; }
+.newsletter-form input { width:100%; padding:0.85rem 1.1rem; border:1.5px solid #ddd; border-radius:2px; font-family:‘DM Sans’,sans-serif; font-size:0.9rem; color:var(–dark); outline:none; transition:border 0.18s; }
+.newsletter-form input:focus { border-color:var(–peach); }
+.newsletter-form input::placeholder { color:var(–soft); }
+.newsletter-form button { background:var(–peach); color:white; border:none; padding:0.85rem 1.8rem; border-radius:2px; font-family:‘DM Sans’,sans-serif; font-size:0.85rem; font-weight:500; cursor:pointer; transition:background 0.18s; letter-spacing:0.03em; }
+.newsletter-form button:hover { background:var(–peach-light); }
+.newsletter-note { font-size:0.75rem; color:var(–soft); margin-top:1rem; }
 
 .work-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; margin-top:3rem; }
 .work-card { border:1px solid #ebebeb; border-radius:2px; padding:2rem 1.8rem; transition:border-color 0.2s; }
-.work-card:hover { border-color:var(--peach); }
-.work-num { font-size:1.5rem; color:var(--peach); font-family:'Cormorant Garamond',serif; font-weight:300; margin-bottom:1rem; }
-.work-title { font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--dark); margin-bottom:0.7rem; }
-.work-desc { font-size:0.85rem; line-height:1.7; color:var(--mid); font-weight:300; }
+.work-card:hover { border-color:var(–peach); }
+.work-num { font-size:1.5rem; color:var(–peach); font-family:‘Cormorant Garamond’,serif; font-weight:300; margin-bottom:1rem; }
+.work-title { font-family:‘Cormorant Garamond’,serif; font-size:1.2rem; color:var(–dark); margin-bottom:0.7rem; }
+.work-desc { font-size:0.85rem; line-height:1.7; color:var(–mid); font-weight:300; }
 .work-cta { text-align:center; margin-top:3.5rem; }
 
-footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:4rem; }
-.footer-brand { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.2rem; color:var(--peach-light); margin-bottom:1rem; }
+footer { background:var(–dark); color:white; padding:4rem 4rem 2rem; display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:4rem; }
+.footer-brand { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.2rem; color:var(–peach-light); margin-bottom:1rem; }
 .footer-tagline { font-size:0.85rem; color:rgba(255,255,255,0.35); line-height:1.7; font-weight:300; }
 .footer-col-h { font-size:0.65rem; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.35); margin-bottom:1.2rem; font-weight:500; }
 .footer-links { list-style:none; display:flex; flex-direction:column; gap:0.65rem; }
 .footer-links a { font-size:0.86rem; color:rgba(255,255,255,0.5); text-decoration:none; font-weight:300; transition:color 0.18s; }
-.footer-links a:hover { color:var(--peach-light); }
-.footer-bottom { background:var(--dark); border-top:1px solid rgba(255,255,255,0.06); padding:1.5rem 4rem; display:flex; justify-content:space-between; align-items:center; }
+.footer-links a:hover { color:var(–peach-light); }
+.footer-bottom { background:var(–dark); border-top:1px solid rgba(255,255,255,0.06); padding:1.5rem 4rem; display:flex; justify-content:space-between; align-items:center; }
 .footer-copy { font-size:0.76rem; color:rgba(255,255,255,0.2); }
 .footer-email-link { font-size:0.76rem; color:rgba(255,255,255,0.3); text-decoration:none; transition:color 0.18s; }
-.footer-email-link:hover { color:var(--peach-light); }
+.footer-email-link:hover { color:var(–peach-light); }
 
 @keyframes fadeUp { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
 .hero-text > * { opacity:0; animation:fadeUp 0.7s ease forwards; }
@@ -161,37 +161,40 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 .flip-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:3px; }
 .flip-wrap { display:block; height:380px; perspective:1000px; text-decoration:none; color:inherit; }
 .flip-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform 0.65s cubic-bezier(0.4,0.2,0.2,1); }
-.flip-front, .flip-back { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2.5rem 2rem; text-align:center; }
-.flip-front::after { content:''; position:absolute; inset:0; background:rgba(0,0,0,0.35); z-index:0; }
+.flip-wrap:hover .flip-inner, .flip-wrap:focus .flip-inner { transform:rotateX(180deg); }
+.flip-front, .flip-back { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; -webkit-transform:translateZ(0); transform:translateZ(0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2.5rem 2rem; text-align:center; -webkit-perspective:1000; perspective:1000; }
+.flip-front::after { content:’’; position:absolute; inset:0; background:rgba(0,0,0,0.35); z-index:0; }
 .flip-front-tag, .flip-front-title { position:relative; z-index:1; }
 .flip-back { transform:rotateX(180deg); }
 .flip-front-tag { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; color:rgba(255,255,255,0.6); margin-bottom:1rem; display:block; }
-.flip-front-title { font-family:'Cormorant Garamond',serif; font-size:1.7rem; font-weight:300; color:white; line-height:1.2; font-style:italic; }
+.flip-front-title { font-family:‘Cormorant Garamond’,serif; font-size:1.7rem; font-weight:300; color:white; line-height:1.2; font-style:italic; }
 .flip-back-tag { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; color:rgba(255,255,255,0.6); margin-bottom:0.8rem; display:block; }
-.flip-back-title { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:300; color:white; line-height:1.2; font-style:italic; margin-bottom:1rem; }
+.flip-back-title { font-family:‘Cormorant Garamond’,serif; font-size:1.5rem; font-weight:300; color:white; line-height:1.2; font-style:italic; margin-bottom:1rem; }
 .flip-back-desc { font-size:0.85rem; line-height:1.7; color:rgba(255,255,255,0.8); font-weight:300; margin-bottom:1.5rem; }
-.flip-back-btn { background:white; color:var(--dark); padding:0.65rem 1.6rem; border-radius:2px; font-size:0.78rem; font-weight:500; letter-spacing:0.04em; display:inline-block; cursor:pointer; transition:opacity 0.2s; }
+.flip-back-btn { background:white; color:var(–dark); padding:0.65rem 1.6rem; border-radius:2px; font-size:0.78rem; font-weight:500; letter-spacing:0.04em; display:inline-block; cursor:pointer; transition:opacity 0.2s; }
 .flip-back-btn:hover { opacity:0.85; }
 
 @media (max-width:600px) { .flip-grid { grid-template-columns:1fr; } .flip-wrap { height:300px; } }
 @media (max-width:960px) {
-  .sidebar { display:none; }
-  .main { margin-left:0; }
-  .topnav-right { display:none !important; }
-  .topnav-right.open { display:flex !important; flex-direction:column; align-items:flex-start; position:fixed; top:62px; left:0; right:0; background:white; border-bottom:1px solid #ebebeb; padding:1.5rem; gap:0.9rem; z-index:250; }
-  .hamburger { display:flex; }
-  .hero { grid-template-columns:1fr; }
-  .hero-text { padding:2.5rem 1.5rem 2rem; }
-  .hero-image { height:75vw; min-height:300px; }
-  .about-grid, .parenting-grid { grid-template-columns:1fr; gap:2.5rem; }
-  .testi-grid { grid-template-columns:1fr; }
-  .work-grid { grid-template-columns:1fr; }
-  section { padding:3.5rem 1.5rem; }
-  .strip { padding:0.9rem 1.5rem; }
-  footer { grid-template-columns:1fr; padding:3rem 1.5rem 2rem; gap:2.5rem; }
-  .footer-bottom { padding:1.5rem; flex-direction:column; gap:0.5rem; text-align:center; }
+.sidebar { display:none; }
+.main { margin-left:0; }
+.topnav-right { display:none !important; }
+.topnav-right.open { display:flex !important; flex-direction:column; align-items:flex-start; position:fixed; top:62px; left:0; right:0; background:white; border-bottom:1px solid #ebebeb; padding:1.5rem; gap:0.9rem; z-index:250; }
+.hamburger { display:flex; }
+.hero { grid-template-columns:1fr; }
+.hero-text { padding:2.5rem 1.5rem 2rem; }
+.hero-image { height:75vw; min-height:300px; }
+.hero-image img { width:100%; height:100%; object-fit:cover; object-position:center center !important; display:block; }
+.about-grid, .parenting-grid { grid-template-columns:1fr; gap:2.5rem; }
+.testi-grid { grid-template-columns:1fr; }
+.work-grid { grid-template-columns:1fr; }
+section { padding:3.5rem 1.5rem; }
+.strip { padding:0.9rem 1.5rem; }
+footer { grid-template-columns:1fr; padding:3rem 1.5rem 2rem; gap:2.5rem; }
+.footer-bottom { padding:1.5rem; flex-direction:column; gap:0.5rem; text-align:center; }
 }
 </style>
+
 </head>
 <body>
 
@@ -229,231 +232,237 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 
   <main class="main">
 
-    <section class="hero" id="home" style="border-bottom:1px solid #ebebeb;padding:0;">
-      <div class="hero-text">
-        <p class="hero-eyebrow">Keepers of the Wild Heart</p>
-        <h1 class="hero-h1">This is a space for<br><em>wild, intentional</em><br>lives.</h1>
-        <p class="hero-p">For the ones longing to leave or who have already left the narrative, in search of something that works and feels better. Who want to build something real, who are not afraid to challenge rules and themselves. Who need income that actually fits the life they choose.</p>
-        <div class="hero-btns">
-          <a href="#programs" class="btn-peach">Explore the programs</a>
-          <a href="#about" class="btn-ghost">My story</a>
-        </div>
-      </div>
-      <div class="hero-image">
-        <img src="IMG_4688.jpeg" alt="Giulia Pacciotti" style="width:100%;height:100%;object-fit:cover;object-position:center top;" onerror="this.style.display='none';document.getElementById('heroSlot').style.display='flex';">
-        <div class="hero-photo-slot" id="heroSlot" style="display:none;"><p class="photo-hint">your photo here</p></div>
-      </div>
-    </section>
-
-    <div class="strip">
-      <p>Unschooling. Unconventional income. Raising a kid and finding meaning outside the default settings.</p>
+```
+<section class="hero" id="home" style="border-bottom:1px solid #ebebeb;padding:0;">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Keepers of the Wild Heart</p>
+    <h1 class="hero-h1">This is a space for<br><em>wild, unconventional</em><br>lives.</h1>
+    <p class="hero-p">For the ones longing to leave or who have already left the narrative, in search of something that works better. Who want to build something real, who are not afraid to challenge rules and themselves. Who need income that actually fits the life they choose.</p>
+    <div class="hero-btns">
+      <a href="#programs" class="btn-peach">Explore the programs</a>
+      <a href="#about" class="btn-ghost">My story</a>
     </div>
+  </div>
+  <div class="hero-image">
+    <img src="IMG_4688.jpeg" alt="Giulia Pacciotti" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+  </div>
+</section>
 
-    <section id="about">
-      <div class="about-grid">
-        <div class="about-body">
-          <p class="sec-label peach">About Giulia</p>
-          <h2 class="sec-h2">I didn't wait until I had it<br><em>figured out.</em></h2>
-          <div class="sec-rule"></div>
-          <p>A few years ago I packed up our lives and left. No safety net, no tidy plan. Just a deep knowing that the known version wasn't going to work for us.</p>
-          <p>Since then: <strong>unschooling my son</strong>, learning through life rather than a curriculum, building income that comes with us, deep inner work and nervous system regulation. And writing honestly about what all of it actually looks like. Without the spiritual ego or fancy background. Wild Hearts Rising. The Freedom Letters. Keepers of the Wild Heart. Pieces of a life that keeps making itself up.</p>
-          <p>I'm not a guru at the top of a mountain looking back down. I'm still in it. That's the point.</p>
-          <div class="about-pull">
-            <blockquote>The unconventional path isn't easier. But it's yours, so you'll find meaning in it. And there is a way to make it work financially.</blockquote>
-            <cite>— Giulia</cite>
-          </div>
-        </div>
-        <div class="about-aside">
-          <h3 class="about-aside-title">A few things about this space</h3>
-          <p>Keepers of the Wild Heart is the overarching brand for everything I do. It holds the parenting work, the inner work, the income work holistically together.</p>
-          <ul class="about-facts">
-            <li>Several years of slow travel through Europe with my son</li>
-            <li>Unschooling as a philosophy and a practice to reconnect with our own guidance</li>
-            <li>Building digital income without becoming someone else</li>
-            <li>Writing that tells the truth about what this actually looks like</li>
-          </ul>
-          <a href="#programs" class="btn-peach">See what I offer</a>
-        </div>
-      </div>
-    </section>
+<div class="strip">
+  <p>Unschooling. Unconventional income. Raising a kid and finding meaning outside the default settings.</p>
+</div>
 
-    <section id="programs" style="padding:0;background:white;">
-      <div style="text-align:center;padding:3.5rem 2rem 2rem;">
-        <p class="sec-label peach">Programs &amp; Courses</p>
-        <h2 class="sec-h2">Ways to go <em>deeper</em></h2>
-        <p style="font-size:0.95rem;color:var(--mid);font-weight:300;max-width:500px;margin:0 auto;line-height:1.75;">Courses, letters and resources to fuel a life that actually works. Everything I've built for people who are done with the default version.</p>
+<section id="about">
+  <div class="about-grid">
+    <div class="about-body">
+      <p class="sec-label peach">About Giulia</p>
+      <h2 class="sec-h2">I didn't wait until I had it<br><em>figured out.</em></h2>
+      <div class="sec-rule"></div>
+      <p>A few years ago I packed up our lives and left. No safety net, no tidy plan. Just a deep knowing that the conventional version wasn't going to work for us.</p>
+      <p>Since then: <strong>unschooling my son</strong>, learning through life rather than a curriculum, building income that comes with us, deep inner work and nervous system regulation. And writing honestly about what all of it actually looks like. Without the spiritual ego or fancy background. Wild Hearts Rising. The Freedom Letters. Keepers of the Wild Heart. Pieces of a life that keeps making itself up.</p>
+      <p>I'm not a guru at the top of a mountain looking back down. I'm still in it. That's the point.</p>
+      <div class="about-pull">
+        <blockquote>The unconventional path isn't easier. But it's yours. And there is a way to make it work financially.</blockquote>
+        <cite>— Giulia</cite>
       </div>
-      <div class="flip-grid">
-        <a href="http://blubell26.github.io/Keepers/" target="_blank" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:url(IMG_4094.jpeg) center/cover no-repeat;">
-              <span class="flip-front-tag">Waitlist Open</span>
-              <h3 class="flip-front-title">Keepers of the Wild Heart</h3>
-            </div>
-            <div class="flip-back" style="-webkit-transform:rotateX(180deg) translateZ(0);transform:rotateX(180deg) translateZ(0);background:#1e3a2f;_4094.jpeg) center/cover no-repeat;">
-              <span class="flip-back-tag">Course</span>
-              <h3 class="flip-back-title">Keepers of the Wild Heart</h3>
-              <p class="flip-back-desc">Four stages. The unlearning, the shadow, the rewiring, the rebuilding. A course built from a real journey of transformation.</p>
-              <span class="flip-back-btn">Join the waitlist</span>
-            </div>
-          </div>
-        </a>
-        <a href="https://blubell26.github.io/Wildhearts/" target="_blank" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:linear-gradient(160deg,#e8956d 0%,#2d6b6b 100%);">
-              <span class="flip-front-tag">Guide</span>
-              <h3 class="flip-front-title">Wild Hearts Rising</h3>
-            </div>
-            <div class="flip-back" style="background:#e8956d;">
-              <span class="flip-back-tag">Guide</span>
-              <h3 class="flip-back-title">Wild Hearts Rising</h3>
-              <p class="flip-back-desc">For the woman who knows something needs to change and is finally ready to stop waiting for permission to begin.</p>
-              <span class="flip-back-btn" style="color:#e8956d;">Explore the guide</span>
-            </div>
-          </div>
-        </a>
-        <a href="#newsletter" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:linear-gradient(160deg,#c8956d 0%,#8b6914 100%);">
-              <span class="flip-front-tag">Newsletter Series</span>
-              <h3 class="flip-front-title">The Freedom Letters</h3>
-            </div>
-            <div class="flip-back" style="background:#2d6b6b;">
-              <span class="flip-back-tag">7 Emails</span>
-              <h3 class="flip-back-title">The Freedom Letters</h3>
-              <p class="flip-back-desc">Income that doesn't reset at the end of the month. Everything I learned when I questioned the model we've been sold.</p>
-              <span class="flip-back-btn">Get the letters</span>
-            </div>
-          </div>
-        </a>
-        <a href="mailto:hello@giuliapacciotti.com" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:linear-gradient(160deg,#3a5a4a 0%,#2d6b6b 100%);">
-              <span class="flip-front-tag">Coming Soon</span>
-              <h3 class="flip-front-title">The Unschooling Guide</h3>
-            </div>
-            <div class="flip-back" style="background:#3a5a4a;">
-              <span class="flip-back-tag">Free Guide</span>
-              <h3 class="flip-back-title">The Unschooling Guide</h3>
-              <p class="flip-back-desc">For parents who want to raise their children outside the default settings. Real advice, practical, no dogma.</p>
-              <span class="flip-back-btn">Get notified</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section id="parenting">
-      <div class="parenting-grid">
-        <div>
-          <p class="sec-label teal">Parenting / Unschooling</p>
-          <h2 class="sec-h2">What if learning<br><em class="teal">looked like living?</em></h2>
-          <div class="sec-rule teal"></div>
-          <p style="font-size:0.95rem;line-height:1.8;color:var(--mid);font-weight:300;margin-bottom:0.5rem;">We've been unschooling through Europe for years. It's not perfect. It's not always easy. But watching my son learn through actual life has changed what I think education even is.</p>
-          <ul class="parenting-list">
-            <li>Hands-on support for mums navigating different education options</li>
-            <li>Building programs for families who want to go their own way</li>
-          </ul>
-          <a href="mailto:hello@giuliapacciotti.com" class="btn-teal">Get the free unschooling guide</a>
-        </div>
-        <div class="parenting-aside">
-          <h3 class="parenting-aside-h">Keepers of the Wild Heart is about finding ways to live an intentional life without becoming outsiders on a mountain in the process. Without limiting ourselves to an identity or a group.</h3>
-          <p>It is rejoining the flow of things that moves us to where we need to be, or the version of us we have to become. Takes what works, leaves the rest. Use logic but also free up your heart. Keeps things simple. And stays open enough to challenge what everyone else takes for granted.</p>
-          <a href="#contact" class="btn-teal">Work with Giulia</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-      <p class="sec-label peach" style="text-align:center;">What people say</p>
-      <h2 class="sec-h2" style="text-align:center;">Real words from real people<br><em>doing real things</em></h2>
-      <div class="testi-grid">
-        <div class="testi-card">
-          <p class="testi-stars">★★★★★</p>
-          <p class="testi-quote">"Giulia writes like she's talking directly to you. No performance, no polish. Just the actual truth of what building this kind of life looks like."</p>
-          <p class="testi-name">— Wild Hearts Rising subscriber</p>
-        </div>
-        <div class="testi-card">
-          <p class="testi-stars">★★★★★</p>
-          <p class="testi-quote">"The Freedom Letters completely changed how I think about income. Not trading time for money. Actually understanding how it can work differently."</p>
-          <p class="testi-name">— Freedom Letters reader</p>
-        </div>
-        <div class="testi-card">
-          <p class="testi-stars">★★★★★</p>
-          <p class="testi-quote">"Finally someone talking about unschooling who isn't pretending it's all beautiful and free. The real version, with all the mess and the magic of it. Thank you."</p>
-          <p class="testi-name">— Unschooling guide reader</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="newsletter" id="newsletter">
-      <div class="newsletter-inner">
-        <p class="sec-label peach">The Freedom Letters</p>
-        <h2 class="newsletter-h">Income that can travel with you and <em>doesn't reset at the end of the month.</em></h2>
-        <p class="newsletter-p">You've been told there's one way to earn. Work more, hustle harder, trade your hours until there are none left. I questioned that model. What I found changed everything. Seven emails. Everything I learned when I did.</p>
-        <form method="post" action="https://systeme.io/embedded/40878361/subscription" class="newsletter-form">
-          <input type="email" name="email" placeholder="your@email.com" required>
-          <button type="submit">Send me the letters</button>
-        </form>
-        <p class="newsletter-note">No spam. Unsubscribe whenever. Just writing that actually says something.</p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <p class="sec-label peach" style="text-align:center;">Work With Me</p>
-      <h2 class="sec-h2" style="text-align:center;">Let's figure out<br><em>your version.</em></h2>
-      <div class="work-grid">
-        <div class="work-card">
-          <p class="work-num">01</p>
-          <h3 class="work-title">1:1 Sessions</h3>
-          <p class="work-desc">For people building something and wanting a thinking partner who has actually done it. Income structure, content, unschooling, life design.</p>
-        </div>
-        <div class="work-card">
-          <p class="work-num">02</p>
-          <h3 class="work-title">Hands-On Help</h3>
-          <p class="work-desc">Practical support for mums who want to set up something similar. I walk you through the funnel, the brand, the income side, all of it.</p>
-        </div>
-        <div class="work-card">
-          <p class="work-num">03</p>
-          <h3 class="work-title">Write to Me</h3>
-          <p class="work-desc">Not sure where to start? Send a message. I read everything and reply when I can.</p>
-        </div>
-      </div>
-      <div class="work-cta">
-        <p style="font-size:0.9rem;color:var(--soft);margin-bottom:0.8rem;font-weight:300;">Ready to talk?</p>
-        <a href="mailto:hello@giuliapacciotti.com" class="btn-peach">hello@giuliapacciotti.com</a>
-      </div>
-    </section>
-
-    <footer>
-      <div>
-        <p class="footer-brand">Keepers of the Wild Heart</p>
-        <p class="footer-tagline">A space for wild, unconventional lives. Unschooling, income that fits, nervous system regulation.</p>
-      </div>
-      <div>
-        <p class="footer-col-h">Programs</p>
-        <ul class="footer-links">
-          <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
-          <li><a href="https://blubell26.github.io/Wildhearts" target="_blank">Wild Hearts Rising</a></li>
-          <li><a href="#newsletter">The Freedom Letters</a></li>
-          <li><a href="#parenting">Parenting / Unschooling</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footer-col-h">Find me</p>
-        <ul class="footer-links">
-          <li><a href="#contact">Work with me</a></li>
-          <li><a href="mailto:hello@giuliapacciotti.com">hello@giuliapacciotti.com</a></li>
-          <li><a href="https://www.facebook.com/share/1EuVqfmLh2/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
-          <li><a href="https://www.tiktok.com/@blubell2609" target="_blank">TikTok</a></li>
-          <li><a href="https://www.instagram.com/blubell2609" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-    </footer>
-    <div class="footer-bottom">
-      <p class="footer-copy">© 2025 Giulia Pacciotti. Keepers of the Wild Heart.</p>
-      <a href="mailto:hello@giuliapacciotti.com" class="footer-email-link">hello@giuliapacciotti.com</a>
     </div>
+    <div class="about-aside">
+      <h3 class="about-aside-title">A few things about this space</h3>
+      <p>Keepers of the Wild Heart is the overarching brand for everything I do. It holds the income work, the parenting work, and the writing together.</p>
+      <ul class="about-facts">
+        <li>Several years of slow travel through Europe with my son</li>
+        <li>Unschooling as a philosophy and a practice</li>
+        <li>Building digital income without becoming someone else</li>
+        <li>Writing that tells the truth about what this actually looks like</li>
+      </ul>
+      <a href="#programs" class="btn-peach">See what I offer</a>
+    </div>
+  </div>
+</section>
+
+<section id="programs" style="padding:0;background:white;">
+  <div style="text-align:center;padding:3.5rem 2rem 2rem;">
+    <p class="sec-label peach">Programs &amp; Courses</p>
+    <h2 class="sec-h2">Ways to go <em>deeper</em></h2>
+    <p style="font-size:0.95rem;color:var(--mid);font-weight:300;max-width:500px;margin:0 auto;line-height:1.75;">Courses, letters and resources to fuel a life that actually works. Everything I've built for people who are done with the default version.</p>
+  </div>
+  <div class="flip-grid">
+
+    <a href="http://blubell26.github.io/Keepers/" target="_blank" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:url(IMG_4094.jpeg) center/cover no-repeat;">
+          <span class="flip-front-tag">Waitlist Open</span>
+          <h3 class="flip-front-title">Keepers of the Wild Heart</h3>
+        </div>
+        <div class="flip-back" style="background:#1e3a2f;">
+          <span class="flip-back-tag">Course</span>
+          <h3 class="flip-back-title">Keepers of the Wild Heart</h3>
+          <p class="flip-back-desc">Four stages. The unlearning, the shadow, the rewiring, the rebuilding. A course built from a real journey of transformation.</p>
+          <span class="flip-back-btn">Join the waitlist</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://blubell26.github.io/Wildhearts/" target="_blank" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:linear-gradient(160deg,#e8956d 0%,#2d6b6b 100%);">
+          <span class="flip-front-tag">Guide</span>
+          <h3 class="flip-front-title">Wild Hearts Rising</h3>
+        </div>
+        <div class="flip-back" style="background:#e8956d;">
+          <span class="flip-back-tag">Guide</span>
+          <h3 class="flip-back-title">Wild Hearts Rising</h3>
+          <p class="flip-back-desc">For the woman who knows something needs to change and is finally ready to stop waiting for permission to begin.</p>
+          <span class="flip-back-btn" style="color:#e8956d;">Explore the guide</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#newsletter" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:linear-gradient(160deg,#c8956d 0%,#8b6914 100%);">
+          <span class="flip-front-tag">Newsletter Series</span>
+          <h3 class="flip-front-title">The Freedom Letters</h3>
+        </div>
+        <div class="flip-back" style="background:#2d6b6b;">
+          <span class="flip-back-tag">7 Emails</span>
+          <h3 class="flip-back-title">The Freedom Letters</h3>
+          <p class="flip-back-desc">Income that doesn't reset at the end of the month. Everything I learned when I questioned the model.</p>
+          <span class="flip-back-btn">Get the letters</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="mailto:hello@giuliapacciotti.com" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:linear-gradient(160deg,#3a5a4a 0%,#2d6b6b 100%);">
+          <span class="flip-front-tag">Coming Soon</span>
+          <h3 class="flip-front-title">The Unschooling Guide</h3>
+        </div>
+        <div class="flip-back" style="background:#3a5a4a;">
+          <span class="flip-back-tag">Free Guide</span>
+          <h3 class="flip-back-title">The Unschooling Guide</h3>
+          <p class="flip-back-desc">For parents who want to raise their children outside the default settings. Real, practical, no dogma.</p>
+          <span class="flip-back-btn">Get notified</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="parenting">
+  <div class="parenting-grid">
+    <div>
+      <p class="sec-label teal">Parenting / Unschooling</p>
+      <h2 class="sec-h2">What if learning<br><em class="teal">looked like living?</em></h2>
+      <div class="sec-rule teal"></div>
+      <p style="font-size:0.95rem;line-height:1.8;color:var(--mid);font-weight:300;margin-bottom:0.5rem;">We've been unschooling through Europe for years. It's not perfect. It's not always easy. But watching my son learn through actual life has changed what I think education even is.</p>
+      <ul class="parenting-list">
+        <li>Hands-on support for mums navigating unconventional education</li>
+        <li>Building programs for families who want to go their own way</li>
+      </ul>
+      <a href="mailto:hello@giuliapacciotti.com" class="btn-teal">Get the free unschooling guide</a>
+    </div>
+    <div class="parenting-aside">
+      <h3 class="parenting-aside-h">Keepers of the Wild Heart is about finding ways to live an intentional life without becoming outsiders on a mountain in the process. Without limiting ourselves to an identity or a group.</h3>
+      <p>It is rejoining the flow of things that moves us to where we need to be, or the version of us we have to become. Takes what works, leaves the rest. Use logic but also free up your heart. Keeps things simple. And stays open enough to challenge what everyone else takes for granted.</p>
+      <a href="#contact" class="btn-teal">Work with Giulia</a>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+  <p class="sec-label peach" style="text-align:center;">What people say</p>
+  <h2 class="sec-h2" style="text-align:center;">Real words from real people<br><em>doing real things</em></h2>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <p class="testi-stars">★★★★★</p>
+      <p class="testi-quote">"Giulia writes like she's talking directly to you. No performance, no polish. Just the actual truth of what building this kind of life looks like."</p>
+      <p class="testi-name">— Wild Hearts Rising subscriber</p>
+    </div>
+    <div class="testi-card">
+      <p class="testi-stars">★★★★★</p>
+      <p class="testi-quote">"The Freedom Letters completely changed how I think about income. Not trading time for money. Actually understanding how it can work differently."</p>
+      <p class="testi-name">— Freedom Letters reader</p>
+    </div>
+    <div class="testi-card">
+      <p class="testi-stars">★★★★★</p>
+      <p class="testi-quote">"Finally someone talking about unschooling who isn't pretending it's all beautiful and free. The real version, with all the mess and the magic of it. Thank you."</p>
+      <p class="testi-name">— Unschooling guide reader</p>
+    </div>
+  </div>
+</section>
+
+<section id="newsletter" class="newsletter">
+  <div class="newsletter-inner">
+    <p class="sec-label peach">The Freedom Letters</p>
+    <h2 class="newsletter-h">Income that can travel with you<br>and <em>doesn't reset at the end of the month.</em></h2>
+    <p class="newsletter-p">You've been told there's one way to earn. Work more, hustle harder, trade your hours until there are none left. I questioned that model. What I found changed everything. Seven emails. Everything I learned when I did.</p>
+    <form method="post" action="https://systeme.io/embedded/40878361/subscription" class="newsletter-form">
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit">Send me the letters</button>
+    </form>
+    <p class="newsletter-note">No spam. Unsubscribe whenever. Just writing that actually says something.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <p class="sec-label peach" style="text-align:center;">Work With Me</p>
+  <h2 class="sec-h2" style="text-align:center;">Let's figure out<br><em>your version.</em></h2>
+  <div class="work-grid">
+    <div class="work-card">
+      <p class="work-num">01</p>
+      <h3 class="work-title">1:1 Sessions</h3>
+      <p class="work-desc">For people building something and wanting a thinking partner who has actually done it. Income structure, content, unschooling, life design.</p>
+    </div>
+    <div class="work-card">
+      <p class="work-num">02</p>
+      <h3 class="work-title">Hands-On Help</h3>
+      <p class="work-desc">Practical support for mums who want to set up something similar. I walk you through the funnel, the brand, the income side, all of it.</p>
+    </div>
+    <div class="work-card">
+      <p class="work-num">03</p>
+      <h3 class="work-title">Write to Me</h3>
+      <p class="work-desc">Not sure where to start? Send a message. I read everything and reply when I can.</p>
+    </div>
+  </div>
+  <div class="work-cta">
+    <p style="font-size:0.9rem;color:var(--soft);margin-bottom:0.8rem;font-weight:300;">Ready to talk?</p>
+    <a href="mailto:hello@giuliapacciotti.com" class="btn-peach">hello@giuliapacciotti.com</a>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <p class="footer-brand">Keepers of the Wild Heart</p>
+    <p class="footer-tagline">A space for wild, unconventional lives. Unschooling, income that fits, nervous system regulation.</p>
+  </div>
+  <div>
+    <p class="footer-col-h">Programs</p>
+    <ul class="footer-links">
+      <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+      <li><a href="https://blubell26.github.io/Wildhearts" target="_blank">Wild Hearts Rising</a></li>
+      <li><a href="#newsletter">The Freedom Letters</a></li>
+      <li><a href="#parenting">Parenting / Unschooling</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-col-h">Find me</p>
+    <ul class="footer-links">
+      <li><a href="#contact">Work with me</a></li>
+      <li><a href="mailto:hello@giuliapacciotti.com">hello@giuliapacciotti.com</a></li>
+      <li><a href="https://www.facebook.com/share/1EuVqfmLh2/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+      <li><a href="https://www.tiktok.com/@blubell2609" target="_blank">TikTok</a></li>
+      <li><a href="https://www.instagram.com/blubell2609" target="_blank">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p class="footer-copy">© 2025 Giulia Pacciotti. Keepers of the Wild Heart.</p>
+  <a href="mailto:hello@giuliapacciotti.com" class="footer-email-link">hello@giuliapacciotti.com</a>
+</div>
+```
 
   </main>
 </div>
@@ -463,40 +472,73 @@ function toggleNav() {
   document.getElementById('navLinks').classList.toggle('open');
 }
 document.querySelectorAll('#navLinks a').forEach(a => {
-  a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+  a.addEventListener('click', () => {
+    document.getElementById('navLinks').classList.remove('open');
+  });
 });
 
 const allCards = document.querySelectorAll('.flip-wrap');
+
 function closeAll(except) {
-  allCards.forEach(c => { if (c !== except) c.querySelector('.flip-inner').style.transform = ''; });
+  allCards.forEach(c => {
+    if (c !== except) {
+      c.querySelector('.flip-inner').style.transform = '';
+    }
+  });
 }
+
 allCards.forEach(card => {
   const inner = card.querySelector('.flip-inner');
   const front = card.querySelector('.flip-front');
   const back = card.querySelector('.flip-back');
   const btn = card.querySelector('.flip-back-btn');
   const href = card.getAttribute('href');
+
   card.removeAttribute('href');
   card.style.cursor = 'pointer';
+
   if (btn && href) {
     btn.addEventListener('click', function(e) {
       e.stopPropagation();
-      if (href.startsWith('#')) { document.querySelector(href).scrollIntoView({behavior:'smooth'}); }
-      else { window.open(href, '_blank'); }
+      if (href.startsWith('mailto') || href.startsWith('http')) {
+        window.open(href, '_blank');
+      } else {
+        document.querySelector(href).scrollIntoView({behavior:'smooth'});
+      }
     });
   }
-  front.addEventListener('click', function(e) { e.stopPropagation(); closeAll(card); inner.style.transform = 'rotateX(180deg)'; });
-  back.addEventListener('click', function(e) { e.stopPropagation(); if (e.target !== btn && !btn.contains(e.target)) inner.style.transform = ''; });
-});
-document.addEventListener('click', () => closeAll(null));
 
-const sections = document.querySelectorAll('section[id]');
+  front.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closeAll(card);
+    inner.style.transform = 'rotateX(180deg)';
+  });
+
+  back.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (e.target !== btn && !btn.contains(e.target)) {
+      inner.style.transform = '';
+    }
+  });
+});
+
+document.addEventListener('click', function() {
+  closeAll(null);
+});
+
+const sections = document.querySelectorAll('section[id], div[id]');
 const sidebarLinks = document.querySelectorAll('.sidebar a');
 window.addEventListener('scroll', () => {
   let current = '';
-  sections.forEach(sec => { if (window.scrollY >= sec.offsetTop - 100) current = sec.id; });
-  sidebarLinks.forEach(a => { a.classList.remove('active'); if (a.getAttribute('href') === '#' + current) a.classList.add('active'); });
+  sections.forEach(sec => {
+    if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+  });
+  sidebarLinks.forEach(a => {
+    a.classList.remove('active');
+    if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+  });
 });
 </script>
+
 </body>
 </html>
