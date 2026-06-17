@@ -281,12 +281,12 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
       </div>
     </section>
 
-    <section id="blog-preview">
+    <section id="blog-preview" style="background:#1e3a2f;">
   <p class="sec-label peach" style="text-align:center;">From the Blog</p>
-  <h2 class="sec-h2" style="text-align:center;">Things I'm <em>writing through</em></h2>
+  <h2 class="sec-h2" style="text-align:center;color:white;">Things I'm <em>writing through</em></h2>
   <div class="work-grid">
     {% for post in site.posts limit:3 %}
-    <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;">
+    <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;background:white;border-color:transparent;">
       <p class="work-num">{{ post.date | date: "%b %Y" }}</p>
       <h3 class="work-title">{{ post.title }}</h3>
       <p class="work-desc">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
