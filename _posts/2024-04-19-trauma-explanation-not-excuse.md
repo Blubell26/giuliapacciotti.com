@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “On Trauma as Explanation, Not Excuse”
+title: On Trauma as Explanation, Not Excuse
 description: “A longer look at the thin, constantly shifting line between understanding why we are the way we are, and using that understanding as a permanent excuse not to change.”
 date: 2024-04-19
 ---
