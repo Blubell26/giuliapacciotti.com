@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Anger Was Never the Real Feeling”
+title: Anger Was Never the Real Feeling
 description: “A longer look at why anger arrives first, what it’s actually covering for, and what happens once you stop reacting to it and just stay with it.”
 date: 2024-05-27
 ---
