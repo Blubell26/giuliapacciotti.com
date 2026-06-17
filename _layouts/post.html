@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | Giulia Pacciotti</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--peach:#e8956d;--peach-pale:#fdf3ec;--teal:#2d6b6b;--dark:#1c1c1a;--mid:#4a4a46;--soft:#999990;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);}
+.topbar{padding:1.5rem 2rem;border-bottom:1px solid #ebebeb;display:flex;justify-content:space-between;align-items:center;}
+.topbar a{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.1rem;color:var(--dark);text-decoration:none;}
+.topbar .back{font-family:'DM Sans',sans-serif;font-style:normal;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;color:var(--peach);}
+.post-wrap{max-width:680px;margin:0 auto;padding:4rem 1.5rem 6rem;}
+.post-eyebrow{font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--teal);font-weight:500;margin-bottom:1.2rem;}
+.post-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:300;line-height:1.2;color:var(--dark);margin-bottom:1rem;}
+.post-date{font-size:0.8rem;color:var(--soft);margin-bottom:2.5rem;}
+.post-body p{font-size:1.02rem;line-height:1.9;color:var(--mid);font-weight:300;margin-bottom:1.4rem;}
+.post-body strong{color:var(--dark);font-weight:500;}
+.post-body a{color:var(--peach);text-decoration:underline;}
+</style>
+</head>
+<body>
+<div class="topbar">
+<a href="/">Giulia Pacciotti</a>
+<a href="/blog/" class="back">All posts</a>
+</div>
+<div class="post-wrap">
+<p class="post-eyebrow">Keepers of the Wild Heart</p>
+<h1 class="post-title">{{ page.title }}</h1>
+<p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+<div class="post-body">
+{{ content }}
+</div>
+</div>
+</body>
+</html>
