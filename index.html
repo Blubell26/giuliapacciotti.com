@@ -251,23 +251,6 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
     <div class="strip">
       <p>Unschooling. Unconventional income. Raising a kid and finding meaning outside the default settings.</p>
     </div>
-    
-    <section id="blog-preview">
-  <p class="sec-label peach" style="text-align:center;">From the Blog</p>
-  <h2 class="sec-h2" style="text-align:center;">Things I'm <em>writing through</em></h2>
-  <div class="work-grid">
-    {% for post in site.posts limit:3 %}
-    <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;">
-      <p class="work-num">{{ post.date | date: "%b %Y" }}</p>
-      <h3 class="work-title">{{ post.title }}</h3>
-      <p class="work-desc">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-    </a>
-    {% endfor %}
-  </div>
-  <div class="work-cta">
-    <a href="/blog/" class="btn-peach">Read the blog</a>
-  </div>
-</section>
 
     <section id="about">
       <div class="about-grid">
@@ -297,6 +280,23 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
         </div>
       </div>
     </section>
+
+    <section id="blog-preview">
+  <p class="sec-label peach" style="text-align:center;">From the Blog</p>
+  <h2 class="sec-h2" style="text-align:center;">Things I'm <em>writing through</em></h2>
+  <div class="work-grid">
+    {% for post in site.posts limit:3 %}
+    <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;">
+      <p class="work-num">{{ post.date | date: "%b %Y" }}</p>
+      <h3 class="work-title">{{ post.title }}</h3>
+      <p class="work-desc">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="work-cta">
+    <a href="/blog/" class="btn-peach">Read the blog</a>
+  </div>
+</section>
 
     <section id="programs" style="padding:0;background:white;">
       <div style="text-align:center;padding:3.5rem 2rem 2rem;">
