@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What we suppress in ourselves we end up suppressing in others"
+title: "What we Suppress in Ourselves we end up Suppressing in Others"
 description: "A long look at why the harshest reactions we have to other people are usually pointing back at the parts of ourselves we learned to exile a long time ago"
 date: 2024-03-06
 ---
