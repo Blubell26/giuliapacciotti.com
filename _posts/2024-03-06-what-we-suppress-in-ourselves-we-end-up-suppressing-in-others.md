@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "What we suppress in ourselves we end up suppressing in others"
-description: "A long look at why the harshest reactions we have to other people are usually pointing back at the parts of ourselves we learned to exile a long time ago
+description: "A long look at why the harshest reactions we have to other people are usually pointing back at the parts of ourselves we learned to exile a long time ago"
 date: 2024-03-06
 ---
-image: /assets/images/posts/suppressed-in-ourselves.jpg
-thumb: /assets/images/posts/suppressed-in-ourselves-plain.jpg
 
 Something I wrote a few years ago, one line, and I’m still circling it because there’s more in it than it looks like at first glance.
 
