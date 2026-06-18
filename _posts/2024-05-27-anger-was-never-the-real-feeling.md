@@ -3,6 +3,8 @@ layout: post
 title: Anger Was Never the Real Feeling
 description: “A longer look at why anger arrives first, what it’s actually covering for, and what happens once you stop reacting to it and just stay with it.”
 date: 2024-05-27
+image: IMG_7083.png
+thumb: IMG_7083.png
 ---
 
 For years I thought anger was the feeling. Lately I’m not so sure.
