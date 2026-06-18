@@ -23,8 +23,6 @@ It’s tempting to build an identity around being one of the good ones: open-min
 
 Real moral seriousness asks a less flattering question: not “which side am I on,” but “where does that line sit in me, today.” It’s not a question with a final answer. It has to be asked again and again.
 
-![Forest path with autumn ferns](forest-fern.jpg)
-
 ## Walking Through It
 
 There’s something fitting about picturing that idea against a forest path like this one: half-lit, the trail blurring at the edges into the wild ferns pressing in from both sides. Most of life’s moral terrain looks more like this than like a map with clean borders drawn on it.
