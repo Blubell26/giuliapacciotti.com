@@ -1,3 +1,12 @@
+---
+layout: post
+title: "The mirror our children hold up to us"
+description: ""
+date: 2024-08-07
+image: IMG_7079.png
+thumb: IMG_7079.png
+---
+
 # The Mirror Our Children Hold Up to Us
 
 *On parenting as a spiritual practice — and why expanding ourselves is the real work.*
