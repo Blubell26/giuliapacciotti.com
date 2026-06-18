@@ -7,7 +7,6 @@ image: IMG_7121.jpeg
 thumb: IMG_7121.jpeg
 ---
 
-# When Anger Tells You Her Real Name
 *On sitting with what’s on the surface long enough to find what’s underneath.*
 
 There’s a line I keep returning to:
