@@ -3,8 +3,8 @@ layout: post
 title: "When Anger Tells You Her Real Name: On Grief Beneath the Surface"
 description: "Anger is almost never the whole story. A look at why anger is a secondary emotion, what it’s protecting, and what becomes possible when we stay with it long enough."
 date: 2024-11-22
-image: 
-thumb: 
+image: IMG_7121.jpeg
+thumb: IMG_7121.jpeg
 ---
 
 # When Anger Tells You Her Real Name
