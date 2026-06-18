@@ -26,7 +26,7 @@ There’s a second idea worth sitting with alongside this one, about what it act
 
 To love, whether it’s another person or yourself, is to extend toward them. That’s not just a metaphor. The English word *attend* comes from the Latin *tendere*, to stretch. To attend to someone is, literally, to stretch toward them.
 
-Which means giving someone real attention is rarely the passive, comfortable thing it’s made out to be. It’s an extension, an effort. And that lines up uncomfortably well with Rilke’s point: extending yourself toward another person means doing exactly the thing that’s hardest to do. Showing up fully for someone, again and again, asks for the same muscle as standing firm in who you are. Both are forms of struggle. Both are, in their own way, what it means to grow.
+Which means giving someone real attention is truly an extension of ourselves. And that lines up uncomfortably well with Rilke’s point: extending yourself toward another person means doing exactly the thing that’s hardest to do. Showing up fully for someone, again and again, asks for the same muscle as standing firm in who you are. Both are forms of struggle. Both are, in their own way, what it means to grow.
 
 
 ## Holding Both
