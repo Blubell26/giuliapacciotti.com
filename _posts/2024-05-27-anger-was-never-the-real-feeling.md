@@ -23,4 +23,3 @@ Being with it seems to be its own different thing, and it’s strange how physic
 
 None of that makes the anger a lie. It’s not lying, it’s just not the whole report. It’s the first responder, not the investigation. The danger is treating the first responder’s account as the final one, reacting to the surface reading and never finding out what it was actually covering for.
 
-I still don’t fully know what to do with any of this except keep sitting there a little longer than I want to, and see what it turns out to actually be once it’s had enough time to stop performing for me.
