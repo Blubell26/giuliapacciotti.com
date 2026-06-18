@@ -7,7 +7,7 @@ image: IMG_7079.png
 thumb: IMG_7079.png
 ---
 
-There's an idea that circulates among parents who think seriously about the inner life: children don't just arrive into a family, they arrive *for* something. Not as accessories to our lives, but as catalysts — here, in some sense, to push the adults around them toward their own growth.
+There's an idea that circulates among parents who think seriously about their inner life: children don't just arrive into a family, they arrive *for* something. Not as accessories to our lives, but as catalysts — here, in some sense, to push the adults around them toward their own growth.
 
 It's a bold claim, but anyone who has actually raised a child knows there's truth in it. Parenting has a way of surfacing exactly the parts of ourselves we'd rather not look at: our impatience, our old wounds, our inherited fears, our need for control. Few other relationships in life apply that kind of pressure, day after day, with so little room to escape it.
 
