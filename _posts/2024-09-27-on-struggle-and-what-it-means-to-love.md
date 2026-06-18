@@ -28,7 +28,6 @@ To love, whether it’s another person or yourself, is to extend toward them. Th
 
 Which means giving someone real attention is rarely the passive, comfortable thing it’s made out to be. It’s an extension, an effort. And that lines up uncomfortably well with Rilke’s point: extending yourself toward another person means doing exactly the thing that’s hardest to do. Showing up fully for someone, again and again, asks for the same muscle as standing firm in who you are. Both are forms of struggle. Both are, in their own way, what it means to grow.
 
-![Sunset over mountains](sunset-mountains.jpg)
 
 ## Holding Both
 
