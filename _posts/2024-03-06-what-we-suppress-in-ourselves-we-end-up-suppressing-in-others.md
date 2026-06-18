@@ -3,8 +3,8 @@ layout: post
 title: "What we Suppress in Ourselves we end up Suppressing in Others"
 description: "A long look at why the harshest reactions we have to other people are usually pointing back at the parts of ourselves we learned to exile a long time ago"
 date: 2024-03-06
-image: IMG_7080.jpeg
-thumb: IMG_7080.jpeg
+image: IMG_7080.png
+thumb: IMG_7080.png
 ---
 
 Something I wrote a few years ago, one line, and I’m still circling it because there’s more in it than it looks like at first glance.
