@@ -3,8 +3,8 @@ layout: post
 title: "The mirror our Children hold up to Us"
 description: "On parenting as a spiritual practice and why expanding ourselves is the real work. Children aren’t just raised, they’re catalysts for our own growth. A look at why conscious parenting starts with expanding your own self-awareness."
 date: 2024-08-07
-image: IMG_7079.png
-thumb: IMG_7079.png
+image: IMG_6679.jpeg
+thumb: IMG_6679.jpeg
 ---
 
 There's an idea that circulates among parents who think seriously about their inner life: children don't just arrive into a family, they arrive *for* something. Not as accessories to our lives, but as catalysts — here, in some sense, to push the adults around them toward their own growth.
