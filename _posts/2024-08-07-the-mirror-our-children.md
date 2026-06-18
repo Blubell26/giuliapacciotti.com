@@ -1,15 +1,11 @@
 ---
 layout: post
 title: "The mirror our children hold up to us"
-description: ""
+description: "On parenting as a spiritual practice and why expanding ourselves is the real work."
 date: 2024-08-07
 image: IMG_7079.png
 thumb: IMG_7079.png
 ---
-
-# The Mirror Our Children Hold Up to Us
-
-*On parenting as a spiritual practice — and why expanding ourselves is the real work.*
 
 There's an idea that circulates among parents who think seriously about the inner life: children don't just arrive into a family, they arrive *for* something. Not as accessories to our lives, but as catalysts — here, in some sense, to push the adults around them toward their own growth.
 
