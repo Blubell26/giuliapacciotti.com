@@ -3,8 +3,8 @@ layout: post
 title: "The Inner Child in Relationships: Why Falling in Love Feels Like Childhood"
 description: "Falling in love can feel like meeting your inner child again. What Gérard Leleu’s work reveals about regression, immaturity, and real love."
 date: 2024-10-13
-image: 
-thumb:
+image: IMG_7117.jpeg
+thumb: IMG_7117.jpeg
 ---
 
 # The Inner Child at the Heart of Every Relationship
