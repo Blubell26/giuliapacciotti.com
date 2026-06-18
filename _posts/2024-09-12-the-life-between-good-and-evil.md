@@ -3,8 +3,8 @@ layout: post
 title: "The Line Between Good and Evil: A Solzhenitsyn Reflection"
 description: "Solzhenitsyn said the line between good and evil runs through every heart, not between groups. A reflection on moral complexity and self-honesty."
 date: 2024-09-12
-image: 
-thumb:
+image: IMG_7115
+thumb: IMG_7115
 ---
 
 # The Line That Runs Through Every Heart
