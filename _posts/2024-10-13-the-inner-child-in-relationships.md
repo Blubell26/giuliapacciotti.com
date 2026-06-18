@@ -36,5 +36,3 @@ What happens next tends to split into two patterns. Sometimes the relationship s
 Leleu’s harder observation is about what happens to people who never grow past this stage. Their relationships tend to be unstable in a particular, recognizable way: quick to commit, quick to fall apart, a string of breakups or affairs that all seem to follow the same shape. They’re not unlucky in love so much as still waiting for someone who doesn’t exist: an idealized, all-giving parent figure who will finally make them feel whole.
 
 The way out, if there is one, isn’t a better partner. It’s recognizing that the absolute, unconditional love being searched for outside has to be found inside instead. That shift, from chasing an idealized parent to actually growing up, is, in Leleu’s framing, the real difference between being in love and loving someone.
-
-![Couple walking through the forest at dusk](forest-wedding.jpg)
