@@ -3,7 +3,7 @@ layout: post
 title: "What we Suppress in Ourselves we end up Suppressing in Others"
 description: "A long look at why the harshest reactions we have to other people are usually pointing back at the parts of ourselves we learned to exile a long time ago"
 date: 2024-03-06
-image: /suppressed-in-ourselves.jpeg
+image: :suppressed-in-ourselves.jpg.png
 thumb: /suppressed-in-ourselves.jpeg
 ---
 
