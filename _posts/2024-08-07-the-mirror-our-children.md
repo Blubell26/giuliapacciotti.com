@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The mirror our Children hold up to Us"
+title: "The Mirror our Children hold up to Us"
 description: "On parenting as a spiritual practice and why expanding ourselves is the real work. Children aren’t just raised, they’re catalysts for our own growth. A look at why conscious parenting starts with expanding your own self-awareness."
 date: 2024-08-07
 image: IMG_6679.jpeg
