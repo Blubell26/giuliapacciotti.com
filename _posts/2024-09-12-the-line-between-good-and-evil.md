@@ -22,10 +22,10 @@ Not between nations. Not between classes, or political parties, or “us” and 
 
 It’s tempting to build an identity around being one of the good ones: open-minded, ethical, clearly on the right side of things. But that certainty can quietly become its own blind spot. If we’re sure the line falls safely outside us, we stop checking. We miss the small cruelties, the convenient rationalizations, the moments we choose comfort over honesty.
 
-Real moral seriousness asks a less flattering question: not “which side am I on,” but “where does that line sit in me, today.” It’s not a question with a final answer. It has to be asked again and again.
+Real moral seriousness asks a less flattering question: not “which side am I on,” but “where does that line sit in me, today.” It’s not a question with a clear final answer. It has to be asked again and again.
 
 ## Walking Through It
 
-There’s something fitting about picturing that idea against a forest path like this one: half-lit, the trail blurring at the edges into the wild ferns pressing in from both sides. Most of life’s moral terrain looks more like this than like a map with clean borders drawn on it.
+There’s something fitting about picturing that idea against a forest path: half-lit, the trail blurring at the edges into the wild ferns pressing in from both sides. Most of life’s moral terrain looks more like this than like a map with clean borders drawn on it.
 
-Solzhenitsyn wasn’t offering comfort. He was offering a more honest place to stand.
+Solzhenitsyn wasn’t offering comfort. He was offering a more honest place to stand within ourselves.
