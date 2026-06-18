@@ -39,7 +39,7 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);}
 <span class="section-label">Latest</span>
 {% for post in site.posts %}
 <a href="{{ post.url }}" class="post-card">
-{% if post.thumb %}<img class="post-card-thumb" src="{{ post.thumb }}" alt="">{% endif %}
+{% if post.thumb %}<img class="post-card-thumb" src="/{{ post.thumb }}" alt="">{% endif %}
 <div class="post-card-content">
 <h2 class="post-card-title">{{ post.title }}</h2>
 <p class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</p>
