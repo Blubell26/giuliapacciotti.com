@@ -3,6 +3,8 @@ layout: post
 title: On Trauma as Explanation, Not Excuse
 description: “A longer look at the thin, constantly shifting line between understanding why we are the way we are, and using that understanding as a permanent excuse not to change.”
 date: 2024-04-19
+image: IMG_7101.png
+thumb: IMG_7101.png
 ---
 
 I notice this in myself more than I’d like to admit. The thing happened to me, so apparently I get to behave however that thing left me behaving. Forever, until further notice.
