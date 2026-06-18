@@ -7,17 +7,13 @@ image: IMG_7080.png
 thumb: IMG_7080.png
 ---
 
-Something I wrote a few years ago, one line, and I’m still circling it because there’s more in it than it looks like at first glance.
-
-What we have suppressed in ourselves, we will have to suppress in others.
-
 I keep turning this over because it explains so much of what otherwise looks like pure hypocrisy. The strictest enforcer of a rule is so often the person who broke it hardest once, just quietly, before anyone was watching. The loudest voice against a behavior belongs, more often than not, to someone who used to do exactly that and built an entire identity on top of having stopped.
 
 It would be easy to call that hypocrisy and leave it there. But I don’t think it’s hypocrisy exactly. I think it’s something closer to a law, the kind that doesn’t care whether we agree with it. Suppression doesn’t make an impulse disappear. It just relocates it. The thing we refuse to feel in ourselves doesn’t go anywhere, it goes underground, and from underground it starts looking for somewhere else to land.
 
 That somewhere else usually means someone else.
 
-Here’s the part I find genuinely strange when I sit with it long enough. The intensity of our reaction to something in another person is almost never proportional to what they’re actually doing. Someone is loud, and it barely registers for one person while it sends another into a low grade fury they can’t fully explain. That gap, between the size of the behavior and the size of the reaction, is usually where the suppressed material is hiding. Not in what they did. In the disproportion of how it landed.
+The intensity of our reaction to something in another person is almost never proportional to what they’re actually doing. Someone is loud, and it barely registers for one person while it sends another into a low grade fury they can’t fully explain. That gap, between the size of the behavior and the size of the reaction, is usually where the suppressed material is hiding. Not in what they did. In the disproportion of how it landed.
 
 I think of it like a guard dog that’s been posted at a door for so long it’s forgotten what it’s guarding, it just knows the door must never open. So when something walks toward that door in someone else, wearing the loudness or the neediness or the anger or the softness we once exiled in ourselves, the dog doesn’t ask questions. It reacts as if its own survival depends on the door staying shut.
 
@@ -30,5 +26,3 @@ What’s strange is how moral all of this feels from the inside. It rarely prese
 I don’t know how much of this ever fully resolves. I’m not sure integration is a finish line so much as a loosening, a slow widening of what’s allowed back into the room. Some days I notice the guard dog before it reacts. Most days I notice after, when I’m already annoyed at someone for a thing that has very little to do with them.
 
 I keep thinking about how much of what passes for conflict between people, in families, in religions, in entire political movements, is actually this. Not two people disagreeing about the world. Two nervous systems, each guarding a door, mistaking the other person’s open door for a threat to their own.
-
-Still circling it.
