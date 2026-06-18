@@ -6,6 +6,7 @@ date: 2024-09-12
 image: 
 thumb:
 ---
+
 # The Line That Runs Through Every Heart
 
 *A reflection on moral complexity, and the temptation to sort people into “good” and “bad.”*
