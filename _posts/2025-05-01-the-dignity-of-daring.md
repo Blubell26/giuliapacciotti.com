@@ -3,8 +3,8 @@ layout: post
 title: "The Dignity of Daring"
 description: "What Karlfried Graf von Dürckheim understood about spiritual practice, annihilation, and the indestructible thing that emerges when we stop seeking comfort."
 date: 2025-05-01
-image: 
-thumb: 
+image: IMG_7213.jpeg
+thumb: IMG_7213.jpeg
 ---
 
 
