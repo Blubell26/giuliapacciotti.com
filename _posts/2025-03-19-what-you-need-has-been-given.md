@@ -6,8 +6,10 @@ date: 2025-03-19
 image: IMG_7150.png
 thumb: IMG_7150.png
 ---
-#What You Need Has Already Been Given
-On trust, desire, and why money was never the real question.
+# What You Need Has Already Been Given
+
+*On trust, desire, and why money was never the real question.*
+
 Neale Donald Walsch, in Conversations with God, makes a claim that sounds simple until you sit with it long enough for it to unsettle you. That what we call wanting is not a signal of lack. It is a signal of recognition. We desire what we desire because somewhere in us we already know it belongs to our life.
 Most people read that and nod and move on. It’s the kind of idea that feels true in the abstract and then gets quietly filed away under the pressure of practical life.
 But I keep finding it confirmed in ways I can’t dismiss.
