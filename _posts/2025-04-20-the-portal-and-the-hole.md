@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Portal and the Hole"
-description: Crisis as invitation. On choosing where to place your attention when the world is asking everything of you.
+description: What the Hopi elder White Eagle teaches us about navigating crisis with spiritual clarity, joy, and inner resilience
 date: 2025-04-20
 image: IMG_7217.png
 thumb: IMG_7217.png
