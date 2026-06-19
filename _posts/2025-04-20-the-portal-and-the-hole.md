@@ -3,11 +3,9 @@ layout: post
 title: "The Portal and the Hole"
 description: Crisis as invitation. On choosing where to place your attention when the world is asking everything of you.
 date: 2025-04-20
-image: 
-thumb: 
+image: IMG_7217.png
+thumb: IMG_7217.png
 ---
-
-# The Portal and the Hole
 
 *On what crisis is actually asking of us.*
 
