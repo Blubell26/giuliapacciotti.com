@@ -41,6 +41,9 @@ But there is a difference between money as a tool and money as the gate we’re 
 
 I didn’t wait. When the pull came I followed it without the financial safety net I told myself I needed first. And things followed. Not perfectly, not without difficulty, but they followed. One way or another they always did.
 
+We want things the way we want them, as if money needs to arrive first to make them possible. But if I truly want something, I will find a creative way toward it. Even without money. Possibilities are endless, and my bank account has never dictated what was possible for me to do or reach. Only my boldness, my trust, my confidence. I have always trusted, and I have always received. Not in the easy, comfortable ways. I have to stretch myself. But that is the way of it. Sometimes it is challenging. It is also, in the same breath, incredibly liberating.
+Maybe not first class. But when has comfort ever been a friend to growth?
+
 Our life has been dotted with thousands of moments I don’t quite know how to name. Moments where what was needed arrived not because we planned for it, but because something in us already knew it was coming.
 
 My son is perhaps the clearest mirror of this I have. He went to the pool recently and tried a pair of small swimming goggles someone lent him. He loved them, and something inside him simply settled into knowing he would have them. No anxiety. No strategy. Just an inner certainty that what he wanted was already finding its way to him.
