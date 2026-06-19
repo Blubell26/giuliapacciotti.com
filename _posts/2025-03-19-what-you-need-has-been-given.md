@@ -1,3 +1,4 @@
+---
 layout: post
 title: What you Need has Already Been Given
 description: We’re told that money gives us choices. But what if the choices were always there, waiting not on our bank balance but on our willingness to trust? On purpose, desire, and what happens when you stop waiting for permission to live the life you’re already being called toward.​​​​​​​​​​​​​​​​
