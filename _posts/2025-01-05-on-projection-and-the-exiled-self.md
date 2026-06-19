@@ -3,8 +3,8 @@ layout: post
 title: "On Projection and the Exiled Self"
 description: "Why the things that bother us most in others are rarely about them. A look at suppression, projection, and what the intensity of our reactions is really pointing to."
 date: 2025-01-05
-image: 
-thumb: 
+image: IMG_7151.png
+thumb: IMG_7151.png
 ---
 
 A line I wrote a few years ago that I keep returning to:
