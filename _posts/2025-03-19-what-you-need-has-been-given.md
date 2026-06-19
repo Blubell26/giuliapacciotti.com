@@ -1,4 +1,3 @@
----
 layout: post
 title: What you Need has Already Been Given
 description: We’re told that money gives us choices. But what if the choices were always there, waiting not on our bank balance but on our willingness to trust? On purpose, desire, and what happens when you stop waiting for permission to live the life you’re already being called toward.​​​​​​​​​​​​​​​​
@@ -35,3 +34,4 @@ In the space of twenty four hours the universe delivered exactly what he had ope
 # What We’re Actually Being Held To
 If we think about money, we're not being held back by our financial situation. We’re being held to something. A direction. A pull that doesn’t negotiate and doesn’t wait.
 The astonishing thing, the thing I keep witnessing in my own life and in my son’s, is that when you stop treating that pull as something to be earned or afforded first, the world has a way of organising itself around it.
+
