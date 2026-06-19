@@ -13,18 +13,18 @@ thumb: IMG_7150.png
 Neale Donald Walsch, in Conversations with God, makes a claim that sounds simple until you sit with it long enough for it to unsettle you. That what we call wanting is not a signal of lack. It is a signal of recognition. We desire what we desire because somewhere in us we already know it belongs to our life.
 Most people read that and nod and move on. It’s the kind of idea that feels true in the abstract and then gets quietly filed away under the pressure of practical life.
 But I keep finding it confirmed in ways I can’t dismiss.
-The Permission We Keep Waiting For
+# The Permission We Keep Waiting For
 There’s something people say so often it has stopped sounding strange: I just want enough money to have choices.
 It sounds like self-awareness. Like the person saying it knows they’re not chasing luxury, just options. Room to move.
 But I think it’s a displacement. Not a lie exactly, more like a true feeling pointed in the wrong direction. Because the choices people are waiting for money to unlock, the ones that feel like they actually belong to their life, those aren’t being withheld by a bank balance. They’re being withheld by something else entirely. By the part of us that decided, somewhere along the way, that we needed external permission before we could move toward what was already calling us.
 And that waiting can last a very long time. Long enough to feel like just being realistic.
-#The Sequence We’ve Accepted
+# The Sequence We’ve Accepted
 We tend to assume it goes: security first, then purpose. Get stable, get safe, then leap.
 But that’s not how it seems to work. Purpose doesn’t wait for conditions to be right. It applies pressure from inside, quietly, consistently, often at the most inconvenient moments. And what follows, including money, tends to arrive in the wake of the willingness to stop negotiating with that pressure. Not before it.
 You can do the things you want to do. Not always in the exact shape you imagined, and sometimes it asks for creativity, for finding the door that’s actually open rather than pushing on the one that isn’t. But the choices appear. They tend to appear precisely when you stop waiting for conditions to be perfect and start moving anyway.
 This isn’t an argument against money. We live in this world, in this society, at this particular moment in history, and money is real. It creates access. It makes impact possible in ways that matter. I’m not interested in romanticising scarcity.
 But there is a difference between money as a tool and money as the gate we’re standing in front of, waiting for someone to open. One is practical. The other is a story with no ending.
-What I Know From Having Leapt
+# What I Know From Having Leapt
 I didn’t wait. When the pull came I followed it without the financial safety net I told myself I needed first. And things followed. Not perfectly, not without difficulty, but they followed. One way or another they always did.
 Our life has been dotted with thousands of moments I don’t quite know how to name. Moments where what was needed arrived not because we planned for it, but because something in us already knew it was coming.
 My son is perhaps the clearest mirror of this I have. He went to the pool recently and tried a pair of small swimming goggles someone lent him. He loved them, and something inside him simply settled into knowing he would have them. No anxiety. No strategy. Just a quiet inner certainty that what he wanted was already finding its way to him.
