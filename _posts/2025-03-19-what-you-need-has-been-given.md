@@ -6,7 +6,6 @@ date: 2025-03-19
 image: IMG_7150.png
 thumb: IMG_7150.png
 ---
-# What You Need Has Already Been Given
 
 *On trust, desire, and why money was never the real question.*
 
