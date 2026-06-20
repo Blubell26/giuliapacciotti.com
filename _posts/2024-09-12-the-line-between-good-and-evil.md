@@ -5,6 +5,7 @@ description: "Solzhenitsyn said the line between good and evil runs through ever
 date: 2024-09-12
 image: IMG_7115.jpeg
 thumb: IMG_7115.jpeg
+category: psycho-spiritual
 ---
 
 # The Line That Runs Through Every Heart
