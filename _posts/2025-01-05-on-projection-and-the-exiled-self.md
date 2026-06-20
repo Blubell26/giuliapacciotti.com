@@ -5,6 +5,7 @@ description: "Why the things that bother us most in others are rarely about them
 date: 2025-01-05
 image: IMG_7151.png
 thumb: IMG_7151.png
+category: psycho-spiritual
 ---
 
 A line I wrote a few years ago that I keep returning to:
