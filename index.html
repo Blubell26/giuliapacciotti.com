@@ -257,9 +257,9 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
     {% for post in site.posts limit:3 %}
     <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;background:white;border-color:transparent;">
       {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;margin-bottom:1rem;">{% endif %}
-      <p class="work-num">By Giulia Pacciotti &middot; {{ post.date | date: "%B %-d, %Y" }}</p>
       <h3 class="work-title">{{ post.title }}</h3>
-    </a>
+   <p style="font-size:0.78rem;color:#999990;margin-top:0.4rem;">By Giulia Pacciotti &middot; {{ post.date | date: "%B %-d, %Y" }}</p>
+
     {% endfor %}
   </div>
   <div class="work-cta">
