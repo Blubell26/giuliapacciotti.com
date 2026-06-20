@@ -5,6 +5,7 @@ description: “A longer look at the thin, constantly shifting line between unde
 date: 2024-04-19
 image: IMG_7101.png
 thumb: IMG_7101.png
+category: psycho-spiritual
 ---
 
 I notice this in myself more than I’d like to admit. The thing happened to me, so apparently I get to behave however that thing left me behaving. Forever, until further notice.
