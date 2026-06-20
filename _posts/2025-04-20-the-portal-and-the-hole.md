@@ -5,6 +5,7 @@ description: What the Hopi elder White Eagle teaches us about navigating crisis 
 date: 2025-04-20
 image: IMG_7217.png
 thumb: IMG_7217.png
+category: psycho-spiritual
 ---
 
 *On what crisis is actually asking of us.*
