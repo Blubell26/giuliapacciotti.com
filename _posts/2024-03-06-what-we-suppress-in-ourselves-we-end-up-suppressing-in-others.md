@@ -5,6 +5,7 @@ description: "A long look at why the harshest reactions we have to other people 
 date: 2024-03-06
 image: IMG_7080.png
 thumb: IMG_7080.png
+category: psycho-spiritual
 ---
 
 I keep turning this over because it explains so much of what otherwise looks like pure hypocrisy. The strictest enforcer of a rule is so often the person who broke it hardest once, just quietly, before anyone was watching. The loudest voice against a behavior belongs, more often than not, to someone who used to do exactly that and built an entire identity on top of having stopped.
