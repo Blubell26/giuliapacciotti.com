@@ -5,6 +5,7 @@ description: “A longer look at why anger arrives first, what it’s actually c
 date: 2024-05-27
 image: IMG_7083.png
 thumb: IMG_7083.png
+category: psycho-spiritual
 ---
 
 For years I thought anger was the feeling. Lately I’m not so sure.
