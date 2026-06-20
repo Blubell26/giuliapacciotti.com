@@ -8,8 +8,6 @@ thumb: IMG_7327.jpeg
 category: psycho-spiritual
 ---
 
-# You Don’t Have to See What Other People See
-
 *On becoming an evolutionary rebel, not by fighting the world, but by finally looking at it through your own eyes.*
 
 In the past six years I’ve slowly become my own kind of evolutionary rebel, simply and unapologetically by being me. Not a rebel for the sake of doing prohibited or illegal things, not a rebel with a badass attitude trying to screw powers that be. Something quieter and more radical than that.
