@@ -5,6 +5,7 @@ description: Rilke believed struggle builds identity. Paired with the surprising
 date: 2024-09-27
 image: IMG_7116.jpeg
 thumb: IMG_7116.jpeg
+category: psycho-spiritual
 ---
 
 # The Work of Struggle, the Work of Love
