@@ -5,6 +5,7 @@ description: "Anger is almost never the whole story. A look at why anger is a se
 date: 2024-11-22
 image: IMG_7121.jpeg
 thumb: IMG_7121.jpeg
+category: psycho-spiritual
 ---
 
 *On sitting with what’s on the surface long enough to find what’s underneath.*
