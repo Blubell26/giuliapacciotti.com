@@ -1,10 +1,10 @@
 ---
 layout: post
-title: “You Don’t Have to See What Other People See”
-description: “On becoming an evolutionary rebel, not by fighting the world, but by finally looking at it through your own eyes.”
+title: You Don’t Have to See What Other People See
+description: "On becoming an evolutionary rebel, not by fighting the world, but by finally looking at it through your own eyes.”
 date: 2025-07-12
-image: 
-thumb: 
+image: IMG_7327.jpeg
+thumb: IMG_7327.jpeg
 ---
 
 # You Don’t Have to See What Other People See
@@ -33,12 +33,8 @@ There is a simpler way than struggling.
 
 ## You don’t have to see what other people see
 
-> “The first thing to grasp about what it is to be yourself is that you don’t have to see what other people see. That may sound simple but it’s really profound. You don’t have to see what other people see. Nobody can force you to see what you are not here to see. And yet most human beings are constantly conditioned to see things the way other people see them. But by design, we are all given a unique way by which to look at the world.”
+> “The first thing to grasp about what it is to be yourself is that you don’t have to see what other people see. That may sound simple but it’s really profound. You don’t have to see what other people see. Nobody can force you to see what you are not here to see. And yet most human beings are constantly conditioned to see things the way other people see them.”
 > 
 > *Ra Uru Hu*
 
-That last line lands differently every time I read it. By design. Not by accident, not by effort, not by becoming someone else. By the very design of who you already are.
-
 The rebel move isn’t fighting what’s out there. It’s coming back to the one set of eyes you were actually given.
-
-I see you.
