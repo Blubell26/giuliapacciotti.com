@@ -5,6 +5,7 @@ description: "Falling in love can feel like meeting your inner child again. What
 date: 2024-10-13
 image: IMG_7117.jpeg
 thumb: IMG_7117.jpeg
+category: psycho-spiritual
 ---
 
 # The Inner Child at the Heart of Every Relationship
