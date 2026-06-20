@@ -6,7 +6,6 @@ title: About Giulia
 <section id="about">
       <div class="about-grid">
         <div class="about-body">
-          <p class="sec-label peach">About me</p>
           <h2 class="sec-h2">I didn't wait until I had it<br><em>figured out.</em></h2>
           <div class="sec-rule"></div>
           <p>A few years ago I packed up our lives and left. No safety net, no tidy plan. Just a deep knowing that the conventional version wasn't going to work for us.</p>
