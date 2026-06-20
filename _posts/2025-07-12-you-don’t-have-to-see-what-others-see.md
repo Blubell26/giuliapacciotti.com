@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You Dont Have to See What Other People See
+title: "You Don't Have to See What Other People See"
 description: "On becoming an evolutionary rebel, not by fighting the world, but by finally looking at it through your own eyes.”
 date: 2025-07-12
 image: IMG_7327.jpeg
