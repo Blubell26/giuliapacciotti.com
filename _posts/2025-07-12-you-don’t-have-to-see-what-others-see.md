@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Don't have to See what Other people see.
-description: 
+description:
 date: 2025-07-12
 image: IMG_7327.jpeg
 thumb: IMG_7327.jpeg
