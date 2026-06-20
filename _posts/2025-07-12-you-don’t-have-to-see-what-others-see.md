@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Don't have to See what Other people see.
-description: On becoming an evolutionary rebel: seeing the world through your own eyes, not through the eyes of others.
+description: 
 date: 2025-07-12
 image: IMG_7327.jpeg
 thumb: IMG_7327.jpeg
