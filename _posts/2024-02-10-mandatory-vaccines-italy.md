@@ -5,6 +5,7 @@ description: "In 2018 vaccines became mandatory in Italy. I didn't vaccinate my 
 date: 2024-02-10
 image: IMG_7122.jpeg
 thumb: IMG_7122.jpeg
+category: natural-healing
 ---
 
 In 2018, the Lorenzin law made ten vaccines mandatory for school enrollment in Italy. Every parent I knew was either complying or panicking. I did neither.
