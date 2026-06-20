@@ -5,6 +5,7 @@ description: "What Karlfried Graf von Dürckheim understood about spiritual prac
 date: 2025-05-01
 image: IMG_7213.jpeg
 thumb: IMG_7213.jpeg
+category: psycho-spiritual
 ---
 
 
