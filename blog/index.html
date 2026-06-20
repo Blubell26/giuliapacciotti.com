@@ -39,4 +39,49 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);}
 <body>
 <div class="topbar">
   <a href="/">
-    <img src="/IMG_7248.png" alt="Giulia​​​​​​​​​​​​​​​​
+    <img src="/IMG_7248.png" alt="Giulia Pacciotti" class="site-logo">
+  </a>
+</div>
+<div class="wrap">
+<h1 class="page-title">From the blog</h1>
+<p class="intro">Reflections on my journey out of a broken system. Unschooling, inner work, sovereign living, smart financial moves. One realisation at a time.</p>
+
+<div class="filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="parenting-unschooling">Parenting & Unschooling</button>
+  <button class="filter-btn" data-filter="psycho-spiritual">Psycho-Spiritual</button>
+  <button class="filter-btn" data-filter="natural-healing">Health & Sovereignty</button>
+  <button class="filter-btn" data-filter="income">Income</button>
+</div>
+
+<span class="section-label">Latest</span>
+{% for post in site.posts %}
+<a href="{{ post.url }}" class="post-card" data-category="{{ post.category }}">
+{% if post.image %}<img class="post-card-image" src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
+<h2 class="post-card-title">{{ post.title }}</h2>
+<p class="post-card-meta">By Giulia Pacciotti &middot; {{ post.date | date: "%B %-d, %Y" }}</p>
+<span class="read-more">Read More &#9654;</span>
+</a>
+{% endfor %}
+</div>
+
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.post-card');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    cards.forEach(card => {
+      if (filter === 'all' || card.dataset.category === filter) {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
