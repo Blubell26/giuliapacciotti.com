@@ -2,7 +2,9 @@
 layout: null
 permalink: /blog/
 ---
-<!DOCTYPE html><html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,13 +44,17 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);}
 </div>
 <div class="wrap">
 <h1 class="page-title">From the blog</h1>
-<p class="intro">Reflections on my journey out of a broken system. Unschooling, inner work, sovereign living, smart financial moves. One realisation at a time.</p><div class="filters">
+<p class="intro">Reflections on my journey out of a broken system. Unschooling, inner work, sovereign living, smart financial moves. One realisation at a time.</p>
+
+<div class="filters">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn" data-filter="parenting-unschooling">Parenting & Unschooling</button>
   <button class="filter-btn" data-filter="psycho-spiritual">Psycho-Spiritual</button>
   <button class="filter-btn" data-filter="natural-healing">Health & Sovereignty</button>
   <button class="filter-btn" data-filter="income">Income</button>
-</div><span class="section-label">Latest</span>
+</div>
+
+<span class="section-label">Latest</span>
 {% for post in site.posts %}
 <a href="{{ post.url }}" class="post-card" data-category="{{ post.category }}">
 {% if post.thumb %}<img class="post-card-thumb" src="/{{ post.thumb }}" alt="">{% endif %}
@@ -59,7 +65,9 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);}
 </div>
 </a>
 {% endfor %}
-</div><script>
+</div>
+
+<script>
 const buttons = document.querySelectorAll('.filter-btn');
 const cards = document.querySelectorAll('.post-card');
 buttons.forEach(btn => {
@@ -76,5 +84,6 @@ buttons.forEach(btn => {
     });
   });
 });
-</script></body>
+</script>
+</body>
 </html>
