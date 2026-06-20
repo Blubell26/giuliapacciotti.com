@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You Don't Have to See What Other People See"
+title: You Don't Have to See What Other People See
 description: "On becoming an evolutionary rebel, not by fighting the world, but by finally looking at it through your own eyes.”
 date: 2025-07-12
 image: IMG_7327.jpeg
@@ -19,7 +19,7 @@ Assuming my power. Saying no to what doesn’t resonate with my vital expression
 
 Looking at the world from your own eyes, and empowering others to do the same, is more of a revolutionary act than endlessly spending your energy against powers you don’t like and want off the face of the Earth.
 
-We have no power over others’ freedom. Only over our own.
+We have no power over others freedom. Only over our own.
 
 Everything is in its right place, as it needs to be. Energies don’t lie. Moral judgments are off.
 
