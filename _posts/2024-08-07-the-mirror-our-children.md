@@ -5,6 +5,7 @@ description: "On parenting as a spiritual practice and why expanding ourselves i
 date: 2024-08-07
 image: IMG_6679.jpeg
 thumb: IMG_6679.jpeg
+category: parenting-unschooling
 ---
 
 # The Mirror Our Children Hold Up to Us
