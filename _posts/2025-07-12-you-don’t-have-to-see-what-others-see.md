@@ -5,7 +5,7 @@ description: On authenticity, Human Design, and the radical act of seeing the wo
 date: 2025-07-12
 image: IMG_7327.jpeg
 thumb: IMG_7327.jpeg
-category: psychology
+category: psycho-spiritual
 ---
 
 # You Don’t Have to See What Other People See
