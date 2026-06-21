@@ -3,8 +3,8 @@ layout: post
 title: What the Hard Things Are Actually For
 description: On difficulty, sincerity, and why the things that test us most are not obstacles to the life we want but the very mechanism by which we find out if we mean it. the teaching that the forces which oppose us in life are not obstacles to our evolution but instruments of it.
 date: 2025-06-02
-image:
-thumb:
+image: images/IMG_7331.jpeg
+thumb: images/IMG_7331.jpeg
 category: psycho-spiritual
 ---
 
