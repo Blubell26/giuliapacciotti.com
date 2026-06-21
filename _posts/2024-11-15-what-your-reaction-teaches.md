@@ -19,9 +19,9 @@ The event is the same. The story they walk away with is not.
 
 ## The kitchen
 
-When my son was learning to cook for himself, he almost set the kitchen on fire. Or that’s at least what I thought would happen next.
+When my son was 7 and was learning to cook for himself, he almost set the kitchen on fire. Or that’s at least what I thought would happen next.
 
-Smelling smoke, I ran in to find my cast iron pan burning oil and producing thick black smoke. I yelled across the house. Loud enough for the neighbors to hear. “You could have burned the house down.”
+Smelling smoke, I ran in to find my cast iron pan burning oil and producing thick black smoke. I yelled across the house: “You could have burned the house down.”
 
 He had stepped away for a moment and forgotten about the pan. He was apologetic. His hands were shaking trying to clean up.
 
@@ -43,6 +43,4 @@ You are not meant to get it right all the time. You are meant to lead more often
 
 A few days later I went back to him. We started over. I helped him learn the fundamentals of cooking, and the art of setting a timer.
 
-This is how self-esteem is built. Not in one grand talk, but in the small moments where a child learns what their mistakes mean about who they are.
-
-The repair matters as much as the reaction. Sometimes more.
+This is how self-esteem is built.
