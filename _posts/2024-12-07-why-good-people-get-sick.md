@@ -5,6 +5,7 @@ description: The people who never complain, who put everyone first, who swallow 
 date: 2024-12-07
 image: 
 thumb: 
+category: natural-healing
 ---
 
 *On what chronic illness has to do with who we learned to be.*
