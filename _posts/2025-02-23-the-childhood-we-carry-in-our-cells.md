@@ -3,8 +3,9 @@ layout: post
 title: The Childhood We Carry in Our Cells
 description: We think of childhood as something we move on from. But the body doesn’t forget what the mind has learned to overlook. On how early emotional experiences shape our biology for decades.
 date: 2025-02-23
-image: post12-hero.png
-thumb: post12-thumb.png
+image: images/IMG_7336.png
+thumb: images/IMG_7336.png
+category: parenting-unschooling
 ---
 
 *On what early life writes into the body, and how long it stays there.*
