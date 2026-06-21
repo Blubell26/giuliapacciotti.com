@@ -3,8 +3,9 @@
 title: When Stress Has No Way Out
 description: Stress was designed to move us forward. But when it has nowhere to go, when what’s underneath it never gets felt, it stops being a signal and starts becoming the body’s permanent state.
 date: 2024-06-03
-image: 
-thumb: 
+image: images/IMG_7338.png
+thumb: images/IMG_7338.png
+category: psycho-spiritual
 ---
 
 # When Stress Has No Way Out
