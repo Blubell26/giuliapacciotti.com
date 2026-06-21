@@ -3,8 +3,8 @@
 title: When the Body Finally Says No
 description: Chronic illness, burnout, autoimmune conditions — we treat them as things that happen to us. But sometimes the body is not breaking down. It is withdrawing consent. On what it means when the body stops cooperating.
 date: 2025-03-30
-image: 
-thumb: 
+image: IMG_7335.png
+thumb: IMG_7335.png
 category: natural-healing
 ---
 
