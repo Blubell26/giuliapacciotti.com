@@ -1,13 +1,11 @@
 ---
 layout: post
-title: “Why Good People Get Sick”
+title: Why Good People Get Sick
 description: The people who never complain, who put everyone first, who swallow their anger and call it patience — they are often the ones the body eventually turns on. On the personality patterns behind chronic illness, and what they cost us.
-date: 2025-04-30
-image: post11-hero.png
-thumb: post11-thumb.png
+date: 2024-12-07
+image: 
+thumb: 
 ---
-
-# Why Good People Get Sick
 
 *On what chronic illness has to do with who we learned to be.*
 
