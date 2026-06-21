@@ -5,7 +5,7 @@ description: Stress was designed to move us forward. But when it has nowhere to 
 date: 2024-06-03
 image: images/IMG_7338.png
 thumb: images/IMG_7338.png
-category: psycho-spiritual
+category: natural-healing
 ---
 
 # When Stress Has No Way Out
