@@ -3,8 +3,8 @@ layout: post
 title: What Toddlers Still Know
 description: On unconditioned beings, the noise we build over time, and what happens when we let ourselves live alongside them instead of managing them.
 date: 2025-08-15
-image:
-thumb:
+image: IMG_7434.jpeg
+thumb: IMG_7434.jpeg
 category: parenting-unschooling
 ---
 
