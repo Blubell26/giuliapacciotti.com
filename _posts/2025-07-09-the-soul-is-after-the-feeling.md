@@ -3,8 +3,8 @@ layout: post
 title: The Soul Is After the Feeling
 description: On the soul’s purpose, perfect love, and why we must experience every human feeling to become capable of it.
 date: 2025-07-09
-image:
-thumb:
+image: IMG_7478.png
+thumb: IMG_7478.png
 category: psycho-spiritual
 ---
 
