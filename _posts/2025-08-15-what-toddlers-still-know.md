@@ -8,7 +8,6 @@ thumb:
 category: parenting-unschooling
 ---
 
-# What Toddlers Still Know
 
 *On pure beings, muddy knees, and what we forgot.*
 
