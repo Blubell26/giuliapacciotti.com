@@ -5,7 +5,7 @@ description: On unconditioned beings, the noise we build over time, and what hap
 date: 2025-08-15
 image:
 thumb:
-category: parenting
+category: parenting-unschooling
 ---
 
 # What Toddlers Still Know
