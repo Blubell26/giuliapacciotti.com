@@ -7,8 +7,6 @@ image:
 thumb: 
 ---
 
-# What Your Reaction Teaches Them
-
 *The event is the same. The story they walk away with is not.*
 
 When your child brings you a test they failed, or the thing they broke, they are not just showing you what happened. They are learning what it says about who they are.
