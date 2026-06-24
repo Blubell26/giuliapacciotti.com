@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Free Guides | Wild Hearts Rising</title>
+<title>Free Guides | Keepers of the Wild Heart</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -201,7 +201,7 @@ footer p{
 
         <ul class="downloads">
             <li>
-                <a href="pdfs/Freedom-Letters.pdf" target="_blank">
+                <a href="pdfs/freedom-letters-guide.pdf" target="_blank">
                     PDF
                 </a>
             </li>
@@ -218,7 +218,7 @@ footer p{
 
         <ul class="downloads">
             <li>
-                <a href="pdfs/Italy-Vaccine-Guide.pdf" target="_blank">
+                <a href="pdfs/How_I_Opted_Out_Italy_Vaccines.pdf" target="_blank">
                     PDF
                 </a>
             </li>
