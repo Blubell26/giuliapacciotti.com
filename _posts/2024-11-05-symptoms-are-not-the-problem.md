@@ -1,10 +1,10 @@
 ---
-## layout: post
-title: “The Symptom Is Not the Problem”
+layout: post
+title: The Symptom Is Not the Problem
 description: We have become very good at making symptoms disappear. But disappearing is not the same as resolving. On the difference between suppressing what the body is expressing and actually addressing what created it.
-date: 2025-06-25
-image: images/post15-hero.png
-thumb: images/post15-thumb.png
+date: 2024-11-05
+image: IMG_7485.png
+thumb: IMG_7485.png
 --
 
 
