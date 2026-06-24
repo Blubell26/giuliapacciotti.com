@@ -1,261 +1,587 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Guides | Keepers of the Wild Heart</title>
 
-<title>Free Guides | Keepers of the Wild Heart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="/IMG_7248.png">
+  <link rel="apple-touch-icon" href="/IMG_7248.png">
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
 
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:'Montserrat',sans-serif;
-    color:#333;
-    background:#fff;
-    line-height:1.6;
-}
-
-/* HEADER */
-
-header{
-    padding:40px 8%;
-}
-
-.logo{
-    max-width:120px;
-}
-
-/* HERO */
-
-.hero{
-    background:url('IMG_7225.jpeg') center center/cover;
-    min-height:100px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-}
-
-.hero h1{
-    color:white;
-    font-family:'Montserrat',sans-serif;
-    font-weight:600;
-    font-size:clamp(2rem,5vw,4rem);
-}
-
-/* CONTENT */
-
-.container{
-    width:min(900px,90%);
-    margin:auto;
-    padding:80px 0;
-}
-
-h2{
-    font-family:'Cormorant Garamond',serif;
-    font-size:clamp(3rem,8vw,5rem);
-    font-weight:400;
-    margin-bottom:10px;
-}
-
-.subtitle{
-    font-size:1.4rem;
-    font-weight:600;
-    margin-bottom:60px;
-}
-
-.guide{
-    margin-bottom:70px;
-}
-
-.guide-title{
-    font-family:'Montserrat',sans-serif;
-    font-size:clamp(2rem,5vw,3.5rem);
-    font-weight:300;
-    line-height:1.2;
-    margin-bottom:20px;
-}
-
-.downloads{
-    list-style:disc;
-    margin-left:35px;
-}
-
-.downloads li{
-    margin-bottom:10px;
-}
-
-.downloads a{
-    color:#42a5f5;
-    font-size:1.8rem;
-    text-decoration:none;
-}
-
-.downloads a:hover{
-    text-decoration:underline;
-}
-
-/* FOOTER */
-
-footer{
-    background:#083c88;
-    color:white;
-    text-align:center;
-    padding:100px 8%;
-}
-
-.footer-logo{
-    max-width:220px;
-    margin-bottom:30px;
-}
-
-footer h3{
-    font-size:3rem;
-    font-weight:500;
-    letter-spacing:2px;
-    margin-bottom:20px;
-}
-
-footer p{
-    max-width:700px;
-    margin:auto;
-    font-size:1.2rem;
-    font-weight:300;
-}
-
-@media(max-width:768px){
-
-    header{
-        padding:30px;
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .container{
-        padding:60px 0;
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: #1a1208;
+      background: #fff;
+      line-height: 1.7;
     }
 
-    .downloads a{
-        font-size:1.5rem;
-    }
-}
+    /* ─── NAV ─── */
 
-</style>
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom: 1px solid #e8e0d6;
+      padding: 0 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+    }
+
+    .nav-logo-text {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #2d6b6b;
+      line-height: 1.3;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #1a1208;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #2d6b6b;
+    }
+
+    .nav-links a.active {
+      color: #c8956d;
+    }
+
+    /* hamburger — shown on mobile */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #1a1208;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* ─── HERO ─── */
+
+    .hero {
+      background: url('/IMG_7225.jpeg') center center / cover no-repeat;
+      min-height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(26, 18, 8, 0.35);
+    }
+
+    .hero-bar {
+      background: #000;
+      padding: 14px 8%;
+      text-align: center;
+    }
+
+    .hero-bar p {
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 0.85rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    /* ─── MAIN CONTAINER ─── */
+
+    .container {
+      width: min(860px, 90%);
+      margin: 0 auto;
+      padding: 80px 0 100px;
+    }
+
+    .section-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #c8956d;
+      margin-bottom: 16px;
+    }
+
+    .section-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.6rem, 6vw, 4rem);
+      font-weight: 400;
+      color: #1a1208;
+      line-height: 1.15;
+      margin-bottom: 14px;
+    }
+
+    .section-sub {
+      font-size: 1rem;
+      color: #7a5520;
+      margin-bottom: 70px;
+      font-weight: 300;
+    }
+
+    /* ─── GUIDE CARD ─── */
+
+    .guide {
+      margin-bottom: 72px;
+      padding-bottom: 72px;
+      border-bottom: 1px solid #e8e0d6;
+    }
+
+    .guide:last-of-type {
+      border-bottom: none;
+    }
+
+    .guide-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      font-style: italic;
+      color: #c8956d;
+      margin-bottom: 8px;
+    }
+
+    .guide-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 400;
+      line-height: 1.2;
+      color: #1a1208;
+      margin-bottom: 28px;
+    }
+
+    /* TOC */
+
+    .toc {
+      background: #faf7f3;
+      border-left: 3px solid #c8956d;
+      padding: 24px 28px;
+      margin-bottom: 32px;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .toc-heading {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #7a5520;
+      margin-bottom: 14px;
+    }
+
+    .toc ol {
+      list-style: none;
+      counter-reset: toc-counter;
+      padding: 0;
+    }
+
+    .toc ol li {
+      counter-increment: toc-counter;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 5px 0;
+      font-size: 0.92rem;
+      color: #1a1208;
+      line-height: 1.5;
+    }
+
+    .toc ol li::before {
+      content: counter(toc-counter, decimal-leading-zero);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.8rem;
+      color: #c8956d;
+      flex-shrink: 0;
+      min-width: 22px;
+    }
+
+    /* Download link */
+
+    .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #2d6b6b;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 14px 32px;
+      border-radius: 2px;
+      transition: background 0.2s;
+    }
+
+    .download-link:hover {
+      background: #c8956d;
+    }
+
+    .download-link svg {
+      flex-shrink: 0;
+    }
+
+    /* ─── FOOTER ─── */
+
+    footer {
+      background: #1a1208;
+      color: #e8e0d6;
+      padding: 80px 8% 40px;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 60px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid rgba(232,224,214,0.15);
+    }
+
+    .footer-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      color: #fff;
+      margin-bottom: 14px;
+    }
+
+    .footer-tagline {
+      font-size: 0.88rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: #c8a882;
+      max-width: 340px;
+    }
+
+    .footer-col-h {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #c8956d;
+      margin-bottom: 18px;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-links a {
+      color: #c8a882;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 300;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-copy {
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: rgba(232,224,214,0.5);
+    }
+
+    .footer-email-link {
+      font-size: 0.78rem;
+      color: rgba(232,224,214,0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-email-link:hover {
+      color: #c8956d;
+    }
+
+    /* ─── RESPONSIVE ─── */
+
+    @media (max-width: 768px) {
+
+      nav {
+        padding: 0 6%;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-bottom: 1px solid #e8e0d6;
+        flex-direction: column;
+        padding: 24px 6%;
+        gap: 20px;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .container {
+        padding: 60px 0 80px;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+    }
+
+  </style>
+
 </head>
 
 <body>
 
-<header>
+  <!-- ─── NAV ─── -->
 
-    <!-- REPLACE WITH YOUR LOGO -->
-    <img src="images/logo.png" alt="Wild Hearts Rising" class="logo">
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="/IMG_7248.png" alt="Keepers of the Wild Heart">
+      <span class="nav-logo-text">Keepers of<br>the Wild Heart</span>
+    </a>
 
-</header>
+```
+<button class="hamburger" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')">
+  <span></span><span></span><span></span>
+</button>
 
-<section class="hero">
+<ul class="nav-links">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/freebies" class="active">Free Guides</a></li>
+  <li><a href="/about/">About</a></li>
+</ul>
+```
 
-    <h1>Download Free Guides</h1>
+  </nav>
 
-</section>
+  <!-- ─── HERO ─── -->
 
-<section class="container">
+  <section class="hero"></section>
+  <div class="hero-bar">
+    <p>Keepers of the Wild Heart</p>
+  </div>
 
-    <h2>FREE GUIDES</h2>
+  <!-- ─── CONTENT ─── -->
 
-    <p class="subtitle">
-        Available to download as PDF
-    </p>
+  <main>
+    <div class="container">
 
-    <div class="guide">
+```
+  <p class="section-label">For you, freely</p>
+  <h2 class="section-heading">Download &amp; Keep</h2>
+  <p class="section-sub">Three guides available as PDF — no strings, no expiry.</p>
 
-        <h3 class="guide-title">
-            1. UNSCHOOLING WITHOUT A MAP
-        </h3>
+  <!-- GUIDE 1 -->
+  <div class="guide">
+    <p class="guide-number">Guide one</p>
+    <h3 class="guide-title">Unschooling Without a Map</h3>
 
-        <ul class="downloads">
-            <li>
-                <a href="pdfs/Unschooling-Without-a-Map.pdf" target="_blank">
-                    PDF
-                </a>
-            </li>
-        </ul>
-
+    <div class="toc">
+      <p class="toc-heading">What's inside</p>
+      <ol>
+        <li>What Unschooling Actually Is</li>
+        <li>The Fear Inventory</li>
+        <li>Learning While Travelling</li>
+        <li>The Practical Architecture</li>
+        <li>The Part Nobody Talks About</li>
+        <li>Resources Worth Having</li>
+      </ol>
     </div>
 
-    <div class="guide">
+    <a href="/pdfs/Unschooling-Without-a-Map.pdf" target="_blank" class="download-link">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M12 3v13M5 14l7 7 7-7"/>
+        <path d="M3 21h18"/>
+      </svg>
+      Download PDF
+    </a>
+  </div>
 
-        <h3 class="guide-title">
-            2. THE FREEDOM LETTERS
-        </h3>
+  <!-- GUIDE 2 -->
+  <div class="guide">
+    <p class="guide-number">Guide two</p>
+    <h3 class="guide-title">The Freedom Letters</h3>
 
-        <ul class="downloads">
-            <li>
-                <a href="pdfs/freedom-letters-guide.pdf" target="_blank">
-                    PDF
-                </a>
-            </li>
-        </ul>
-
+    <div class="toc">
+      <p class="toc-heading">What's inside</p>
+      <ol>
+        <li>Letter One — The life you haven't started living yet</li>
+        <li>Letter Two — What freedom actually costs (and why it's worth it)</li>
+        <li>Letter Three — The stories we inherited about money and work</li>
+        <li>Letter Four — Building something while your children watch</li>
+        <li>Letter Five — The slow accumulation of a real income</li>
+        <li>Letter Six — Which paths are open to you right now</li>
+        <li>Letter Seven — Four income options: what each one truly requires</li>
+      </ol>
     </div>
 
-    <div class="guide">
+    <a href="/pdfs/freedom-letters-guide.pdf" target="_blank" class="download-link">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M12 3v13M5 14l7 7 7-7"/>
+        <path d="M3 21h18"/>
+      </svg>
+      Download PDF
+    </a>
+  </div>
 
-        <h3 class="guide-title">
-            3. HOW I LEGALLY OPTED OUT OF
-            MANDATORY VACCINES IN ITALY
-        </h3>
+  <!-- GUIDE 3 -->
+  <div class="guide">
+    <p class="guide-number">Guide three</p>
+    <h3 class="guide-title">How I Legally Opted Out of Mandatory Vaccines in Italy</h3>
 
-        <ul class="downloads">
-            <li>
-                <a href="pdfs/How_I_Opted_Out_Italy_Vaccines.pdf" target="_blank">
-                    PDF
-                </a>
-            </li>
-        </ul>
-
+    <div class="toc">
+      <p class="toc-heading">What's inside</p>
+      <ol>
+        <li>The Law — the Lorenzin decree and what it actually requires</li>
+        <li>On Sovereignty — the baseline the system hopes you forget</li>
+        <li>The Legal Basis You Are Standing On — Article 32 and informed consent</li>
+        <li>What I Did — the one sentence that changed everything</li>
+        <li>The Responsibility Paper — how to write it and what it does</li>
+        <li>What Happened Next — the police report, and how it ended</li>
+        <li>What They Can and Cannot Do To You</li>
+        <li>If It Escalates — how to show up prepared</li>
+        <li>What To Do, Step by Step</li>
+      </ol>
     </div>
 
-</section>
+    <a href="/pdfs/How_I_Opted_Out_Italy_Vaccines.pdf" target="_blank" class="download-link">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M12 3v13M5 14l7 7 7-7"/>
+        <path d="M3 21h18"/>
+      </svg>
+      Download PDF
+    </a>
+  </div>
 
-<footer>
+</div>
+```
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+
+  <footer>
+    <div class="footer-inner">
       <div>
         <p class="footer-brand">Keepers of the Wild Heart</p>
-        <p class="footer-tagline">A space for wild, unconventional lives. KOWH offers a wealth of content ranging from psycho-spirituality to body healing and unschooling realities</p>
+        <p class="footer-tagline">A space for wild, unconventional lives. KOWH offers a wealth of content ranging from psycho-spirituality to body healing and unschooling realities.</p>
       </div>
       <div>
-        <p class="footer-col-h">Programs</p>
+        <p class="footer-col-h">Explore</p>
         <ul class="footer-links">
-          <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
-          <li><a href="https://blubell26.github.io/Wildhearts" target="_blank">Wild Hearts Rising</a></li>
-          <li><a href="#free">Get Free Guides</a></li>
-          <li><a href="#parenting">Parenting / Unschooling</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/freebies">Free Guides</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://www.facebook.com/share/g/1LDxpLZjEi/" target="_blank">Community</a></li>
         </ul>
       </div>
       <div>
         <p class="footer-col-h">Find me</p>
         <ul class="footer-links">
-          <li><a href="#contact">Work with me</a></li>
           <li><a href="mailto:hello@giuliapacciotti.com">hello@giuliapacciotti.com</a></li>
           <li><a href="https://www.facebook.com/share/1EuVqfmLh2/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
           <li><a href="https://www.instagram.com/blubell2609" target="_blank">Instagram</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
     <div class="footer-bottom">
       <p class="footer-copy">© 2025 Giulia Pacciotti. Keepers of the Wild Heart.</p>
       <a href="mailto:hello@giuliapacciotti.com" class="footer-email-link">hello@giuliapacciotti.com</a>
     </div>
+  </footer>
 
-  </main>
-</div>
+</body>
+</html>
