@@ -20,4 +20,4 @@ Most people walk into that situation already defeated, not because the law is ag
 
 I wrote down exactly what I said, what I asked for, the legal basis I was standing on, and what to do if it escalates further than mine did. Step by step, start to finish.
 
-**[Get the full guide here](https://buy.stripe.com/6oUcN5cqp0so0XzbzHfbq00)**
+**[Get the full guide here]((https://giuliapacciotti.com/#free)**
