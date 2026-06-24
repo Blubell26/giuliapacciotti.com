@@ -1,1 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Free Guides | Wild Hearts Rising</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    color:#333;
+    background:#fff;
+    line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+    padding:40px 8%;
+}
+
+.logo{
+    max-width:120px;
+}
+
+/* HERO */
+
+.hero{
+    background:url('images/banner.jpg') center center/cover;
+    min-height:220px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+}
+
+.hero h1{
+    color:white;
+    font-family:'Montserrat',sans-serif;
+    font-weight:600;
+    font-size:clamp(2rem,5vw,4rem);
+}
+
+/* CONTENT */
+
+.container{
+    width:min(900px,90%);
+    margin:auto;
+    padding:80px 0;
+}
+
+h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(3rem,8vw,5rem);
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:1.4rem;
+    font-weight:600;
+    margin-bottom:60px;
+}
+
+.guide{
+    margin-bottom:70px;
+}
+
+.guide-title{
+    font-family:'Montserrat',sans-serif;
+    font-size:clamp(2rem,5vw,3.5rem);
+    font-weight:300;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.downloads{
+    list-style:disc;
+    margin-left:35px;
+}
+
+.downloads li{
+    margin-bottom:10px;
+}
+
+.downloads a{
+    color:#42a5f5;
+    font-size:1.8rem;
+    text-decoration:none;
+}
+
+.downloads a:hover{
+    text-decoration:underline;
+}
+
+/* FOOTER */
+
+footer{
+    background:#083c88;
+    color:white;
+    text-align:center;
+    padding:100px 8%;
+}
+
+.footer-logo{
+    max-width:220px;
+    margin-bottom:30px;
+}
+
+footer h3{
+    font-size:3rem;
+    font-weight:500;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+footer p{
+    max-width:700px;
+    margin:auto;
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+@media(max-width:768px){
+
+    header{
+        padding:30px;
+    }
+
+    .container{
+        padding:60px 0;
+    }
+
+    .downloads a{
+        font-size:1.5rem;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <!-- REPLACE WITH YOUR LOGO -->
+    <img src="images/logo.png" alt="Wild Hearts Rising" class="logo">
+
+</header>
+
+<section class="hero">
+
+    <h1>Download Free Guides</h1>
+
+</section>
+
+<section class="container">
+
+    <h2>FREE GUIDES</h2>
+
+    <p class="subtitle">
+        Available to download as PDF
+    </p>
+
+    <div class="guide">
+
+        <h3 class="guide-title">
+            1. UNSCHOOLING WITHOUT A MAP
+        </h3>
+
+        <ul class="downloads">
+            <li>
+                <a href="pdfs/Unschooling-Without-a-Map.pdf" target="_blank">
+                    PDF
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="guide">
+
+        <h3 class="guide-title">
+            2. THE FREEDOM LETTERS
+        </h3>
+
+        <ul class="downloads">
+            <li>
+                <a href="pdfs/Freedom-Letters.pdf" target="_blank">
+                    PDF
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="guide">
+
+        <h3 class="guide-title">
+            3. HOW I LEGALLY OPTED OUT OF
+            MANDATORY VACCINES IN ITALY
+        </h3>
+
+        <ul class="downloads">
+            <li>
+                <a href="pdfs/Italy-Vaccine-Guide.pdf" target="_blank">
+                    PDF
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <!-- REPLACE WITH FOOTER IMAGE -->
+    <img src="images/footer-logo.png" alt="" class="footer-logo">
+
+    <h3>WILD HEARTS RISING</h3>
+
+    <p>
+        Exploring freedom, alternative education,
+        slow travel, self-reliance and a different way of living.
+    </p>
+
+</footer>
+
+</body>
+</html>
+```
 
