@@ -5,7 +5,7 @@ description: We have become very good at making symptoms disappear. But disappea
 date: 2024-11-05
 image: IMG_7485.png
 thumb: IMG_7485.png
---
+---
 
 
 *On what we miss when we only treat what we can see.*
