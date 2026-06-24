@@ -8,8 +8,7 @@ thumb: images/IMG_7487.png
 ---
 
 
-
-*Coming back to what was always there.*
+*Coming back to what was always there. On nourishment, rest, light, and what we keep forgetting to give ourselves.*
 
 There is an enormous industry built around the idea that health is super complicated. That it requires the right products, the right protocols, the right expert to decode what your particular body is missing. And while some of that i useful, a great deal of it is noise built on top of something much simpler that most of us have been moving away from for years.
 
