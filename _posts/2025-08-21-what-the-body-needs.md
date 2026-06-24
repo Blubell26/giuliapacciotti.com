@@ -2,7 +2,7 @@
 layout: post
 title: “What the Body Actually Needs”
 description: We talk about health as if it were a problem to be solved. But the body is not waiting for the right supplement or the perfect protocol. It is waiting for the conditions it was built for. On nourishment, rest, light, and what we keep forgetting to give ourselves.
-date: 2025-07-09
+date: 2025-08-21
 image: images/post16-hero.png
 thumb: images/post16-thumb.png
 ---
