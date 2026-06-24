@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" href="/IMG_7227.jpeg">
-  <link rel="apple-touch-icon" href="/IMG_7227.jpeg">
+  <link rel="icon" type="image/png" href="/IMG_7248.png">
+  <link rel="apple-touch-icon" href="/IMG_7248.png">
 
   <style>
 
@@ -115,20 +115,9 @@
     /* ─── HERO ─── */
 
     .hero {
-      background: url('/IMG_7225.jpeg') center center / cover no-repeat;
-      min-height: 280px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      position: relative;
-    }
-
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(26, 18, 8, 0.35);
+      background: url('/IMG_7225.jpeg') center center / contain no-repeat;
+      width: 100%;
+      aspect-ratio: 16 / 5;
     }
 
     .hero-bar {
@@ -440,7 +429,7 @@
 <ul class="nav-links">
   <li><a href="/">Home</a></li>
   <li><a href="/blog/">Blog</a></li>
-  <li><a href="/freebies" class="active">Free Guides</a></li>
+  <li><a href="/resources" class="active">Free Guides</a></li>
   <li><a href="/about/">About</a></li>
 </ul>
 ```
@@ -563,7 +552,7 @@
         <p class="footer-col-h">Explore</p>
         <ul class="footer-links">
           <li><a href="/blog/">Blog</a></li>
-          <li><a href="/freebies">Free Guides</a></li>
+          <li><a href="/resources">Free Guides</a></li>
           <li><a href="/about/">About</a></li>
           <li><a href="https://www.facebook.com/share/g/1LDxpLZjEi/" target="_blank">Community</a></li>
         </ul>
