@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Toddlers Still Know
+title: What Toddlers Still Remember
 description: On unconditioned beings, the noise we build over time, and what happens when we let ourselves live alongside them instead of managing them.
 date: 2025-08-15
 image: IMG_7434.jpeg
