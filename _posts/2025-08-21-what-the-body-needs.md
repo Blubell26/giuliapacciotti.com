@@ -5,6 +5,7 @@ description: We talk about health as if it were a problem to be solved. But the 
 date: 2025-08-21
 image: images/IMG_7487.png
 thumb: images/IMG_7487.png
+category: natural-healing
 ---
 
 
