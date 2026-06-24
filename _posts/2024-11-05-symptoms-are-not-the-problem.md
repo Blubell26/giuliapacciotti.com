@@ -3,8 +3,8 @@ layout: post
 title: The Symptom Is Not the Problem
 description: We have become very good at making symptoms disappear. But disappearing is not the same as resolving. On the difference between suppressing what the body is expressing and actually addressing what created it.
 date: 2024-11-05
-image: images/IMG_7338.png
-thumb: images/IMG_7338.png
+image: images/IMG_7485.png
+thumb: images/IMG_7485.png
 ---
 
 
