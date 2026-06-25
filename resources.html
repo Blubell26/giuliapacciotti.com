@@ -84,15 +84,9 @@
       transition: color 0.2s;
     }
 
-    .nav-links a:hover {
-      color: #2d6b6b;
-    }
+    .nav-links a:hover { color: #2d6b6b; }
+    .nav-links a.active { color: #c8956d; }
 
-    .nav-links a.active {
-      color: #c8956d;
-    }
-
-    /* hamburger — shown on mobile */
     .hamburger {
       display: none;
       flex-direction: column;
@@ -115,23 +109,31 @@
     /* ─── HERO ─── */
 
     .hero {
-      background: url('/IMG_7225.jpeg') center center / contain no-repeat;
+      position: relative;
+      background: url('/IMG_7225.jpeg') center center / cover no-repeat;
       height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .hero-bar {
-      background: #000;
-      padding: 14px 8%;
-      text-align: center;
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.35);
     }
 
-    .hero-bar p {
+    .hero-title {
+      position: relative;
+      z-index: 1;
       color: #fff;
       font-family: 'DM Sans', sans-serif;
       font-weight: 500;
-      font-size: 0.85rem;
-      letter-spacing: 0.22em;
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      letter-spacing: 0.18em;
       text-transform: uppercase;
+      text-align: center;
     }
 
     /* ─── MAIN CONTAINER ─── */
@@ -142,29 +144,13 @@
       padding: 80px 0 100px;
     }
 
-    .section-label {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.75rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: #c8956d;
-      margin-bottom: 16px;
-    }
-
     .section-heading {
       font-family: 'Cormorant Garamond', serif;
       font-size: clamp(2.6rem, 6vw, 4rem);
       font-weight: 400;
       color: #1a1208;
       line-height: 1.15;
-      margin-bottom: 14px;
-    }
-
-    .section-sub {
-      font-size: 1rem;
-      color: #7a5520;
       margin-bottom: 70px;
-      font-weight: 300;
     }
 
     /* ─── GUIDE CARD ─── */
@@ -175,17 +161,7 @@
       border-bottom: 1px solid #e8e0d6;
     }
 
-    .guide:last-of-type {
-      border-bottom: none;
-    }
-
-    .guide-number {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1rem;
-      font-style: italic;
-      color: #c8956d;
-      margin-bottom: 8px;
-    }
+    .guide:last-of-type { border-bottom: none; }
 
     .guide-title {
       font-family: 'Cormorant Garamond', serif;
@@ -195,8 +171,6 @@
       color: #1a1208;
       margin-bottom: 28px;
     }
-
-    /* TOC */
 
     .toc {
       background: #faf7f3;
@@ -242,8 +216,6 @@
       min-width: 22px;
     }
 
-    /* Download link */
-
     .download-link {
       display: inline-flex;
       align-items: center;
@@ -261,13 +233,9 @@
       transition: background 0.2s;
     }
 
-    .download-link:hover {
-      background: #c8956d;
-    }
+    .download-link:hover { background: #c8956d; }
 
-    .download-link svg {
-      flex-shrink: 0;
-    }
+    .download-link svg { flex-shrink: 0; }
 
     /* ─── FOOTER ─── */
 
@@ -329,9 +297,7 @@
       transition: color 0.2s;
     }
 
-    .footer-links a:hover {
-      color: #fff;
-    }
+    .footer-links a:hover { color: #fff; }
 
     .footer-bottom {
       max-width: 1100px;
@@ -357,17 +323,12 @@
       transition: color 0.2s;
     }
 
-    .footer-email-link:hover {
-      color: #c8956d;
-    }
+    .footer-email-link:hover { color: #c8956d; }
 
     /* ─── RESPONSIVE ─── */
 
     @media (max-width: 768px) {
-
-      nav {
-        padding: 0 6%;
-      }
+      nav { padding: 0 6%; }
 
       .nav-links {
         display: none;
@@ -382,17 +343,10 @@
         gap: 20px;
       }
 
-      .nav-links.open {
-        display: flex;
-      }
+      .nav-links.open { display: flex; }
+      .hamburger { display: flex; }
 
-      .hamburger {
-        display: flex;
-      }
-
-      .container {
-        padding: 60px 0 80px;
-      }
+      .container { padding: 60px 0 80px; }
 
       .footer-inner {
         grid-template-columns: 1fr;
@@ -420,7 +374,6 @@
       <span class="nav-logo-text">Keepers of<br>the Wild Heart</span>
     </a>
 
-```
 <button class="hamburger" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')">
   <span></span><span></span><span></span>
 </button>
@@ -437,35 +390,33 @@
 
   <!-- ─── HERO ─── -->
 
-  <section class="hero"></section>
-  <div class="hero-bar">
-    <p>Keepers of the Wild Heart</p>
-  </div>
+  <section class="hero">
+    <h1 class="hero-title">Download Free Guides</h1>
+  </section>
 
   <!-- ─── CONTENT ─── -->
 
   <main>
     <div class="container">
-  
-  <h2 class="section-heading">Download Free Guides</h2
-  </div>
+
+```
   <!-- GUIDE 1 -->
   <div class="guide">
-    <h3 class="guide-title">1.Unschooling Without a Map</h3>
-
+    <h3 class="guide-title">1. Conscious Unschooling</h3>
     <div class="toc">
       <p class="toc-heading">What's inside</p>
       <ol>
         <li>What Unschooling Actually Is</li>
         <li>The Fear Inventory</li>
+        <li>What They Learn When Nobody Forces Them</li>
+        <li>The Socialisation Question<li>
         <li>Learning While Travelling</li>
         <li>The Practical Architecture</li>
         <li>The Part Nobody Talks About</li>
         <li>Resources Worth Having</li>
       </ol>
     </div>
-
-    <a href="/pdfs/Unschooling-without-a-map.pdf" target="_blank" class="download-link">
+    <a href="/pdfs/Conscious-unschooling.pdf" target="_blank" class="download-link">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <path d="M12 3v13M5 14l7 7 7-7"/>
         <path d="M3 21h18"/>
@@ -476,21 +427,19 @@
 
   <!-- GUIDE 2 -->
   <div class="guide">
-    <h3 class="guide-title">2.The Freedom Letters</h3>
-
+    <h3 class="guide-title">2. The Freedom Letters</h3>
     <div class="toc">
-  <p class="toc-heading">What's inside</p>
-  <ol>
-    <li>The Step That Changed Everything</li>
-    <li>Why Trading Time for Money Keeps You Stuck</li>
-    <li>The 3 Types of Passive Income</li>
-    <li>You Already Have Something Valuable</li>
-    <li>Small Starts and Compounding Results</li>
-    <li>The Community Effect</li>
-    <li>A Few Doors I Have Found</li>
-  </ol>
-</div>
-
+      <p class="toc-heading">What's inside</p>
+      <ol>
+        <li>The Step That Changed Everything</li>
+        <li>Why Trading Time for Money Keeps You Stuck</li>
+        <li>The 3 Types of Passive Income</li>
+        <li>You Already Have Something Valuable</li>
+        <li>Small Starts and Compounding Results</li>
+        <li>The Community Effect</li>
+        <li>A Few Doors I Have Found</li>
+      </ol>
+    </div>
     <a href="/pdfs/freedom-letters-guide.pdf" target="_blank" class="download-link">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <path d="M12 3v13M5 14l7 7 7-7"/>
@@ -502,8 +451,7 @@
 
   <!-- GUIDE 3 -->
   <div class="guide">
-    <h3 class="guide-title">3.How I Legally Opted Out of Mandatory Vaccines in Italy</h3>
-
+    <h3 class="guide-title">3. How I Legally Opted Out of Mandatory Vaccines in Italy</h3>
     <div class="toc">
       <p class="toc-heading">What's inside</p>
       <ol>
@@ -517,7 +465,6 @@
         <li>If It Escalates — how to show up prepared</li>
       </ol>
     </div>
-
     <a href="/pdfs/How_I_Opted_Out_Italy_Vaccines.pdf" target="_blank" class="download-link">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <path d="M12 3v13M5 14l7 7 7-7"/>
