@@ -111,7 +111,7 @@
     .hero {
       position: relative;
       background: url('/IMG_7225.jpeg') center center / cover no-repeat;
-      height: 120px;
+      height: 160px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -141,23 +141,14 @@
     .container {
       width: min(860px, 90%);
       margin: 0 auto;
-      padding: 80px 0 100px;
-    }
-
-    .section-heading {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2.6rem, 6vw, 4rem);
-      font-weight: 400;
-      color: #1a1208;
-      line-height: 1.15;
-      margin-bottom: 70px;
+      padding: 48px 0 64px;
     }
 
     /* ─── GUIDE CARD ─── */
 
     .guide {
-      margin-bottom: 72px;
-      padding-bottom: 72px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
       border-bottom: 1px solid #e8e0d6;
     }
 
@@ -165,18 +156,18 @@
 
     .guide-title {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
       font-weight: 400;
       line-height: 1.2;
       color: #1a1208;
-      margin-bottom: 28px;
+      margin-bottom: 16px;
     }
 
     .toc {
       background: #faf7f3;
       border-left: 3px solid #c8956d;
-      padding: 24px 28px;
-      margin-bottom: 32px;
+      padding: 16px 22px;
+      margin-bottom: 20px;
       border-radius: 0 4px 4px 0;
     }
 
@@ -187,7 +178,7 @@
       letter-spacing: 0.18em;
       text-transform: uppercase;
       color: #7a5520;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
 
     .toc ol {
@@ -201,16 +192,16 @@
       display: flex;
       align-items: baseline;
       gap: 10px;
-      padding: 5px 0;
-      font-size: 0.92rem;
+      padding: 3px 0;
+      font-size: 0.9rem;
       color: #1a1208;
-      line-height: 1.5;
+      line-height: 1.4;
     }
 
     .toc ol li::before {
       content: counter(toc-counter, decimal-leading-zero);
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       color: #c8956d;
       flex-shrink: 0;
       min-width: 22px;
@@ -224,17 +215,16 @@
       color: #fff;
       text-decoration: none;
       font-family: 'DM Sans', sans-serif;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 500;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      padding: 14px 32px;
+      padding: 11px 26px;
       border-radius: 2px;
       transition: background 0.2s;
     }
 
     .download-link:hover { background: #c8956d; }
-
     .download-link svg { flex-shrink: 0; }
 
     /* ─── FOOTER ─── */
@@ -242,7 +232,7 @@
     footer {
       background: #1a1208;
       color: #e8e0d6;
-      padding: 80px 8% 40px;
+      padding: 60px 8% 36px;
     }
 
     .footer-inner {
@@ -251,7 +241,7 @@
       display: grid;
       grid-template-columns: 2fr 1fr 1fr;
       gap: 60px;
-      padding-bottom: 60px;
+      padding-bottom: 48px;
       border-bottom: 1px solid rgba(232,224,214,0.15);
     }
 
@@ -302,7 +292,7 @@
     .footer-bottom {
       max-width: 1100px;
       margin: 0 auto;
-      padding-top: 30px;
+      padding-top: 28px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -346,11 +336,11 @@
       .nav-links.open { display: flex; }
       .hamburger { display: flex; }
 
-      .container { padding: 60px 0 80px; }
+      .container { padding: 36px 0 52px; }
 
       .footer-inner {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 36px;
       }
 
       .footer-bottom {
@@ -374,6 +364,7 @@
       <span class="nav-logo-text">Keepers of<br>the Wild Heart</span>
     </a>
 
+```
 <button class="hamburger" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')">
   <span></span><span></span><span></span>
 </button>
@@ -399,6 +390,7 @@
   <main>
     <div class="container">
 
+```
   <!-- GUIDE 1 -->
   <div class="guide">
     <h3 class="guide-title">1. Conscious Unschooling</h3>
@@ -408,7 +400,7 @@
         <li>What Unschooling Actually Is</li>
         <li>The Fear Inventory</li>
         <li>What They Learn When Nobody Forces Them</li>
-        <li>The Socialisation Question<li>
+        <li>The Socialisation Question</li>
         <li>Learning While Travelling</li>
         <li>The Practical Architecture</li>
         <li>The Part Nobody Talks About</li>
