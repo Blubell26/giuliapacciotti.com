@@ -53,8 +53,26 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);padding-
 .search-form input::placeholder{color:#bbb;}
 
 /* hamburger (mobile only) */
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;flex-shrink:0;padding:4px;z-index:401;}
-.hamburger span{display:block;width:22px;height:1.5px;background:var(--dark);transition:all 0.3s;}
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+      z-index: 401;
+      position: relative;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #1a1208;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
 
 /* ─── RIGHT DRAWER ─── */
 .drawer-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.25);z-index:398;}
