@@ -1,0 +1,77 @@
+<script>
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const drawer = document.getElementById('drawer');
+const drawerClose = document.getElementById('drawerClose');
+const drawerOverlay = document.getElementById('drawerOverlay');
+
+if(hamburgerBtn){
+
+function openDrawer(){
+  drawer.classList.add('open');
+  drawerOverlay.classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function closeDrawer(){
+  drawer.classList.remove('open');
+  drawerOverlay.classList.remove('open');
+  document.body.style.overflow='';
+}
+
+hamburgerBtn.addEventListener('click',openDrawer);
+drawerClose.addEventListener('click',closeDrawer);
+drawerOverlay.addEventListener('click',closeDrawer);
+
+function setupToggle(btnId,subId){
+  const btn=document.getElementById(btnId);
+  const sub=document.getElementById(subId);
+
+  if(!btn || !sub) return;
+
+  btn.addEventListener('click',function(){
+
+    const open=sub.classList.contains('open');
+
+    document.querySelectorAll('.drawer-sub').forEach(s=>s.classList.remove('open'));
+
+    document.querySelectorAll('.drawer-toggle').forEach(b=>{
+      b.classList.remove('expanded');
+      b.setAttribute('aria-expanded','false');
+    });
+
+    if(!open){
+      sub.classList.add('open');
+      btn.classList.add('expanded');
+      btn.setAttribute('aria-expanded','true');
+    }
+
+  });
+
+}
+
+setupToggle('blogToggle','blogSub');
+setupToggle('coursesToggle','coursesSub');
+
+document.querySelectorAll('.drawer-sub a, .drawer-nav > li > a').forEach(a=>{
+  a.addEventListener('click',closeDrawer);
+});
+
+const searchToggle=document.getElementById('searchToggle');
+const searchForm=document.getElementById('searchForm');
+
+if(searchToggle && searchForm){
+
+searchToggle.addEventListener('click',()=>{
+
+searchForm.classList.toggle('open');
+
+if(searchForm.classList.contains('open')){
+searchForm.querySelector('input').focus();
+}
+
+});
+
+}
+
+}
+</script>
