@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="/IMG_7248.png">
 <link rel="apple-touch-icon" href="/IMG_7248.png">
+<link rel="stylesheet" href="/assets/css/navigation.css">
 <style>
 :root {
   --peach: #e8956d;
@@ -32,22 +33,6 @@
 }
 
 body { font-family:'DM Sans',sans-serif; background:var(--white); color:var(--dark); overflow-x:hidden; padding-top:62px; }
-
-
-.topnav {
-  position:fixed; top:0; left:0; right:0; z-index:300;
-  background:white; border-bottom:1px solid #ebebeb;
-  display:flex; align-items:center; justify-content:space-between;
-  padding:0 2rem; height:62px;
-}
-.topnav-logo { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.15rem; color:var(--dark); text-decoration:none; }
-.topnav-right { display:flex; align-items:center; gap:2rem; list-style:none; }
-.topnav-right a { font-size:0.76rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); text-decoration:none; font-weight:400; transition:color 0.18s; }
-.topnav-right a:hover { color:var(--peach); }
-.nav-btn { background:var(--peach); color:white !important; padding:0.5rem 1.3rem; border-radius:2px; font-weight:500 !important; transition:background 0.18s !important; }
-.nav-btn:hover { background:var(--peach-light) !important; }
-.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; }
-.hamburger span { display:block; width:22px; height:1.5px; background:var(--dark); transition:all 0.3s; }
 
 .shell { display:flex; }
 
@@ -206,17 +191,7 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 </head>
 <body>
 
-<nav class="topnav" id="topnav">
-  <a href="#"><img src="/IMG_7248.png" alt="Giulia Pacciotti" style="height:36px;display:block;"></a>
-  <button class="hamburger" onclick="toggleNav()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <ul class="topnav-right" id="navLinks">
-    <li><a href="/about/">About</a>
-    <li><a href="#programs">Programs</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="#free">Free Resources</a></li>
-    <li><a href="#contact" class="nav-btn">Contact</a></li>
-  </ul>
-</nav>
+{% include header.html %}
 
 <!-- HERO BRAND MARK -->
 <section id="home" style="min-height:28vh;display:flex;align-items:center;justify-content:center;flex-direction:column;border-bottom:1px solid #ebebeb;gap:2rem;padding:3rem 2rem;">
@@ -388,77 +363,6 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
   </main>
 </div>
 
-<script>
-function toggleNav() {
-  document.getElementById('navLinks').classList.toggle('open');
-}
-document.querySelectorAll('#navLinks a').forEach(a => {
-  a.addEventListener('click', () => {
-    document.getElementById('navLinks').classList.remove('open');
-  });
-});
-
-const allCards = document.querySelectorAll('.flip-wrap');
-
-function closeAll(except) {
-  allCards.forEach(c => {
-    if (c !== except) {
-      c.querySelector('.flip-inner').style.transform = '';
-    }
-  });
-}
-
-allCards.forEach(card => {
-  const inner = card.querySelector('.flip-inner');
-  const front = card.querySelector('.flip-front');
-  const back = card.querySelector('.flip-back');
-  const btn = card.querySelector('.flip-back-btn');
-  const href = card.getAttribute('href');
-
-  card.removeAttribute('href');
-  card.style.cursor = 'pointer';
-
-  if (btn && href) {
-    btn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      if (href.startsWith('mailto') || href.startsWith('http')) {
-        window.open(href, '_blank');
-      } else {
-        document.querySelector(href).scrollIntoView({behavior:'smooth'});
-      }
-    });
-  }
-
-  front.addEventListener('click', function(e) {
-    e.stopPropagation();
-    closeAll(card);
-    inner.style.transform = 'rotateX(180deg)';
-  });
-
-  back.addEventListener('click', function(e) {
-    e.stopPropagation();
-    if (e.target !== btn && !btn.contains(e.target)) {
-      inner.style.transform = '';
-    }
-  });
-});
-
-document.addEventListener('click', function() {
-  closeAll(null);
-});
-
-const sections = document.querySelectorAll('section[id], div[id]');
-const sidebarLinks = document.querySelectorAll('.sidebar a');
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(sec => {
-    if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
-  });
-  sidebarLinks.forEach(a => {
-    a.classList.remove('active');
-    if (a.getAttribute('href') === '#' + current) a.classList.add('active');
-  });
-});
-</script>
+{% include header-script.html %}
 </body>
 </html>
