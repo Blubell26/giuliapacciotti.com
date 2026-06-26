@@ -3,8 +3,8 @@ layout: post
 title: Trust the No Before You Trust the Yes
 description: How knowing what to stop doing is almost always clearer than knowing what to start — and what unschooling taught me about making good decisions.
 date: 2025-10-02
-image: images/trust-the-no.png
-thumb: images/trust-the-no.png
+image: 
+thumb: 
 category: parenting-unschooling
 ---
 
