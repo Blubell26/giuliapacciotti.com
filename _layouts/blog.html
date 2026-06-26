@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+{% if page.category %}
+{{ page.title }} | Giulia Pacciotti
+{% else %}
+From the Blog | Giulia Pacciotti
+{% endif %}
+</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+
+--peach:#e8956d;
+--peach-dark:#d4784f;
+--teal:#2d6b6b;
+
+--dark:#1c1c1a;
+--mid:#4a4a46;
+--soft:#8e8e8e;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'DM Sans',sans-serif;
+
+background:white;
+
+color:var(--dark);
+
+line-height:1.7;
+
+}
+
+a{
+color:inherit;
+text-decoration:none;
+}
+
+img{
+display:block;
+max-width:100%;
+}
+
+.topbar{
+
+padding:1.4rem 2rem;
+
+border-bottom:1px solid #ececec;
+
+background:white;
+
+position:sticky;
+
+top:0;
+
+z-index:100;
+
+}
+
+.site-logo{
+
+height:36px;
+
+width:auto;
+
+}
+
+.hero{
+
+position:relative;
+
+height:360px;
+
+background:url('/images/blog-hero.jpg') center center / cover no-repeat;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+}
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:rgba(25,33,38,.38);
+
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:2;
+
+color:white;
+
+max-width:720px;
+
+padding:0 2rem;
+
+}
+
+.hero-label{
+
+font-size:.78rem;
+
+letter-spacing:.30em;
+
+text-transform:uppercase;
+
+margin-bottom:1rem;
+
+opacity:.9;
+
+}
+
+.hero h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-weight:300;
+
+font-size:clamp(2.8rem,6vw,4.5rem);
+
+margin-bottom:.8rem;
+
+}
+
+.hero p{
+
+font-weight:300;
+
+font-size:1.05rem;
+
+line-height:1.9;
+
+opacity:.95;
+
+max-width:620px;
+
+margin:auto;
+
+}
+
+.category-nav{
+
+display:flex;
+
+justify-content:center;
+
+gap:2rem;
+
+flex-wrap:wrap;
+
+padding:2.5rem 1rem;
+
+border-bottom:1px solid #ececec;
+
+}
+
+.category-nav a{
+
+font-size:.82rem;
+
+text-transform:uppercase;
+
+letter-spacing:.15em;
+
+color:var(--mid);
+
+transition:.25s;
+
+}
+
+.category-nav a:hover{
+
+color:var(--peach);
+
+}
+
+.category-nav a.active{
+
+color:var(--peach);
+
+}
+
+.content{
+
+max-width:900px;
+
+margin:auto;
+
+padding:5rem 1.5rem;
+
+}
