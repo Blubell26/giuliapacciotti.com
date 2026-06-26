@@ -5,7 +5,7 @@ description: The supplement industry would have us believe that the right pill f
 date: 2025-04-09
 image:
 thumb:
-caregory: income
+caregory: natural-healing
 ---
 
 
