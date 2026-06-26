@@ -1,10 +1,10 @@
 ---
 layout: post
-title: “The Body in a Nourishment-Depleted World”
+title: The Body in a Nourishment-Depleted World
 description: We were meant to get everything we need from the earth. But the earth has changed, and so have our lives. On why the gap between what the body needs and what it actually receives has quietly widened, and what to do about it.
 date: 2025-11-03
-image: images/
-thumb: images/
+image:
+thumb:
 category: natural-healing
 ---
 
