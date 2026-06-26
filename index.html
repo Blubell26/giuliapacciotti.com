@@ -1,6 +1,9 @@
 ---
+
 ---
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -26,199 +29,316 @@
   --offwhite: #fafaf7;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
-  html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 62px;
-}
-
+html { scroll-behavior:smooth; scroll-padding-top:62px; }
 body { font-family:'DM Sans',sans-serif; background:var(--white); color:var(--dark); overflow-x:hidden; padding-top:62px; }
 
+/* ─── TOPNAV ─── */
+.topnav { position:fixed; top:0; left:0; right:0; z-index:300; background:white; border-bottom:1px solid #ebebeb; display:flex; align-items:center; padding:0 2rem; height:62px; gap:1rem; }
 
-.topnav {
-  position:fixed; top:0; left:0; right:0; z-index:300;
-  background:white; border-bottom:1px solid #ebebeb;
-  display:flex; align-items:center; justify-content:space-between;
-  padding:0 2rem; height:62px;
-}
-.topnav-logo { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.15rem; color:var(--dark); text-decoration:none; }
-.topnav-right { display:flex; align-items:center; gap:2rem; list-style:none; }
-.topnav-right a { font-size:0.76rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); text-decoration:none; font-weight:400; transition:color 0.18s; }
-.topnav-right a:hover { color:var(--peach); }
-.nav-btn { background:var(--peach); color:white !important; padding:0.5rem 1.3rem; border-radius:2px; font-weight:500 !important; transition:background 0.18s !important; }
-.nav-btn:hover { background:var(--peach-light) !important; }
-.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; }
-.hamburger span { display:block; width:22px; height:1.5px; background:var(--dark); transition:all 0.3s; }
+.topnav-logo { flex-shrink:0; }
+.topnav-logo img { height:36px; display:block; }
 
+/* desktop links */
+.topnav-right { display:flex; align-items:center; list-style:none; gap:0; flex:1; justify-content:center; }
+.topnav-right > li { position:relative; }
+.topnav-right > li > a,
+.topnav-right > li > button.nav-drop-btn { display:flex; align-items:center; gap:4px; padding:0 14px; height:62px; font-family:‘DM Sans’,sans-serif; font-size:0.76rem; letter-spacing:0.10em; text-transform:uppercase; color:var(–mid); text-decoration:none; background:none; border:none; cursor:pointer; white-space:nowrap; transition:color 0.18s; border-bottom:2px solid transparent; font-weight:400; }
+.topnav-right > li > a:hover,
+.topnav-right > li > button.nav-drop-btn:hover { color:var(–peach); }
+.topnav-right > li > a.active { color:var(–peach); border-bottom-color:var(–peach); }
+
+/* dropdown arrow */
+.drop-arrow { width:10px; height:10px; transition:transform 0.2s; color:#bbb; }
+.topnav-right > li:hover .drop-arrow { transform:rotate(180deg); color:var(–peach); }
+
+/* dropdown panel */
+.drop-panel { position:absolute; top:100%; left:50%; transform:translateX(-50%) translateY(6px); background:#fff; border:1px solid #ebebeb; border-top:2px solid var(–teal); box-shadow:0 8px 28px rgba(0,0,0,0.10); min-width:210px; opacity:0; visibility:hidden; pointer-events:none; transition:opacity 0.18s,transform 0.18s; border-radius:0 0 3px 3px; z-index:200; }
+.topnav-right > li:hover .drop-panel,
+.topnav-right > li:focus-within .drop-panel { opacity:1; visibility:visible; pointer-events:auto; transform:translateX(-50%) translateY(0); }
+.drop-panel ul { list-style:none; padding:6px 0; }
+.drop-panel ul li a { display:block; padding:11px 22px; font-family:‘DM Sans’,sans-serif; font-size:0.78rem; font-weight:300; color:var(–mid); text-decoration:none; letter-spacing:0.04em; border-bottom:1px solid #f0ece6; transition:background 0.15s,color 0.15s; }
+.drop-panel ul li:last-child a { border-bottom:none; }
+.drop-panel ul li a:hover { background:var(–teal-pale); color:var(–teal); }
+
+/* search */
+.nav-search-wrap { display:flex; align-items:center; gap:6px; flex-shrink:0; }
+.search-toggle { background:none; border:none; cursor:pointer; color:var(–mid); padding:6px; display:flex; align-items:center; transition:color 0.2s; }
+.search-toggle:hover { color:var(–peach); }
+.search-form { display:flex; align-items:center; overflow:hidden; max-width:0; opacity:0; transition:max-width 0.35s ease,opacity 0.25s ease; }
+.search-form.open { max-width:190px; opacity:1; }
+.search-form input { width:170px; padding:6px 12px; border:1px solid #e0e0e0; border-radius:2px; font-family:‘DM Sans’,sans-serif; font-size:0.78rem; color:var(–dark); outline:none; background:#fafaf7; transition:border-color 0.2s; }
+.search-form input:focus { border-color:var(–teal); }
+.search-form input::placeholder { color:#bbb; }
+
+/* hamburger */
+.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; flex-shrink:0; padding:4px; z-index:401; margin-left:auto; }
+.hamburger span { display:block; width:22px; height:1.5px; background:var(–dark); transition:all 0.3s; }
+
+/* ─── RIGHT DRAWER ─── */
+.drawer-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.25); z-index:398; }
+.drawer-overlay.open { display:block; }
+.drawer { position:fixed; top:0; right:0; width:min(320px,82vw); height:100vh; background:#fff; z-index:400; transform:translateX(100%); transition:transform 0.35s cubic-bezier(0.4,0,0.2,1); display:flex; flex-direction:column; overflow-y:auto; }
+.drawer.open { transform:translateX(0); }
+.drawer-close { align-self:flex-end; margin:20px 20px 8px; background:#2d6b6b; border:none; cursor:pointer; width:36px; height:36px; border-radius:2px; display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#fff; font-size:1.1rem; }
+.drawer-nav { list-style:none; padding:8px 0 40px; flex:1; }
+.drawer-nav li { border-bottom:1px solid #e8e0d6; }
+.drawer-nav li:last-child { border-bottom:none; }
+.drawer-nav > li > a,
+.drawer-nav > li > button.drawer-toggle { display:flex; align-items:center; justify-content:space-between; width:100%; padding:18px 28px; font-family:‘DM Sans’,sans-serif; font-size:0.95rem; font-weight:400; letter-spacing:0.08em; text-transform:uppercase; color:#1a1208; text-decoration:none; background:none; border:none; cursor:pointer; text-align:left; transition:color 0.2s; }
+.drawer-nav > li > a:hover,
+.drawer-nav > li > button.drawer-toggle:hover { color:#2d6b6b; }
+.drawer-arrow { width:16px; height:16px; flex-shrink:0; transition:transform 0.25s; color:#999; }
+.drawer-toggle.expanded .drawer-arrow { transform:rotate(90deg); color:#2d6b6b; }
+.drawer-sub { list-style:none; max-height:0; overflow:hidden; transition:max-height 0.3s ease; background:#faf7f3; }
+.drawer-sub.open { max-height:400px; }
+.drawer-sub li a { display:block; padding:12px 28px 12px 40px; font-family:‘DM Sans’,sans-serif; font-size:0.82rem; font-weight:300; color:#4a4a3a; text-decoration:none; letter-spacing:0.04em; border-bottom:1px solid #ede8e0; transition:color 0.2s,background 0.2s; }
+.drawer-sub li:last-child a { border-bottom:none; }
+.drawer-sub li a:hover { color:#2d6b6b; background:#eaf3f3; }
+
+/* ─── REST OF PAGE ─── */
 .shell { display:flex; }
 
-.sidebar {
-  position:fixed; top:62px; left:0; width:210px; height:calc(100vh - 62px);
-  border-right:1px solid #ebebeb; background:white; padding:2rem 1.2rem;
-  display:none; flex-direction:column; gap:0.25rem; overflow-y:auto; z-index:200;
-}
-.sidebar-group-label { font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--soft); font-weight:500; padding:0 0.6rem; margin-top:1.2rem; margin-bottom:0.3rem; }
+.sidebar { position:fixed; top:62px; left:0; width:210px; height:calc(100vh - 62px); border-right:1px solid #ebebeb; background:white; padding:2rem 1.2rem; display:none; flex-direction:column; gap:0.25rem; overflow-y:auto; z-index:200; }
+.sidebar-group-label { font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(–soft); font-weight:500; padding:0 0.6rem; margin-top:1.2rem; margin-bottom:0.3rem; }
 .sidebar-group-label:first-child { margin-top:0; }
-.sidebar a { display:block; padding:0.55rem 0.8rem; font-size:0.86rem; color:var(--mid); text-decoration:none; border-radius:3px; transition:all 0.18s; font-weight:300; border:1px solid transparent; }
-.sidebar a:hover { background:var(--peach-pale); color:var(--peach); border-color:var(--peach-light); }
-.sidebar a.active { background:var(--peach-pale); color:var(--peach); border-color:var(--peach-light); font-weight:500; }
+.sidebar a { display:block; padding:0.55rem 0.8rem; font-size:0.86rem; color:var(–mid); text-decoration:none; border-radius:3px; transition:all 0.18s; font-weight:300; border:1px solid transparent; }
+.sidebar a:hover { background:var(–peach-pale); color:var(–peach); border-color:var(–peach-light); }
+.sidebar a.active { background:var(–peach-pale); color:var(–peach); border-color:var(–peach-light); font-weight:500; }
 .sidebar-divider { height:1px; background:#ebebeb; margin:0.8rem 0; }
 
 .main { margin-left:0px; flex:1; min-width:0; }
 
-.hero { display:grid; grid-template-columns:1fr 1fr; min-height:calc(100vh - 62px); border-bottom:1px solid #ebebeb; }
-.hero-text { padding:5rem 4rem 4rem; display:flex; flex-direction:column; justify-content:center; border-right:1px solid #ebebeb; }
-.hero-eyebrow { font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--teal); font-weight:500; margin-bottom:1.5rem; }
-.hero-h1 { font-family:'Cormorant Garamond',serif; font-size:clamp(2.6rem,4.5vw,3.8rem); font-weight:300; line-height:1.1; color:var(--dark); margin-bottom:1.8rem; }
-.hero-h1 em { font-style:italic; color:var(--peach); }
-.hero-p { font-size:1rem; line-height:1.8; color:var(--mid); font-weight:300; max-width:420px; margin-bottom:2.5rem; }
-.hero-btns { display:flex; gap:1rem; flex-wrap:wrap; }
-.btn-peach { background:var(--peach); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; letter-spacing:0.03em; border:1.5px solid var(--peach); transition:all 0.2s; display:inline-block; }
-.btn-peach:hover { background:white; color:var(--peach); }
-.btn-ghost { background:white; color:var(--mid); padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:400; border:1.5px solid #ddd; transition:all 0.2s; display:inline-block; }
-.btn-ghost:hover { border-color:var(--peach); color:var(--peach); }
-.btn-teal { background:var(--teal); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; border:1.5px solid var(--teal); transition:all 0.2s; display:inline-block; }
-.btn-teal:hover { background:white; color:var(--teal); }
+.btn-peach { background:var(–peach); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; letter-spacing:0.03em; border:1.5px solid var(–peach); transition:all 0.2s; display:inline-block; }
+.btn-peach:hover { background:white; color:var(–peach); }
+.btn-ghost { background:white; color:var(–mid); padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:400; border:1.5px solid #ddd; transition:all 0.2s; display:inline-block; }
+.btn-ghost:hover { border-color:var(–peach); color:var(–peach); }
+.btn-teal { background:var(–teal); color:white; padding:0.8rem 1.8rem; border-radius:2px; text-decoration:none; font-size:0.85rem; font-weight:500; border:1.5px solid var(–teal); transition:all 0.2s; display:inline-block; }
+.btn-teal:hover { background:white; color:var(–teal); }
 
-.hero-image { background:#f5f0ea; position:relative; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; }
-.hero-photo-slot { width:100%; height:100%; min-height:500px; background:linear-gradient(160deg,#f0ebe3 0%,#e8ddd2 100%); display:flex; align-items:center; justify-content:center; }
-.photo-hint { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:0.9rem; color:rgba(0,0,0,0.2); }
-
-.strip { background:var(--peach-pale); border-bottom:1px solid #f0d8c8; padding:0.9rem 4rem; text-align:center; }
-.strip p { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.1rem; color:var(--peach); font-weight:400; }
+.strip { background:var(–peach-pale); border-bottom:1px solid #f0d8c8; padding:0.9rem 4rem; text-align:center; }
+.strip p { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.1rem; color:var(–peach); font-weight:400; }
 
 section { padding:5.5rem 4rem; border-bottom:1px solid #ebebeb; }
 section:last-child { border-bottom:none; }
 
 .sec-label { font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; margin-bottom:1rem; display:block; }
-.sec-label.peach { color:var(--peach); }
-.sec-label.teal { color:var(--teal); }
-.sec-h2 { font-family:'Cormorant Garamond',serif; font-size:clamp(1.8rem,3vw,2.6rem); font-weight:300; line-height:1.2; color:var(--dark); margin-bottom:1.2rem; }
-.sec-h2 em { font-style:italic; color:var(--peach); }
-.sec-h2 em.teal { color:var(--teal); }
-.sec-rule { width:40px; height:2px; background:var(--peach); margin-bottom:2rem; }
-.sec-rule.teal { background:var(--teal); }
+.sec-label.peach { color:var(–peach); }
+.sec-label.teal { color:var(–teal); }
+.sec-h2 { font-family:‘Cormorant Garamond’,serif; font-size:clamp(1.8rem,3vw,2.6rem); font-weight:300; line-height:1.2; color:var(–dark); margin-bottom:1.2rem; }
+.sec-h2 em { font-style:italic; color:var(–peach); }
+.sec-h2 em.teal { color:var(–teal); }
+.sec-rule { width:40px; height:2px; background:var(–peach); margin-bottom:2rem; }
+.sec-rule.teal { background:var(–teal); }
 
 .about-grid { display:grid; grid-template-columns:1fr 1.3fr; gap:5rem; align-items:start; }
-.about-body p { font-size:0.98rem; line-height:1.85; color:var(--mid); font-weight:300; margin-bottom:1.3rem; }
-.about-body p strong { color:var(--dark); font-weight:500; }
-.about-pull { background:var(--peach-pale); border-left:3px solid var(--peach); padding:2rem; margin-top:2rem; border-radius:0 2px 2px 0; }
-.about-pull blockquote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.35rem; color:var(--dark); line-height:1.5; font-weight:300; margin-bottom:0.8rem; }
-.about-pull cite { font-size:0.78rem; color:var(--peach); letter-spacing:0.08em; text-transform:uppercase; }
-.about-aside { background:var(--offwhite); border:1px solid #ebebeb; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
-.about-aside-title { font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--dark); margin-bottom:1rem; font-weight:400; }
-.about-aside p { font-size:0.88rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:1.5rem; }
+.about-body p { font-size:0.98rem; line-height:1.85; color:var(–mid); font-weight:300; margin-bottom:1.3rem; }
+.about-body p strong { color:var(–dark); font-weight:500; }
+.about-pull { background:var(–peach-pale); border-left:3px solid var(–peach); padding:2rem; margin-top:2rem; border-radius:0 2px 2px 0; }
+.about-pull blockquote { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.35rem; color:var(–dark); line-height:1.5; font-weight:300; margin-bottom:0.8rem; }
+.about-pull cite { font-size:0.78rem; color:var(–peach); letter-spacing:0.08em; text-transform:uppercase; }
+.about-aside { background:var(–offwhite); border:1px solid #ebebeb; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
+.about-aside-title { font-family:‘Cormorant Garamond’,serif; font-size:1.4rem; color:var(–dark); margin-bottom:1rem; font-weight:400; }
+.about-aside p { font-size:0.88rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:1.5rem; }
 .about-facts { list-style:none; margin-bottom:2rem; display:flex; flex-direction:column; gap:0.7rem; }
-.about-facts li { font-size:0.88rem; color:var(--mid); display:flex; align-items:flex-start; gap:0.7rem; font-weight:300; }
-.about-facts li::before { content:'✦'; color:var(--peach); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
+.about-facts li { font-size:0.88rem; color:var(–mid); display:flex; align-items:flex-start; gap:0.7rem; font-weight:300; }
+.about-facts li::before { content:‘✦’; color:var(–peach); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
 
 .parenting-grid { display:grid; grid-template-columns:1.1fr 1fr; gap:4.5rem; align-items:start; }
 .parenting-list { list-style:none; margin:1.5rem 0 2.5rem; }
-.parenting-list li { padding:1rem 0; border-bottom:1px solid #ebebeb; font-size:0.92rem; line-height:1.65; color:var(--mid); font-weight:300; display:flex; gap:0.9rem; align-items:flex-start; }
-.parenting-list li::before { content:'✦'; color:var(--teal); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
-.parenting-aside { background:var(--teal-pale); border:1px solid #cce0e0; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
-.parenting-aside-h { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.4rem; color:var(--teal); margin-bottom:1.2rem; line-height:1.35; }
-.parenting-aside p { font-size:0.88rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:1.5rem; }
+.parenting-list li { padding:1rem 0; border-bottom:1px solid #ebebeb; font-size:0.92rem; line-height:1.65; color:var(–mid); font-weight:300; display:flex; gap:0.9rem; align-items:flex-start; }
+.parenting-list li::before { content:‘✦’; color:var(–teal); font-size:0.6rem; flex-shrink:0; margin-top:4px; }
+.parenting-aside { background:var(–teal-pale); border:1px solid #cce0e0; padding:2.5rem; border-radius:2px; position:sticky; top:80px; }
+.parenting-aside-h { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.4rem; color:var(–teal); margin-bottom:1.2rem; line-height:1.35; }
+.parenting-aside p { font-size:0.88rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:1.5rem; }
 
-.testimonials { background:var(--offwhite); }
+.testimonials { background:var(–offwhite); }
 .testi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-top:3rem; }
 .testi-card { background:white; border:1px solid #ebebeb; border-radius:2px; padding:2rem 1.8rem; }
-.testi-stars { color:var(--peach); font-size:0.8rem; letter-spacing:0.1em; margin-bottom:1rem; }
-.testi-quote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.1rem; line-height:1.6; color:var(--dark); font-weight:300; margin-bottom:1.2rem; }
-.testi-name { font-size:0.78rem; color:var(--soft); letter-spacing:0.06em; text-transform:uppercase; }
+.testi-stars { color:var(–peach); font-size:0.8rem; letter-spacing:0.1em; margin-bottom:1rem; }
+.testi-quote { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.1rem; line-height:1.6; color:var(–dark); font-weight:300; margin-bottom:1.2rem; }
+.testi-name { font-size:0.78rem; color:var(–soft); letter-spacing:0.06em; text-transform:uppercase; }
 
 .newsletter { background:white; text-align:center; }
 .newsletter-inner { max-width:520px; margin:0 auto; }
-.newsletter-h { font-family:'Cormorant Garamond',serif; font-size:clamp(1.8rem,3vw,2.5rem); font-weight:300; color:var(--dark); margin-bottom:1rem; line-height:1.2; }
-.newsletter-h em { font-style:italic; color:var(--peach); }
-.newsletter-p { font-size:0.95rem; line-height:1.75; color:var(--mid); font-weight:300; margin-bottom:2.2rem; }
+.newsletter-h { font-family:‘Cormorant Garamond’,serif; font-size:clamp(1.8rem,3vw,2.5rem); font-weight:300; color:var(–dark); margin-bottom:1rem; line-height:1.2; }
+.newsletter-h em { font-style:italic; color:var(–peach); }
+.newsletter-p { font-size:0.95rem; line-height:1.75; color:var(–mid); font-weight:300; margin-bottom:2.2rem; }
 .newsletter-form { display:flex; flex-direction:column; gap:0.7rem; max-width:420px; margin:0 auto; }
-.newsletter-form input { width:100%; padding:0.85rem 1.1rem; border:1.5px solid #ddd; border-radius:2px; font-family:'DM Sans',sans-serif; font-size:0.9rem; color:var(--dark); outline:none; transition:border 0.18s; }
-.newsletter-form input:focus { border-color:var(--peach); }
-.newsletter-form input::placeholder { color:var(--soft); }
-.newsletter-form button { background:var(--peach); color:white; border:none; padding:0.85rem 1.8rem; border-radius:2px; font-family:'DM Sans',sans-serif; font-size:0.85rem; font-weight:500; cursor:pointer; transition:background 0.18s; letter-spacing:0.03em; }
-.newsletter-form button:hover { background:var(--peach-light); }
-.newsletter-note { font-size:0.75rem; color:var(--soft); margin-top:1rem; }
+.newsletter-form input { width:100%; padding:0.85rem 1.1rem; border:1.5px solid #ddd; border-radius:2px; font-family:‘DM Sans’,sans-serif; font-size:0.9rem; color:var(–dark); outline:none; transition:border 0.18s; }
+.newsletter-form input:focus { border-color:var(–peach); }
+.newsletter-form input::placeholder { color:var(–soft); }
+.newsletter-form button { background:var(–peach); color:white; border:none; padding:0.85rem 1.8rem; border-radius:2px; font-family:‘DM Sans’,sans-serif; font-size:0.85rem; font-weight:500; cursor:pointer; transition:background 0.18s; letter-spacing:0.03em; }
+.newsletter-form button:hover { background:var(–peach-light); }
+.newsletter-note { font-size:0.75rem; color:var(–soft); margin-top:1rem; }
 
 .work-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; margin-top:3rem; }
-.work-card { border:1px solid #ebebeb; border-radius:2px; padding:2rem 1.8rem; transition:border-color 0.2s; background-color: #fdf3ec; }
-.work-card:hover { border-color:var(--peach); }
-.work-num { font-size:1.5rem; color:var(--peach); font-family:'Cormorant Garamond',serif; font-weight:300; margin-bottom:1rem; }
-.work-title { font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--dark); margin-bottom:0.7rem; }
-.work-desc { font-size:0.85rem; line-height:1.7; color:var(--mid); font-weight:300; }
+.work-card { border:1px solid #ebebeb; border-radius:2px; padding:2rem 1.8rem; transition:border-color 0.2s; background-color:#fdf3ec; }
+.work-card:hover { border-color:var(–peach); }
+.work-num { font-size:1.5rem; color:var(–peach); font-family:‘Cormorant Garamond’,serif; font-weight:300; margin-bottom:1rem; }
+.work-title { font-family:‘Cormorant Garamond’,serif; font-size:1.2rem; color:var(–dark); margin-bottom:0.7rem; }
+.work-desc { font-size:0.85rem; line-height:1.7; color:var(–mid); font-weight:300; }
 .work-cta { text-align:center; margin-top:3.5rem; }
 
-footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:4rem; }
-.footer-brand { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.2rem; color:var(--peach-light); margin-bottom:1rem; }
+footer { background:var(–dark); color:white; padding:4rem 4rem 2rem; display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:4rem; }
+.footer-brand { font-family:‘Cormorant Garamond’,serif; font-style:italic; font-size:1.2rem; color:var(–peach-light); margin-bottom:1rem; }
 .footer-tagline { font-size:0.85rem; color:rgba(255,255,255,0.35); line-height:1.7; font-weight:300; }
 .footer-col-h { font-size:0.65rem; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.35); margin-bottom:1.2rem; font-weight:500; }
 .footer-links { list-style:none; display:flex; flex-direction:column; gap:0.65rem; }
 .footer-links a { font-size:0.86rem; color:rgba(255,255,255,0.5); text-decoration:none; font-weight:300; transition:color 0.18s; }
-.footer-links a:hover { color:var(--peach-light); }
-.footer-bottom { background:var(--dark); border-top:1px solid rgba(255,255,255,0.06); padding:1.5rem 4rem; display:flex; justify-content:space-between; align-items:center; }
+.footer-links a:hover { color:var(–peach-light); }
+.footer-bottom { background:var(–dark); border-top:1px solid rgba(255,255,255,0.06); padding:1.5rem 4rem; display:flex; justify-content:space-between; align-items:center; }
 .footer-copy { font-size:0.76rem; color:rgba(255,255,255,0.2); }
 .footer-email-link { font-size:0.76rem; color:rgba(255,255,255,0.3); text-decoration:none; transition:color 0.18s; }
-.footer-email-link:hover { color:var(--peach-light); }
+.footer-email-link:hover { color:var(–peach-light); }
 
 @keyframes fadeUp { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
-.hero-text > * { opacity:0; animation:fadeUp 0.7s ease forwards; }
-.hero-eyebrow { animation-delay:0.05s; }
-.hero-h1 { animation-delay:0.15s; }
-.hero-p { animation-delay:0.25s; }
-.hero-btns { animation-delay:0.35s; }
 
 .flip-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:3px; }
 .flip-wrap { display:block; height:380px; perspective:1000px; text-decoration:none; color:inherit; }
 .flip-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform 0.65s cubic-bezier(0.4,0.2,0.2,1); }
 .flip-wrap:hover .flip-inner, .flip-wrap:focus .flip-inner { transform:rotateX(180deg); }
 .flip-front, .flip-back { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; -webkit-transform:translateZ(0); transform:translateZ(0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2.5rem 2rem; text-align:center; -webkit-perspective:1000; perspective:1000; }
-.flip-front::after { content:''; position:absolute; inset:0; background:rgba(0,0,0,0.35); z-index:0; }
+.flip-front::after { content:’’; position:absolute; inset:0; background:rgba(0,0,0,0.35); z-index:0; }
 .flip-front-tag, .flip-front-title { position:relative; z-index:1; }
 .flip-back { transform:rotateX(180deg); }
 .flip-front-tag { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; color:rgba(255,255,255,0.6); margin-bottom:1rem; display:block; }
-.flip-front-title { font-family:'Cormorant Garamond',serif; font-size:1.7rem; font-weight:300; color:white; line-height:1.2; font-style:italic; }
+.flip-front-title { font-family:‘Cormorant Garamond’,serif; font-size:1.7rem; font-weight:300; color:white; line-height:1.2; font-style:italic; }
 .flip-back-tag { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:500; color:rgba(255,255,255,0.6); margin-bottom:0.8rem; display:block; }
-.flip-back-title { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:300; color:white; line-height:1.2; font-style:italic; margin-bottom:1rem; }
+.flip-back-title { font-family:‘Cormorant Garamond’,serif; font-size:1.5rem; font-weight:300; color:white; line-height:1.2; font-style:italic; margin-bottom:1rem; }
 .flip-back-desc { font-size:0.85rem; line-height:1.7; color:rgba(255,255,255,0.8); font-weight:300; margin-bottom:1.5rem; }
-.flip-back-btn { background:white; color:var(--dark); padding:0.65rem 1.6rem; border-radius:2px; font-size:0.78rem; font-weight:500; letter-spacing:0.04em; display:inline-block; cursor:pointer; transition:opacity 0.2s; }
+.flip-back-btn { background:white; color:var(–dark); padding:0.65rem 1.6rem; border-radius:2px; font-size:0.78rem; font-weight:500; letter-spacing:0.04em; display:inline-block; cursor:pointer; transition:opacity 0.2s; }
 .flip-back-btn:hover { opacity:0.85; }
 
 @media (max-width:600px) { .flip-grid { grid-template-columns:1fr; } .flip-wrap { height:300px; } }
 @media (max-width:960px) {
-  .sidebar { display:none; }
-  .main { margin-left:0; }
-  .topnav-right { display:none !important; }
-  .topnav-right.open { display:flex !important; flex-direction:column; align-items:flex-start; position:fixed; top:62px; left:0; right:0; background:white; border-bottom:1px solid #ebebeb; padding:1.5rem; gap:0.9rem; z-index:250; }
-  .hamburger { display:flex; }
-  .hero { grid-template-columns:1fr; }
-  .hero-text { padding:2.5rem 1.5rem 2rem; }
-  .hero-image { height:75vw; min-height:300px; }
-  .hero-image img { width:100%; height:100%; object-fit:cover; object-position:center center !important; display:block; }
-  .about-grid, .parenting-grid { grid-template-columns:1fr; gap:2.5rem; }
-  .testi-grid { grid-template-columns:1fr; }
-  .work-grid { grid-template-columns:1fr; }
-  #free .newsletter-inner > div { grid-template-columns:1fr !important; max-width:420px !important; }
- section { padding:3.5rem 1.5rem; }
-  .strip { padding:0.9rem 1.5rem; }
-  footer { grid-template-columns:1fr; padding:3rem 1.5rem 2rem; gap:2.5rem; }
-  .footer-bottom { padding:1.5rem; flex-direction:column; gap:0.5rem; text-align:center; }
+.sidebar { display:none; }
+.main { margin-left:0; }
+.topnav-right { display:none !important; }
+.nav-search-wrap { display:none !important; }
+.hamburger { display:flex; }
+.hero { grid-template-columns:1fr; }
+.hero-text { padding:2.5rem 1.5rem 2rem; }
+.hero-image { height:75vw; min-height:300px; }
+.hero-image img { width:100%; height:100%; object-fit:cover; object-position:center center !important; display:block; }
+.about-grid, .parenting-grid { grid-template-columns:1fr; gap:2.5rem; }
+.testi-grid { grid-template-columns:1fr; }
+.work-grid { grid-template-columns:1fr; }
+#free .newsletter-inner > div { grid-template-columns:1fr !important; max-width:420px !important; }
+section { padding:3.5rem 1.5rem; }
+.strip { padding:0.9rem 1.5rem; }
+footer { grid-template-columns:1fr; padding:3rem 1.5rem 2rem; gap:2.5rem; }
+.footer-bottom { padding:1.5rem; flex-direction:column; gap:0.5rem; text-align:center; }
 }
 </style>
+
 </head>
 <body>
 
-<nav class="topnav" id="topnav">
-  <a href="#"><img src="/IMG_7248.png" alt="Giulia Pacciotti" style="height:36px;display:block;"></a>
-  <button class="hamburger" onclick="toggleNav()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <ul class="topnav-right" id="navLinks">
-    <li><a href="/about/">About</a>
-    <li><a href="#programs">Programs</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="#free">Free Resources</a></li>
-    <li><a href="#contact" class="nav-btn">Contact</a></li>
+<!-- ─── NAV ─── -->
+
+<nav class="topnav">
+  <a href="/" class="topnav-logo"><img src="/IMG_7248.png" alt="Giulia Pacciotti"></a>
+
+  <!-- desktop links with dropdowns -->
+
+  <ul class="topnav-right">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+
+```
+<li>
+  <button class="nav-drop-btn" aria-haspopup="true">
+    Blog
+    <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+  <div class="drop-panel">
+    <ul>
+      <li><a href="/blog">All Posts</a></li>
+      <li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
+      <li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
+      <li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
+      <li><a href="/blog/category/income/">Smart Income</a></li>
+    </ul>
+  </div>
+</li>
+
+<li>
+  <button class="nav-drop-btn" aria-haspopup="true">
+    Courses
+    <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+  <div class="drop-panel">
+    <ul>
+      <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+      <li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
+    </ul>
+  </div>
+</li>
+
+<li><a href="#free">Free Resources</a></li>
+<li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
+```
+
   </ul>
+
+  <!-- search -->
+
+  <div class="nav-search-wrap">
+    <div class="search-form" id="searchForm">
+      <input type="search" placeholder="Search..." aria-label="Search">
+    </div>
+    <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
+      <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- hamburger (mobile only) -->
+
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
 
+<!-- ─── DRAWER ─── -->
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Navigation">
+  <button class="drawer-close" id="drawerClose" aria-label="Close menu">&#x2715;</button>
+  <ul class="drawer-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+    <li>
+      <button class="drawer-toggle" aria-expanded="false" id="blogToggle">
+        Blog
+        <svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+      <ul class="drawer-sub" id="blogSub">
+        <li><a href="/blog">All Posts</a></li>
+        <li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
+        <li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
+        <li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
+        <li><a href="/blog/category/income/">Smart Income</a></li>
+      </ul>
+    </li>
+    <li>
+      <button class="drawer-toggle" aria-expanded="false" id="coursesToggle">
+        Courses
+        <svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+      <ul class="drawer-sub" id="coursesSub">
+        <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+        <li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
+      </ul>
+    </li>
+    <li><a href="#free">Free Resources</a></li>
+    <li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
+  </ul>
+</div>
+
 <!-- HERO BRAND MARK -->
+
 <section id="home" style="min-height:28vh;display:flex;align-items:center;justify-content:center;flex-direction:column;border-bottom:1px solid #ebebeb;gap:2rem;padding:3rem 2rem;">
   <div style="display:flex;flex-direction:column;align-items:center;">
     <span style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(18px,3.5vw,28px);letter-spacing:10px;text-transform:uppercase;color:#ffffff;-webkit-text-stroke:0.8px #1c1c1a;line-height:1;">Keepers of the</span>
@@ -249,155 +369,202 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 
   <main class="main">
 
-   <section id="blog-preview" style="background:url('/IMG_7245.jpeg') center/cover no-repeat;position:relative;">
+```
+<section id="blog-preview" style="background:url('/IMG_7245.jpeg') center/cover no-repeat;position:relative;">
   <h2 class="sec-h2" style="text-align:center;color:white;">LATEST</h2>
   <div class="work-grid">
     {% for post in site.posts limit:3 %}
     <a href="{{ post.url }}" class="work-card" style="text-decoration:none;color:inherit;display:block;background:white;border-color:transparent;">
       {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;margin-bottom:1rem;">{% endif %}
       <h3 class="work-title" style="font-size:1.35rem;margin-bottom:0.5rem;">{{ post.title }}</h3>
-<p style="font-size:0.88rem;color:#999990;margin-top:0.4rem;">By Giulia Pacciotti &middot; {{ post.date | date: "%B %-d, %Y" }}</p>
- {% endfor %}
+      <p style="font-size:0.88rem;color:#999990;margin-top:0.4rem;">By Giulia Pacciotti &middot; {{ post.date | date: "%B %-d, %Y" }}</p>
+    </a>
+    {% endfor %}
     <a href="/blog/" class="btn-peach">Read the blog</a>
   </div>
 </section>
 
-    <section id="programs" style="padding:0;background:white;">
-      <div style="text-align:center;padding:3.5rem 2rem 2rem;">
-        <p class="sec-label peach">Programs &amp; Courses</p>
-        <h2 class="sec-h2">Ways to go <em>deeper</em></h2>
-        <p style="font-size:0.95rem;color:var(--mid);font-weight:300;max-width:500px;margin:0 auto;line-height:1.75;">Everything I'm building for people who are done with the default version.</p>
-      </div>
-      <div class="flip-grid">
+<section id="programs" style="padding:0;background:white;">
+  <div style="text-align:center;padding:3.5rem 2rem 2rem;">
+    <p class="sec-label peach">Programs &amp; Courses</p>
+    <h2 class="sec-h2">Ways to go <em>deeper</em></h2>
+    <p style="font-size:0.95rem;color:var(--mid);font-weight:300;max-width:500px;margin:0 auto;line-height:1.75;">Everything I'm building for people who are done with the default version.</p>
+  </div>
+  <div class="flip-grid">
 
-        <a href="http://blubell26.github.io/Keepers/" target="_blank" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:url(IMG_4094.jpeg) center/cover no-repeat;">
-              <span class="flip-front-tag">Waitlist Open</span>
-              <h3 class="flip-front-title">Keepers of the Wild Heart</h3>
-            </div>
-            <div class="flip-back" style="background:#1e3a2f;">
-              <span class="flip-back-tag">Course</span>
-              <h3 class="flip-back-title">Keepers of the Wild Heart</h3>
-              <p class="flip-back-desc">Four stages. The unlearning, the shadow, the rewiring, the rebuilding. A course born from a real journey of transformation.</p>
-              <span class="flip-back-btn">Join the waitlist</span>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://blubell26.github.io/Wildhearts/" target="_blank" class="flip-wrap">
-          <div class="flip-inner">
-            <div class="flip-front" style="background:url(IMG_7478.jpeg) center/cover no-repeat;">
-              <span class="flip-front-tag">Guide</span>
-              <h3 class="flip-front-title">WHR-Mastering the Inner Flame</h3>
-            </div>
-            <div class="flip-back" style="background:#e8956d;">
-              <span class="flip-back-tag">Guide</span>
-              <h3 class="flip-back-title">WHR-Mastering the Inner Flame</h3>
-              <p class="flip-back-desc">For the sincere seeker who knows something needs to change and is ready to stop waiting for permission to begin.</p>
-              <span class="flip-back-btn" style="color:#e8956d;">Explore the guide</span>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </section>
-  <section id="parenting">
-      <div class="parenting-grid">
-        <div>
-        <div class="parenting-aside">
-          <h3 class="parenting-aside-h">Keepers of the Wild Heart is about finding ways to live an intentional life without becoming outsiders in the process. Without limiting ourselves to an identity or a group.</h3>
-          <p>It is rejoining the flow of things that moves us to where we need to be, or the version of us we have to become. Takes what works, leaves the rest. Use logic but also free up your heart. Keeps things simple. And stays open enough to challenge what everyone else takes for granted.</p>
+    <a href="http://blubell26.github.io/Keepers/" target="_blank" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:url(IMG_4094.jpeg) center/cover no-repeat;">
+          <span class="flip-front-tag">Waitlist Open</span>
+          <h3 class="flip-front-title">Keepers of the Wild Heart</h3>
+        </div>
+        <div class="flip-back" style="background:#1e3a2f;">
+          <span class="flip-back-tag">Course</span>
+          <h3 class="flip-back-title">Keepers of the Wild Heart</h3>
+          <p class="flip-back-desc">Four stages. The unlearning, the shadow, the rewiring, the rebuilding. A course born from a real journey of transformation.</p>
+          <span class="flip-back-btn">Join the waitlist</span>
         </div>
       </div>
-    </section>
+    </a>
 
-    <section id="free" class="free" style="background-image:url('/IMG_7436.jpeg');background-size:cover;background-position:center;">
+    <a href="https://blubell26.github.io/Wildhearts/" target="_blank" class="flip-wrap">
+      <div class="flip-inner">
+        <div class="flip-front" style="background:url(IMG_7478.jpeg) center/cover no-repeat;">
+          <span class="flip-front-tag">Guide</span>
+          <h3 class="flip-front-title">WHR-Mastering the Inner Flame</h3>
+        </div>
+        <div class="flip-back" style="background:#e8956d;">
+          <span class="flip-back-tag">Guide</span>
+          <h3 class="flip-back-title">WHR-Mastering the Inner Flame</h3>
+          <p class="flip-back-desc">For the sincere seeker who knows something needs to change and is ready to stop waiting for permission to begin.</p>
+          <span class="flip-back-btn" style="color:#e8956d;">Explore the guide</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="parenting">
+  <div class="parenting-grid">
+    <div>
+    <div class="parenting-aside">
+      <h3 class="parenting-aside-h">Keepers of the Wild Heart is about finding ways to live an intentional life without becoming outsiders in the process. Without limiting ourselves to an identity or a group.</h3>
+      <p>It is rejoining the flow of things that moves us to where we need to be, or the version of us we have to become. Takes what works, leaves the rest. Use logic but also free up your heart. Keeps things simple. And stays open enough to challenge what everyone else takes for granted.</p>
+    </div>
+  </div>
+</section>
+
+<section id="free" class="free" style="background-image:url('/IMG_7436.jpeg');background-size:cover;background-position:center;">
   <div class="newsletter-inner">
     <p class="sec-label peach">Free Resources</p>
     <p class="newsletter-p" style="color:white;font-weight:700;">Available to download as PDF</p>
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin:0 auto 2rem;max-width:900px;text-align:left;">
-<div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
-    <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 01</p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">CONSCIOUS UNSCHOOLING - What if Learning looked like Living?</p>
-    <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">For parents who wish to raise their children outside the default settings. We've been unschooling for a decade. Watching my son learn through actual life has changed what I think education even is.</p>
-  </div>
-  <div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
-    <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 02</p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">THE FREEDOM LETTERS - Building Recurring Income Online</p>
-    <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">You've been told there's one way to earn. Basically trade your hours until there are none left. I questioned that. What I've learned when I did and a few starting points.</p>
-  </div>
-  <div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
-    <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 03</p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">OPT OUT OF MANDATORY VACCINES IN ITALY - Without the lawyer</p>
-    <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">What I said, what I did, what happened after. The legal basis, the responsibility paper, the step by step of a sovereign move.</p>
-</div>
-<form method="post" action="https://systeme.io/embedded/40878361/subscription" class="newsletter-form">
-  <input type="email" name="email" placeholder="your@email.com" required>
-  <input type="text" name="first_name" placeholder="First Name" required>
-  <button type="submit">Send me the guides</button>
-</form>
-  </div>
-</section>
-    
-  </div>
-</section>
-
-    <section id="contact" style="background-image: url('IMG_7151.png'); background-size: cover; background-position: center;">
-      <p class="sec-label peach" style="text-align:center;">Work With Me</p>
-      <div style="max-width:480px; margin: 3rem auto 0;">
-        <div class="work-card">
-          <h3 class="work-title">1:1 Sessions</h3>
-          <p class="work-desc">For people building something different and wanting a thinking partner. Unschooling, life design, parenting, natural healing, income structure. Send me an email explaining where you are at. I'll get back to you.</p>
-        </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin:0 auto 2rem;max-width:900px;text-align:left;">
+      <div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
+        <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 01</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">CONSCIOUS UNSCHOOLING - What if Learning looked like Living?</p>
+        <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">For parents who wish to raise their children outside the default settings. We've been unschooling for a decade. Watching my son learn through actual life has changed what I think education even is.</p>
       </div>
-      <div class="work-cta">
-        <a href="mailto:hello@giuliapacciotti.com" class="btn-peach">hello@giuliapacciotti.com</a>
+      <div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
+        <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 02</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">THE FREEDOM LETTERS - Building Recurring Income Online</p>
+        <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">You've been told there's one way to earn. Basically trade your hours until there are none left. I questioned that. What I've learned when I did and a few starting points.</p>
       </div>
-    </section>
-
-    <footer>
-      <div>
-        <p class="footer-brand"><img src="/IMG_7242.jpeg" alt="" style="height:54px;width:54px;object-fit:contain;vertical-align:middle;margin-right:0.6rem;border-radius:50%;">Keepers of the Wild Heart</p>
-        <p class="footer-tagline">A space for wild, unconventional lives. KOWH offers a wealth of content ranging from psycho-spirituality to body healing and unschooling realities</p>
+      <div style="background:white;padding:1.4rem 1.6rem;border-radius:2px;">
+        <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--peach);font-weight:500;margin-bottom:0.4rem;">Guide 03</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--dark);font-weight:400;line-height:1.3;margin-bottom:0.5rem;">OPT OUT OF MANDATORY VACCINES IN ITALY - Without the lawyer</p>
+        <p style="font-size:0.85rem;line-height:1.7;color:var(--mid);font-weight:300;">What I said, what I did, what happened after. The legal basis, the responsibility paper, the step by step of a sovereign move.</p>
       </div>
-      <div>
-        <p class="footer-col-h">Programs</p>
-        <ul class="footer-links">
-          <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
-          <li><a href="https://blubell26.github.io/Wildhearts" target="_blank">Wild Hearts Rising</a></li>
-          <li><a href="#free">Get Free Guides</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footer-col-h">Find me</p>
-        <ul class="footer-links">
-          <li><a href="#contact">Work with me</a></li>
-          <li><a href="mailto:hello@giuliapacciotti.com">hello@giuliapacciotti.com</a></li>
-          <li><a href="https://www.facebook.com/share/1EuVqfmLh2/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
-          <li><a href="https://www.instagram.com/blubell2609" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-    </footer>
-    <div class="footer-bottom">
-      <p class="footer-copy">© 2025 Giulia Pacciotti. Keepers of the Wild Heart.</p>
-      <a href="mailto:hello@giuliapacciotti.com" class="footer-email-link">hello@giuliapacciotti.com</a>
     </div>
+    <form method="post" action="https://systeme.io/embedded/40878361/subscription" class="newsletter-form">
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <button type="submit">Send me the guides</button>
+    </form>
+  </div>
+</section>
+
+<section id="contact" style="background-image:url('IMG_7151.png');background-size:cover;background-position:center;">
+  <p class="sec-label peach" style="text-align:center;">Work With Me</p>
+  <div style="max-width:480px;margin:3rem auto 0;">
+    <div class="work-card">
+      <h3 class="work-title">1:1 Sessions</h3>
+      <p class="work-desc">For people building something different and wanting a thinking partner. Unschooling, life design, parenting, natural healing, income structure. Send me an email explaining where you are at. I'll get back to you.</p>
+    </div>
+  </div>
+  <div class="work-cta">
+    <a href="mailto:hello@giuliapacciotti.com" class="btn-peach">hello@giuliapacciotti.com</a>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <p class="footer-brand"><img src="/IMG_7242.jpeg" alt="" style="height:54px;width:54px;object-fit:contain;vertical-align:middle;margin-right:0.6rem;border-radius:50%;">Keepers of the Wild Heart</p>
+    <p class="footer-tagline">A space for wild, unconventional lives. KOWH offers a wealth of content ranging from psycho-spirituality to body healing and unschooling realities</p>
+  </div>
+  <div>
+    <p class="footer-col-h">Programs</p>
+    <ul class="footer-links">
+      <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+      <li><a href="https://blubell26.github.io/Wildhearts" target="_blank">Wild Hearts Rising</a></li>
+      <li><a href="#free">Get Free Guides</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-col-h">Find me</p>
+    <ul class="footer-links">
+      <li><a href="#contact">Work with me</a></li>
+      <li><a href="mailto:hello@giuliapacciotti.com">hello@giuliapacciotti.com</a></li>
+      <li><a href="https://www.facebook.com/share/1EuVqfmLh2/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com/blubell2609" target="_blank">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p class="footer-copy">© 2025 Giulia Pacciotti. Keepers of the Wild Heart.</p>
+  <a href="mailto:hello@giuliapacciotti.com" class="footer-email-link">hello@giuliapacciotti.com</a>
+</div>
+```
 
   </main>
 </div>
 
 <script>
-function toggleNav() {
-  document.getElementById('navLinks').classList.toggle('open');
+// ─── DRAWER ───
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const drawer = document.getElementById('drawer');
+const drawerClose = document.getElementById('drawerClose');
+const drawerOverlay = document.getElementById('drawerOverlay');
+
+function openDrawer() {
+  drawer.classList.add('open');
+  drawerOverlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
-document.querySelectorAll('#navLinks a').forEach(a => {
-  a.addEventListener('click', () => {
-    document.getElementById('navLinks').classList.remove('open');
+function closeDrawer() {
+  drawer.classList.remove('open');
+  drawerOverlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+hamburgerBtn.addEventListener('click', openDrawer);
+drawerClose.addEventListener('click', closeDrawer);
+drawerOverlay.addEventListener('click', closeDrawer);
+
+function setupToggle(btnId, subId) {
+  const btn = document.getElementById(btnId);
+  const sub = document.getElementById(subId);
+  btn.addEventListener('click', function() {
+    const isOpen = sub.classList.contains('open');
+    document.querySelectorAll('.drawer-sub').forEach(s => s.classList.remove('open'));
+    document.querySelectorAll('.drawer-toggle').forEach(b => {
+      b.classList.remove('expanded');
+      b.setAttribute('aria-expanded','false');
+    });
+    if (!isOpen) {
+      sub.classList.add('open');
+      btn.classList.add('expanded');
+      btn.setAttribute('aria-expanded','true');
+    }
   });
+}
+setupToggle('blogToggle','blogSub');
+setupToggle('coursesToggle','coursesSub');
+
+document.querySelectorAll('.drawer-sub a, .drawer-nav > li > a').forEach(a => {
+  a.addEventListener('click', closeDrawer);
 });
 
+// ─── SEARCH ───
+const searchToggle = document.getElementById('searchToggle');
+const searchForm = document.getElementById('searchForm');
+searchToggle.addEventListener('click', () => {
+  searchForm.classList.toggle('open');
+  if (searchForm.classList.contains('open')) searchForm.querySelector('input').focus();
+});
+
+// ─── FLIP CARDS ───
 const allCards = document.querySelectorAll('.flip-wrap');
 
 function closeAll(except) {
@@ -447,6 +614,7 @@ document.addEventListener('click', function() {
   closeAll(null);
 });
 
+// ─── SIDEBAR ACTIVE ───
 const sections = document.querySelectorAll('section[id], div[id]');
 const sidebarLinks = document.querySelectorAll('.sidebar a');
 window.addEventListener('scroll', () => {
@@ -460,5 +628,6 @@ window.addEventListener('scroll', () => {
   });
 });
 </script>
+
 </body>
 </html>
