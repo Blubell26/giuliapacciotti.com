@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="IMG_7227.jpeg">
 <link rel="apple-touch-icon" href="IMG_7227.jpeg">
+<link rel="stylesheet" href="/assets/css/navigation.css">
 <style>
 :root{--peach:#e8956d;--peach-light:#f2b899;--peach-pale:#fdf3ec;--teal:#2d6b6b;--teal-pale:#eaf3f3;--dark:#1c1c1a;--mid:#4a4a46;--soft:#999990;--offwhite:#fafaf7;}
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -111,101 +112,7 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);padding-
 </head>
 <body>
 
-<!-- ─── NAV ─── -->
-<nav class="topnav">
-  <a href="/" class="topnav-logo">
-  <img src="/IMG_7248.png" alt="Keepers of the Wild Heart">
-  
-  <!-- desktop links with dropdowns -->
-  <ul class="topnav-right">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/" class="active">About</a></li>
-
-    <li>
-      <button class="nav-drop-btn" aria-haspopup="true">
-        Blog
-        <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-      </button>
-      <div class="drop-panel">
-        <ul>
-          <li><a href="/blog">All Posts</a></li>
-          <li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
-          <li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
-          <li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
-          <li><a href="/blog/category/income/">Smart Income</a></li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <button class="nav-drop-btn" aria-haspopup="true">
-        Courses
-        <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-      </button>
-      <div class="drop-panel">
-        <ul>
-          <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
-          <li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
-        </ul>
-      </div>
-    </li>
-
-    <li><a href="/#free">Free Resources</a></li>
-    <li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
-  </ul>
-
-  <!-- search -->
-  <div class="nav-search-wrap">
-    <div class="search-form" id="searchForm">
-      <input type="search" placeholder="Search..." aria-label="Search">
-    </div>
-    <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
-      <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- hamburger (mobile only) -->
-  <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<!-- ─── DRAWER ─── -->
-<div class="drawer-overlay" id="drawerOverlay"></div>
-<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Navigation">
-  <button class="drawer-close" id="drawerClose" aria-label="Close menu">&#x2715;</button>
-  <ul class="drawer-nav">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/" class="active">About</a></li>
-    <li>
-      <button class="drawer-toggle" aria-expanded="false" id="blogToggle">
-        Blog
-        <svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
-      <ul class="drawer-sub" id="blogSub">
-        <li><a href="/blog">All Posts</a></li>
-        <li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
-        <li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
-        <li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
-        <li><a href="/blog/category/income/">Smart Income</a></li>
-      </ul>
-    </li>
-    <li>
-      <button class="drawer-toggle" aria-expanded="false" id="coursesToggle">
-        Courses
-        <svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
-      <ul class="drawer-sub" id="coursesSub">
-        <li><a href="http://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
-        <li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
-      </ul>
-    </li>
-    <li><a href="/#free">Free Resources</a></li>
-    <li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
-  </ul>
-</div>
+{% include header.html %}
 
 <!-- ─── HERO ─── -->
 <div style="position:relative;width:100%;height:100px;background:url('/IMG_7225.jpeg') center/cover no-repeat;">
@@ -251,60 +158,7 @@ body{font-family:'DM Sans',sans-serif;background:#fff;color:var(--dark);padding-
   </div>
 </div>
 
-<script>
-const hamburgerBtn = document.getElementById('hamburgerBtn');
-const drawer = document.getElementById('drawer');
-const drawerClose = document.getElementById('drawerClose');
-const drawerOverlay = document.getElementById('drawerOverlay');
-
-function openDrawer() {
-  drawer.classList.add('open');
-  drawerOverlay.classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-function closeDrawer() {
-  drawer.classList.remove('open');
-  drawerOverlay.classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-hamburgerBtn.addEventListener('click', openDrawer);
-drawerClose.addEventListener('click', closeDrawer);
-drawerOverlay.addEventListener('click', closeDrawer);
-
-function setupToggle(btnId, subId) {
-  const btn = document.getElementById(btnId);
-  const sub = document.getElementById(subId);
-  btn.addEventListener('click', function() {
-    const isOpen = sub.classList.contains('open');
-    document.querySelectorAll('.drawer-sub').forEach(s => s.classList.remove('open'));
-    document.querySelectorAll('.drawer-toggle').forEach(b => {
-      b.classList.remove('expanded');
-      b.setAttribute('aria-expanded','false');
-    });
-    if (!isOpen) {
-      sub.classList.add('open');
-      btn.classList.add('expanded');
-      btn.setAttribute('aria-expanded','true');
-    }
-  });
-}
-setupToggle('blogToggle','blogSub');
-setupToggle('coursesToggle','coursesSub');
-
-document.querySelectorAll('.drawer-sub a, .drawer-nav > li > a').forEach(a => {
-  a.addEventListener('click', closeDrawer);
-});
-
-// search toggle
-const searchToggle = document.getElementById('searchToggle');
-const searchForm = document.getElementById('searchForm');
-searchToggle.addEventListener('click', () => {
-  searchForm.classList.toggle('open');
-  if (searchForm.classList.contains('open')) searchForm.querySelector('input').focus();
-});
-</script>
+{% include header-script.html %}
+  
 </body>
 </html>
-HTMLEOF
-echo "done"
