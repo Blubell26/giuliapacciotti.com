@@ -3,8 +3,9 @@ layout: post
 title: Home Is a Place You Are
 description: Minimalist vanlife with kids — what we gave up, what replaced it, and why owning less keeps making life bigger.
 date: 2026-03-30
-image: images/fits-in-a-van.png
-thumb: images/fits-in-a-van.png
+image: images/IMG_2616.jpeg
+thumb: images/IMG_2616.jpeg
+category: parenting-unschooling
 ---
 
 
