@@ -21,19 +21,19 @@ That’s it. That’s the whole strategy.
 
 We live inside a world that treats your life as an ongoing renovation. More house. Better car. Nicer holiday. A wardrobe that finally reflects who you’re becoming. And somehow you’re always one purchase away from feeling like you’ve arrived.
 
-The project never ends because it was never designed to end. The economy depends on you never quite getting there. On you remaining, perpetually, almost there.
+The project never ends because it was never designed to end. The economy depends on you never getting there. On you remaining, perpetually, almost there.
 
 And the sneakiest version of this trap is not peer pressure or advertising, though those play their part. It’s the invisible script about what someone at your stage of life is supposed to be spending. The idea that a certain level of expenditure is simply appropriate. Mature. Responsible, even.
 
 You stop inflating your expenses to match your actual income and start inflating them to match your imagined future income. Or to match the social altitude you feel you inhabit, or aspire to. The spending happens before the money arrives, justified by a story about who you’re becoming.
 
-That’s where most people bleed out financially. Not on luxuries. On the baseline they’ve quietly accepted as normal.
+That’s where most people bleed out financially. On the baseline they’ve accepted as normal. 
 
 ## What compulsive spending is actually doing
 
 I’m not interested in splurging. Been there, bought the shirt. Literally. And I’ve come to think that compulsive spending is just what deep soul-holes look like when they’re dressed up as a lifestyle.
 
-This is not a moral judgment. It’s an observation about function.
+This is not a moral judgment but an observation about function.
 
 When we buy things we don’t need, we are usually buying feelings we can’t access any other way. A sense of agency. A momentary hit of identity. The feeling, however brief, of deserving something good. Shopping gives you a quick answer to the question of who you are and whether your life is working.
 
@@ -49,7 +49,7 @@ This sounds obvious and it is. But knowing something and actually doing it are d
 
 What it actually looks like, from the inside, is spaciousness.
 
-When your costs are genuinely low, a modest income is genuinely sufficient. You are not running to stand still. You are not working to pay for the life you need in order to keep working. The months stop feeling like a countdown to the next salary. Time opens up. And time is the only resource that cannot be manufactured.
+When your costs are genuinely low, a modest income is sufficient. You are not running to stand still. You are not working to pay for the life you need in order to keep working. The months stop feeling like a countdown to the next salary. Time opens up. And time is the only resource that cannot be manufactured.
 
 This is where real building becomes possible. Not the building that happens in the margins of exhaustion, squeezed between obligations. Actual creative work, actual learning, actual accumulation of something that compounds.
 
@@ -73,6 +73,6 @@ Real freedom isn’t unlimited money. It’s remembering what unlimited actually
 
 And discovering that it has nothing to do with what’s in your account.
 
-That’s the whole strategy. Keep the costs low. Let modest feel like plenty. Use the time that opens up for something that actually matters to you.
+That’s the whole strategy. Keep the costs low. Let enough feel like plenty and find unlimitlessness not in things but in yourself. Use the time that opens up for something that actually matters to you.
 
 It’s not complicated. It’s just rare.
