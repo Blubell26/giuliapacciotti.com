@@ -191,6 +191,70 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 </head>
 <body>
 
+  <script>
+const allCards = document.querySelectorAll('.flip-wrap');
+
+function closeAll(except) {
+  allCards.forEach(c => {
+    if (c !== except) {
+      c.querySelector('.flip-inner').style.transform = '';
+    }
+  });
+}
+
+allCards.forEach(card => {
+  const inner = card.querySelector('.flip-inner');
+  const front = card.querySelector('.flip-front');
+  const back = card.querySelector('.flip-back');
+  const btn = card.querySelector('.flip-back-btn');
+  const href = card.getAttribute('href');
+
+  card.removeAttribute('href');
+  card.style.cursor = 'pointer';
+
+  if (btn && href) {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (href.startsWith('mailto') || href.startsWith('http')) {
+        window.open(href, '_blank');
+      } else {
+        document.querySelector(href).scrollIntoView({behavior:'smooth'});
+      }
+    });
+  }
+
+  front.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closeAll(card);
+    inner.style.transform = 'rotateX(180deg)';
+  });
+
+  back.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (e.target !== btn && !btn.contains(e.target)) {
+      inner.style.transform = '';
+    }
+  });
+});
+
+document.addEventListener('click', function() {
+  closeAll(null);
+});
+
+const sections = document.querySelectorAll('section[id], div[id]');
+const sidebarLinks = document.querySelectorAll('.sidebar a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(sec => {
+    if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+  });
+  sidebarLinks.forEach(a => {
+    a.classList.remove('active');
+    if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+  });
+});
+</script>
+
 {% include header.html %}
 
 <!-- HERO BRAND MARK -->
