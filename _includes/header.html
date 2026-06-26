@@ -1,1 +1,148 @@
+<!-- ─── NAV ─── -->
+<nav class="topnav">
+  <a href="/" class="topnav-logo">
+    <img src="/IMG_7248.png" alt="Keepers of the Wild Heart">
+  </a>
 
+  <ul class="topnav-right">
+    <li>
+      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+    </li>
+
+    <li>
+      <a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a>
+    </li>
+
+    <li>
+      <button class="nav-drop-btn" aria-haspopup="true">
+        Blog
+        <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+
+      <div class="drop-panel">
+        <ul>
+          <li><a href="/blog/">All Posts</a></li>
+          <li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
+          <li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
+          <li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
+          <li><a href="/blog/category/income/">Smart Income</a></li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <button class="nav-drop-btn" aria-haspopup="true">
+        Courses
+        <svg class="drop-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+
+      <div class="drop-panel">
+        <ul>
+          <li><a href="https://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+          <li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
+        </ul>
+      </div>
+    </li>
+
+    <li><a href="/#free">Free Resources</a></li>
+
+    <li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
+  </ul>
+
+  <div class="nav-search-wrap">
+    <div class="search-form" id="searchForm">
+      <input type="search" placeholder="Search..." aria-label="Search">
+    </div>
+
+    <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
+      <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+    </button>
+  </div>
+
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Navigation">
+
+<button class="drawer-close" id="drawerClose" aria-label="Close menu">&#x2715;</button>
+
+<ul class="drawer-nav">
+
+<li><a href="/">Home</a></li>
+
+<li><a href="/about/">About</a></li>
+
+<li>
+
+<button class="drawer-toggle" aria-expanded="false" id="blogToggle">
+
+Blog
+
+<svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+<polyline points="9 18 15 12 9 6"/>
+
+</svg>
+
+</button>
+
+<ul class="drawer-sub" id="blogSub">
+
+<li><a href="/blog/">All Posts</a></li>
+
+<li><a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a></li>
+
+<li><a href="/blog/category/parenting-unschooling/">Unschooling &amp; Parenting</a></li>
+
+<li><a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a></li>
+
+<li><a href="/blog/category/income/">Smart Income</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<button class="drawer-toggle" id="coursesToggle">
+
+Courses
+
+<svg class="drawer-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+<polyline points="9 18 15 12 9 6"/>
+
+</svg>
+
+</button>
+
+<ul class="drawer-sub" id="coursesSub">
+
+<li><a href="https://blubell26.github.io/Keepers/" target="_blank">Keepers of the Wild Heart</a></li>
+
+<li><a href="https://blubell26.github.io/Wildhearts/" target="_blank">Mastering the Inner Flame</a></li>
+
+</ul>
+
+</li>
+
+<li><a href="/#free">Free Resources</a></li>
+
+<li><a href="mailto:hello@giuliapacciotti.com">Contact</a></li>
+
+</ul>
+
+</div>
