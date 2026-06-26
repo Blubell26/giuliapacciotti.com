@@ -3,8 +3,8 @@ layout: post
 title: Freedom Has Nothing to Do With Your Bank Account
 description: The best financial decision has nothing to do with earning more. It has to do with deciding what enough means.How keeping your costs low unlocks more time, freedom, and real financial security than earning more ever could.
 date: 2025-09-09
-image: 
-thumb: 
+image: images/IMG_7330.jpeg
+thumb: images/IMG_7330.jpeg
 category: income
 ---
 
@@ -13,7 +13,7 @@ category: income
 
 The best financial decision I ever made had nothing to do with earning more.
 
-It was finding a way to keep my costs low enough that a modest income felt like plenty. Which freed up time. Which gave me space to actually learn and start building something real instead of chasing carrots at the end of the month.
+It was finding a way to keep my costs low enough that a modest income felt like plenty. Which freed up time to stay with my son. Which gave me space to actually learn and start building something real instead of chasing carrots at the end of the month.
 
 That’s it. That’s the whole strategy.
 
