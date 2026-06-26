@@ -220,3 +220,294 @@ margin:auto;
 padding:5rem 1.5rem;
 
 }
+  
+.post-card{
+
+display:grid;
+
+grid-template-columns:320px 1fr;
+
+gap:2.5rem;
+
+align-items:center;
+
+margin-bottom:5rem;
+
+padding-bottom:5rem;
+
+border-bottom:1px solid #ececec;
+
+}
+
+.post-image{
+
+width:100%;
+
+height:240px;
+
+object-fit:cover;
+
+border-radius:8px;
+
+transition:.35s;
+
+}
+
+.post-card:hover .post-image{
+
+transform:scale(1.02);
+
+}
+
+.post-category{
+
+font-size:.72rem;
+
+letter-spacing:.18em;
+
+text-transform:uppercase;
+
+color:var(--peach);
+
+font-weight:500;
+
+margin-bottom:1rem;
+
+}
+
+.post-title{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:clamp(2rem,4vw,2.8rem);
+
+font-weight:300;
+
+line-height:1.15;
+
+margin-bottom:1rem;
+
+transition:.25s;
+
+}
+
+.post-card:hover .post-title{
+
+color:var(--peach);
+
+}
+
+.post-date{
+
+font-size:.82rem;
+
+color:var(--soft);
+
+margin-bottom:1.3rem;
+
+}
+
+.post-excerpt{
+
+font-size:1rem;
+
+line-height:1.9;
+
+color:var(--mid);
+
+margin-bottom:1.5rem;
+
+}
+
+.read-more{
+
+display:inline-block;
+
+font-size:.82rem;
+
+letter-spacing:.15em;
+
+text-transform:uppercase;
+
+color:var(--peach);
+
+font-weight:500;
+
+}
+
+.read-more:hover{
+
+color:var(--peach-dark);
+
+}
+
+@media(max-width:800px){
+
+.hero{
+
+height:300px;
+
+}
+
+.category-nav{
+
+gap:1rem;
+
+}
+
+.post-card{
+
+grid-template-columns:1fr;
+
+gap:1.8rem;
+
+margin-bottom:4rem;
+
+padding-bottom:4rem;
+
+}
+
+.post-image{
+
+height:240px;
+
+}
+
+.post-title{
+
+font-size:2.1rem;
+
+}
+
+.content{
+
+padding:3rem 1.5rem;
+
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+
+<a href="/">
+
+<img src="/IMG_7248.png" class="site-logo">
+
+</a>
+
+</div>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="hero-label">
+
+{% if page.category %}
+CATEGORY ARCHIVE
+{% else %}
+FROM THE BLOG
+{% endif %}
+
+</div>
+
+<h1>
+
+{% if page.category %}
+{{ page.title }}
+{% else %}
+From the Blog
+{% endif %}
+
+</h1>
+
+<p>
+
+{% if page.description %}
+{{ page.description }}
+{% else %}
+Reflections on my journey out of a broken system. Unschooling, inner work, sovereign living, smart financial moves. One realisation at a time.
+{% endif %}
+
+</p>
+
+</div>
+
+</section>
+
+<nav class="category-nav">
+
+<a href="/blog/">All Posts</a>
+
+<a href="/blog/category/psycho-spiritual/">Psycho-Spiritual</a>
+
+<a href="/blog/category/parenting-unschooling/">Parenting &amp; Unschooling</a>
+
+<a href="/blog/category/natural-healing/">Health &amp; Sovereignty</a>
+
+<a href="/blog/category/income/">Smart Income</a>
+
+</nav>
+
+<div class="content">
+
+{% if page.category %}
+    {% assign posts = site.posts | where: "category", page.category %}
+{% else %}
+    {% assign posts = site.posts %}
+{% endif %}
+
+{% for post in posts %}
+
+<article class="post-card">
+
+    <a href="{{ post.url }}">
+
+        {% if post.image %}
+        <img
+            src="/{{ post.image }}"
+            alt="{{ post.title }}"
+            class="post-image">
+        {% endif %}
+
+    </a>
+
+    <div>
+
+        <div class="post-category">
+            {{ post.category | replace: "-", " " | upcase }}
+        </div>
+
+        <a href="{{ post.url }}">
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+        </a>
+
+        <div class="post-date">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </div>
+
+        <div class="post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 35 }}
+        </div>
+
+        <a class="read-more" href="{{ post.url }}">
+            Read article →
+        </a>
+
+    </div>
+
+</article>
+
+{% endfor %}
+
+</div>
+
+</body>
+</html>
