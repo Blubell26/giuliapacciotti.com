@@ -5,7 +5,7 @@ description: We’re told that money gives us choices. But what if the choices w
 date: 2025-03-19
 image: IMG_7150.png
 thumb: IMG_7150.png
-category: psycho-spiritual/income
+category: income
 ---
 
 *On trust, desire, and why money was never the real question.*
