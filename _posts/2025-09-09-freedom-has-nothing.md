@@ -9,7 +9,7 @@ category: income
 ---
 
 
-*On keeping costs intentionally low, soul-holes dressed as lifestyles, and the quiet mathematics of enough.*
+*On soul-holes dressed as lifestyles, and the quiet mathematics of enough.*
 
 The best financial decision I ever made had nothing to do with earning more.
 
