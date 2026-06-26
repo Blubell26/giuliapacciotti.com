@@ -5,6 +5,7 @@ description: We have become very good at making symptoms disappear. But disappea
 date: 2024-11-05
 image: images/IMG_7485.png
 thumb: images/IMG_7485.png
+category: natural healing
 ---
 
 
