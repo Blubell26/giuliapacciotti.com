@@ -2,9 +2,10 @@
 layout: post
 title: You Are on a Journey to Nowhere
 description: Heaven is nowhere. Put a space between the w and the h and you’ll see it differently. On the present moment and why we keep missing it.
-date: 2025-09-25
-image: images/nowhere-now-here.png
-thumb: images/nowhere-now-here.png
+date: 2025-10-16
+image: 
+thumb: 
+category: psycho-spiritual
 ---
 
 *On heaven, the present moment, and the only place anything real has ever happened.*
