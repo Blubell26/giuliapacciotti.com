@@ -2,7 +2,7 @@
 layout: post
 title: Supplementation Is Not a Shortcut
 description: The supplement industry would have us believe that the right pill fills the gap. Sometimes it does. But a depleted body in a depleting life needs more than a capsule. On what supplementation can and cannot do, and where it actually fits.
-date: 2025-04-09
+date: 2025-08-03
 image: images/IMG_7622.jpeg
 thumb: images/IMG_7622.jpeg
 category: natural-healing
