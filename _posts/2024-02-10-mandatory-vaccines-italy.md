@@ -3,8 +3,8 @@ layout: post
 title: "How I Opted Out of Mandatory Vaccines in Italy. And What Happened After."
 description: "In 2018 vaccines became mandatory in Italy. I didn't vaccinate my son. No fines, no lost enrollment. Here's exactly what happened."
 date: 2024-02-10
-image: IMG_7122.jpeg
-thumb: IMG_7122.jpeg
+image: 
+thumb: 
 category: natural-healing
 ---
 
