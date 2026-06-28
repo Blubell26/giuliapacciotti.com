@@ -3,8 +3,8 @@ layout: post
 title: The Word They Use When You Stop Giving Yourself Away
 description: “On the accusation of selfishness, the body’s old response to it, and what it means to finally let it land and watch it fall.”
 date: 2025-11-21
-image: 
-thumb: 
+image: images/IMG_7713.jpeg
+thumb: images/IMG_7713.jpeg
 category: psycho-spiritual
 ---
 
