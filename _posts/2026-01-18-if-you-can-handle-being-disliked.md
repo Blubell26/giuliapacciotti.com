@@ -4,8 +4,8 @@ layout: post
 title: If You Can Handle Being Disliked
 description: I let many people set their own projections on me. I know the guilt, the confusion, the mental overload. On what changes when you stop needing everyone’s approval.
 date: 2025-08-14
-image: 
-thumb: 
+image: images/IMG_7710.jpeg
+thumb: images/IMG_7710.jpeg
 category: psycho-spiritual
 ---
 
