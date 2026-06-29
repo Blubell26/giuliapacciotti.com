@@ -3,8 +3,8 @@ layout: post
 title: “The Natural Way of Things”
 description: There is the natural way of things and then there is everything else. On simple living, noise, distraction, and why the oldest path is still the clearest one.
 date: 2025-11-08
-image: 
-thumb: 
+image: images/IMG_7797.jpeg
+thumb: images/IMG_7797.jpeg
 category: psycho-spiritual
 ---
 
