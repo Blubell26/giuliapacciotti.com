@@ -44,4 +44,4 @@ I take the greens, the magnesium, and the vegan protein. I notice the difference
 
 If cost has been what has kept you from taking your nutritional health seriously, there may be an option you haven’t seen yet.
 
-*You can find what I use and recommend [here](https://livegoodtour.com/Blubell).*
+*You can find what I use and recommend [here](https://www.livegood.com/Blubell)).*
