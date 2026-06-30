@@ -3,8 +3,8 @@ layout: post
 title: What Four Winters Without Heating Taught Me
 description: Four winters ago I stopped using heating. Not as a practice, not as a challenge. Just to see what would happen. What I found was a body that knew exactly what to do when I finally stopped interrupting it.
 date: 2025-12-28
-image: images/post19-hero.png
-thumb: images/post19-thumb.png
+image: images/IMG_7864.jpeg
+thumb: images/IMG_7864.jpeg
 category: natural-healing
 ---
 
