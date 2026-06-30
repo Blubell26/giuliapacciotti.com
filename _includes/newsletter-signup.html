@@ -1,1 +1,40 @@
+<div class="newsletter-popup" id="newsletter-popup">
+  <button class="newsletter-close" id="newsletter-close" aria-label="Close">&times;</button>
+  <div class="newsletter-banner" style="background-image: url('/newsletter-banner.jpg');">
+    <div class="newsletter-text">
+      <h3>Subscribe to Keepers of the Wild Heart</h3>
+      <p>Receive notifications of new posts and reflections</p>
+    </div>
+  </div>
+  <div class="newsletter-form">
+    <form method="post" action="https://systeme.io/embedded/42189254/subscription" class="newsletter-form-inner">
+      <input type="text" name="surname" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <button type="submit" class="newsletter-submit">Submit</button>
+    </form>
+  </div>
+</div>
 
+<script>
+(function() {
+  var popup = document.getElementById('newsletter-popup');
+  var closeBtn = document.getElementById('newsletter-close');
+  if (!popup) return;
+
+  // Don't show again if already dismissed or submitted in the last 7 days
+  var dismissed = localStorage.getItem('newsletterDismissedAt');
+  var sevenDays = 7 * 24 * 60 * 60 * 1000;
+  if (dismissed && (Date.now() - parseInt(dismissed, 10) < sevenDays)) {
+    return;
+  }
+
+  setTimeout(function() {
+    popup.classList.add('newsletter-visible');
+  }, 30000);
+
+  closeBtn.addEventListener('click', function() {
+    popup.classList.remove('newsletter-visible');
+    localStorage.setItem('newsletterDismissedAt', Date.now().toString());
+  });
+})();
+</script>
