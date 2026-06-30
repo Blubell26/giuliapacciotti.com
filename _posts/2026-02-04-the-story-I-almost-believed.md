@@ -12,19 +12,10 @@ category: income
 
 *On the seduction of a particular promise, and what it’s actually pointing to.*
 
-A few months ago I would have scrolled past a post like this and thought not for me.
-
-Then one day I didn’t scroll past it. I stopped. I read the whole thing. I felt something move in me that I wasn’t expecting, something that felt almost like hope, and I sat with that feeling long enough to get curious about it.
-
-Not about the offer. About the feeling.
-
-Because that’s where the real information was.
-
-## The Post That Almost Got Me
 
 You’ve seen the format. Money is energy. When you’re in overflow, everyone around you benefits. Your nervous system unclenches. You stop running the numbers at 2am. You get to say yes to your kids, yes to yourself, yes to the causes that matter to you. You start feeling excited about your own future again.
 
-I read that and something in me leaned toward it.Truly.
+I read that and something in me leaned toward it. Truly.
 
 And I know myself well enough by now to know that when something pulls at me like that, it’s worth slowing down. Just to understand what it’s touching.
 
@@ -74,6 +65,6 @@ Not to feel superior to the people who do believe it. I’m not. I understand ex
 
 I write this because I think a lot of us are looking for that one thing. And I think the search for the one thing sometimes keeps us from the actual work, which is slower and less linear and doesn’t have a sales funnel attached to it.
 
-The life I want — the calm, the presence, the genuine capacity to give — I’m building it. Not by waiting for the number to change. By changing how I relate to what’s already here.
+The life I want — the calm, the presence, the genuine capacity to give — I’m building it. Not by waiting for a number to change. By changing how I relate to what’s already here, in this present moment, whatever is it.
 
 That’s the less exciting version of the story. But it’s the one I actually believe.
