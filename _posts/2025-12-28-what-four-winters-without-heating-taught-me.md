@@ -8,7 +8,6 @@ thumb: images/IMG_7864.jpeg
 category: natural-healing
 ---
 
-# What Four Winters Without Heating Taught Me
 
 *On cold, surrender, and the body’s elemental
 work.*
