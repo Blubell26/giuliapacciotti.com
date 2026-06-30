@@ -3,8 +3,8 @@ layout: post
 title: The Real Reason You Keep Meeting the Wrong People
 description: “A friend asked why she keeps attracting the same kind of person. The real answer wasn’t about them.”
 date: 2026-04-14
-image: 
-thumb:
+image: images/IMG_7848.jpeg
+thumb: images/IMG_7848.jpeg
 category: psycho-spiritual
 ---
 
