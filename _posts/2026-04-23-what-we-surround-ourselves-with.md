@@ -2,7 +2,7 @@
 layout: post
 title: “Everything Around Us Is Dead”
 description: We surround ourselves with natural materials and call it nature. Wood, cotton, linen, dried flowers. But none of it is alive. And something in the body knows the difference.
-date: 2025-11-26
+date: 2026-04-23
 image: images/IMG_7573.jpeg
 thumb: images/IMG_7573.jpeg
 category: natural-healing
@@ -39,9 +39,9 @@ A body surrounded by dead materials in a sealed building, under artificial light
 
 ## I Don’t Have a Solution
 
-I want to be honest about that. This is not a post that ends with five things you can do to bring more life into your space. I am genuinely still sitting with the strangeness of the realisation itself.
+I want to be honest about that. This is not a post that ends with five things you can do to bring more life into your space. I am still sitting with the strangeness of the realisation itself.
 
-What I notice is that when I am in actual contact with living nature, not visiting it but inside it, sleeping near it, moving through it daily, something in me settles that doesn’t settle any other way. It is not relaxation exactly. It is more like recognition. The body remembering what it is and what it belongs to.
+What I notice is that when I am in actual contact with living nature, not visiting it but inside it, sleeping near it, moving through it daily, something in me settles that doesn’t settle any other way. It is not relaxation. It is more like recognition. The body remembering what it is and what it belongs to.
 
 We have built a world that is extraordinarily comfortable in many ways and deeply impoverished in this one. And we have done it so completely, so gradually, that we stopped noticing what was missing.
 
