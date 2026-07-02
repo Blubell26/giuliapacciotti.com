@@ -3,9 +3,10 @@ layout: post
 title: “Everything Around Us Is Dead”
 description: We surround ourselves with natural materials and call it nature. Wood, cotton, linen, dried flowers. But none of it is alive. And something in the body knows the difference.
 date: 2025-11-26
-image: images/post21-hero.png
-thumb: images/post21-thumb.png
-category: natural-healimg
+image: images/IMG_7573.jpeg
+thumb: images/IMG_7573.jpeg
+category: natural-healing
+---
 
 
 *On living nature, dead environments, and what the body is actually asking for.*
