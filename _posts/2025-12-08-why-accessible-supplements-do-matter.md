@@ -3,8 +3,8 @@ layout: post
 title: Why Accessible Supplements Do Matter
 description: The wellness industry has built itself around people who already have money. But the body doesn’t wait for financial arrival to start breaking down. On quality supplementation, who it’s actually for, and why access matters more than we talk about.
 date: 2025-12-08
-image: images/IMG_7884.jpeg
-thumb: images/IMG_7884.jpeg
+image: images/IMG_7884.png
+thumb: images/IMG_7884.png
 category: natural-healing
 ---
 
