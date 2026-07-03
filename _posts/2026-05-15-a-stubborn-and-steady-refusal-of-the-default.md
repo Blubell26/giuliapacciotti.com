@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Stubborn and Steady Refusal of the Default
-description: When I became a single mother the life expected of me was already laid out. I looked at it and thought: seriously? On refusing the script and building something that actually feels good.
+description: "When I became a single mother the life expected of me was already laid out. On refusing the script and building something that actually feels good."
 date: 2026-05-15
 image: 
 thumb: 
