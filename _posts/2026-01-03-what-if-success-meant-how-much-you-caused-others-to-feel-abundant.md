@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What If Success Meant How Much You Caused Others to Feel Abundant”
+title: What If Success Meant How Much You Caused Others to Feel Abundant
 description: We measure success by how much we get. But what if the whole definition is changing — and the most profitable thing you can do is help others grow.
 date: 2026-01-03
 image: images/new-success.png
