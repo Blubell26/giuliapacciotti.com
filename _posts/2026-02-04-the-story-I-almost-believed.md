@@ -8,8 +8,6 @@ thumb: images/IMG_7849.jpeg
 category: income
 ---
 
-# The Story I Almost Believed About Money
-
 *On the seduction of a particular promise, and what it’s actually pointing to.*
 
 
