@@ -3,8 +3,8 @@ layout: post
 title: Everyone Who Wants a Different Life Has a Village in Their Head
 description: The fantasy of the village is the fantasy underneath the fantasy. On belonging, the inner work that has to come first, and finding something in yourself you hadn’t met yet.
 date: 2026-06-02
-image: 
-thumb: 
+image: images/IMG_7914.jpeg
+thumb: images/IMG_7914.jpeg
 category: psycho-spiritual
 ---
 
