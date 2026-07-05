@@ -1,7 +1,7 @@
 ---
 # layout: post
 title: Growth or Obedience
-description: Why following someone else’s rules perfectly well is not the same thing as growing.
+description: Why following someone elses rules perfectly well is not the same thing as growing.
 date: 2026-06-13
 image: images/IMG_8009.jpeg
 thumb: images/IMG_8009.jpeg
