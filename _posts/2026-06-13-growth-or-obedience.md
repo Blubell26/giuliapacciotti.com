@@ -1,5 +1,5 @@
 ---
-# layout: post
+layout: post
 title: Growth or Obedience
 description: Why following someone elses rules perfectly well is not the same thing as growing.
 date: 2026-06-13
