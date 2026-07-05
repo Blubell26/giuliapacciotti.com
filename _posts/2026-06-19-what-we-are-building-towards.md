@@ -3,8 +3,8 @@ layout: post
 title: What We’re Actually Building Toward
 description: The world isn’t moving forward, and I think it’s because most of us are still wired for instant gratification.
 date: 2026-06-19
-image: 
-thumb: 
+image: images/IMG_8005.png
+thumb: images/IMG_8005.png
 category: income
 ---
 *On the difference between enough and more, and the feelings we buy in between*
