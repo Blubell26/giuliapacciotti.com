@@ -12,7 +12,7 @@ category: parenting-unschooling
 
 It is only through the exercise of the greatest freedom that the greatest growth is achieved, or even made possible. If all you are doing is following someone else’s rules, you have not grown. You have obeyed.
 
-I think about this constantly when it comes to how we raise children, because the two things get confused so easily. A child who follows every instruction precisely, who meets every benchmark on schedule, who never strays from the path laid out in front of him, looks like he’s thriving. He makes our existence easier. He’s doing exactly what he was asked. But doing what you were asked and growing are not the same event, even when they happen to overlap.
+I think about this constantly when it comes to how we raise children, because the two things get confused so easily. A child who follows every instruction precisely, who meets every benchmark on schedule, who never strays from the path laid out in front of him, looks like he’s doing good. He makes our existence easier. He’s doing exactly what he was asked. But doing what you were asked and growing are not the same event, even when they happen to overlap.
 
 ## What obedience actually measures
 
