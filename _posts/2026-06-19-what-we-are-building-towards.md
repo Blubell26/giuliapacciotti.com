@@ -1,8 +1,8 @@
 ---
-## layout: post
+layout: post
 title: What We’re Actually Building Toward
 description: The world isn’t moving forward, and I think it’s because most of us are still wired for instant gratification.
-date: YYYY-MM-DD
+date: 2026-06-19
 image: 
 thumb: 
 category: income
