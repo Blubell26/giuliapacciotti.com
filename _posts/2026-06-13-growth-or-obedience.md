@@ -8,7 +8,7 @@ thumb: images/IMG_8009.jpeg
 category: parenting-unschooling
 ---
 
-*On the difference between doing something well and doing something true*
+*On what a rule can teach you and what only a choice can. On doing something well or doing something true to you*
 
 It is only through the exercise of the greatest freedom that the greatest growth is achieved, or even made possible. If all you are doing is following someone else’s rules, you have not grown. You have obeyed.
 
