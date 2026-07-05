@@ -7,7 +7,7 @@ image:
 thumb: 
 category: income
 ---
-*On the difference between having enough, buying feelings, and knowing when more is not a need*
+*On the difference between enough and more, and the feelings we buy in between*
 
 I’ve been sitting with something uncomfortable lately. The world isn’t moving forward, not really, and I think a lot of it comes down to this: most of us are still hardwired for instant gratification, and we’re passing that wiring down to our children without even noticing we’re doing it.
 
