@@ -1,10 +1,10 @@
 ---
 layout: post
-title: “The Brake We Put on Curiosity”
+title: The Brake We Put on Curiosity
 description: What happens when a child learns without a syllabus, a deadline, or a gold star waiting at the end.
 date: 2026-04-30
-image: FILENAME.jpg
-thumb: FILENAME.jpg
+image: 
+thumb: 
 category: parenting-unschooling
 ---
 
