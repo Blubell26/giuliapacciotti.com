@@ -39,10 +39,10 @@ There’s another definition available, one where wealth is measured by how much
 
 ## The real test happens after the money arrives
 
-There’s a particular kind of person who despises money loudly and often, right up until they have some of it, at which point everything quietly changes. It’s easy to hold a philosophy about money when you don’t have any to test it against. The real test isn’t the philosophy. It’s what happens the moment the money shows up and the old soul-holes are still there, still open, still asking to be filled with something. Do they get filled with more stuff, dressed up now in a better philosophy but doing exactly the same job. Or does something else finally happen.
+There’s a particular kind of person who despises money loudly and often, right up until they have some of it, at which point everything changes. It’s easy to hold a philosophy about money when you don’t have any to test it against. The real test is what happens the moment the money shows up and the old soul-holes are still there, still open, still asking to be filled with something. Do they get filled with more stuff, dressed up now in a better philosophy but doing exactly the same job. Or does something else finally happen.
 
 ## What I’m actually asking
 
-The only thing that matters to me right now is acting on purpose, leaving the world slightly better than I found it, using logic and using whatever the heart actually is, and helping wherever helping is real rather than performed. If even half of us were doing this in earnest, it would already be visible. It isn’t, yet.
+The only thing that matters to me right now is acting on purpose. If even half of us were doing this in earnest, it would already be visible. It isn’t, yet.
 
-So I’m asking this honestly, not rhetorically. What are you actually building toward. Do you recognize your own destructive patterns when you’re standing inside them, or only afterward, looking back at the receipt.
+What are you actually building toward. Do you recognize your own destructive patterns when you’re standing inside them, or only afterward, looking back at the receipt.
