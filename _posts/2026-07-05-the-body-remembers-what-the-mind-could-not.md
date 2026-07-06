@@ -5,7 +5,7 @@ description: Why some of us can't remember our childhoods, and what that says ab
 date: 2026-07-05
 image: images/IMG_8017.jpeg
 thumb: images/IMG_8017.jpeg
-category: psycho-spiritual
+category: natural-healing
 ---
 
 *On nervous systems, safety, and why some childhoods leave almost no trace*
