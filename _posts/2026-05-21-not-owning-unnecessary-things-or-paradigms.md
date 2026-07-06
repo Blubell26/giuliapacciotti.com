@@ -4,8 +4,8 @@ title: Not Owning Unnecessary Things or Paradigms
 description: “Why minimalism helped clear more than clutter, and what my parents’ generation got stuck in that had nothing to do with what they owned.”
 category: Smart Income
 date: 2026-05-21
-image: TBD
-thumb: TBD
+image: images/IMG_8042.png
+thumb: images/IMG_8042.png
 category: income
 ---
 
