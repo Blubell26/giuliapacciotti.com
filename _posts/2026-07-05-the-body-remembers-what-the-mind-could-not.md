@@ -3,8 +3,8 @@ layout: post
 title: The Body Remembers What the Mind Could Not Afford To
 description: Why some of us can't remember our childhoods, and what that says about safety, not memory.
 date: 2026-07-05
-image: 
-thumb: 
+image: images/IMG_8017.jpeg
+thumb: images/IMG_8017.jpeg
 category: psycho-spiritual
 ---
 
