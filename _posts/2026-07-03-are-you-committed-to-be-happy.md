@@ -2,7 +2,7 @@
 layout: post
 title: Are You Committed to Being Happy, No Matter What Happens?
 description: What it actually means to choose peace when life doesn’t cooperate, not when it’s easy but when everything goes against you.
-date: 2026-07-06
+date: 2026-07-03
 image: IMG_8006.jpeg
 thumb: IMG_8006.jpeg
 category: psycho-spiritual
