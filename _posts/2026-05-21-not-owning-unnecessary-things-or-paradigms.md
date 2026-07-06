@@ -9,8 +9,6 @@ thumb: images/IMG_8042.png
 category: income
 ---
 
-# Not Owning Unnecessary Things or Paradigms
-
 *Why minimalism helped clear more than clutter.*
 
 What I feel is most liberating about my lifestyle is not owning unnecessary things, or unnecessary paradigms.
