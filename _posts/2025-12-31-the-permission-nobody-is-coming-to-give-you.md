@@ -2,9 +2,9 @@
 layout: post
 title: The Permission Nobody Is Coming to Give You
 description: On leaving the mainstream path with your kids, the loneliness nobody warns you about, and why freedom is work you keep doing, not a place you arrive.
-date: 2025-07-06
-image: 
-thumb: 
+date: 2025-12-31
+image: images/IMG_8032.jpeg
+thumb: images/IMG_8032.jpeg
 category: parenting-unschooling
 ---
 
