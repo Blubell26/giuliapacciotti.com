@@ -2,7 +2,7 @@
 layout: post
 title: The Story I Almost Believed About Money
 description: The post that almost got me. And what I found when I looked at why.
-date: 2026-02-04
+date: 2026-03-07
 image: images/IMG_7849.jpeg
 thumb: images/IMG_7849.jpeg
 category: income
