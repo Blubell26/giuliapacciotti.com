@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The Real World They Keep Warning Me About
+title: The Real World They Kept Warning Me About
 description: What “socialisation” and “the real world” actually mean when people use them against unschooling, and what they leave out.
-date: 2026-03-21
+date: 2026-05-26
 image: PLACEHOLDER.jpg
 thumb: PLACEHOLDER.jpg
 category: parenting-unschooling
