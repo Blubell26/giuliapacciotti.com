@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I’m Not Scared of Raising My Son Without a System
+title: I’m Not Scared of Raising My Son Outside the System
 description: People ask if I’m scared raising my son without a system. I’m honestly scared of the alternative. On unschooling, self-direction, and what the system actually produces.
 date: 2025-10-28
 image: images/IMG_2612.jpeg
