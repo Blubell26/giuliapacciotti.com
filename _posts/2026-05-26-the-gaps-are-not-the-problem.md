@@ -2,7 +2,7 @@
 layout: post
 title: The Gaps Are Not the Problem
 description: What interest-led learning actually looks like up close, and why the gaps matter less than we’re taught to think.
-date: 2026-06-30
+date: 2026-05-26
 image: images/IMG_2744.jpeg
 thumb: images/IMG_2744.jpeg
 category: parenting-unschooling
