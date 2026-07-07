@@ -2,7 +2,7 @@
 layout: post
 title: Growth or Obedience
 description: Why following someone elses rules perfectly well is not the same thing as growing.
-date: 2026-02-22
+date: 2026-02-15
 image: images/IMG_8009.jpeg
 thumb: images/IMG_8009.jpeg
 category: parenting-unschooling
