@@ -38,9 +38,9 @@ Trying to out-engineer that it’s a very expensive, very sophisticated form of 
 
 ## Trust is not the same as neglect
 
-There is an easy version of this that just says *don’t take care of yourself, let go.* That’s not it either. Neglect is its own kind of fear. And there pare so many forms fear dresses up, I’m not going to list them here.
+There is an easy version of this that just says *don’t take care of yourself, let go.* That’s not it either. Neglect is its own kind of fear. And there are so many forms fear dresses up, I’m not going to list them here.
 
-So, the alternative to hypervigilance isn’t carelessness. It’s relationship. When the nervous system is actually working properly you have answers you cannot access to if it doesn't. It’s trusting the body to tell you the truth about everything. It’s resting because tired is normal procedure. It’s letting your body change as you age instead of treating every wrinkle and slowdown as a battle to be won. There is a version of caring for a body that comes from love, and a version that comes from fear, and from the outside they can look almost identical. Of course the difference is huge.
+So, the alternative to hypervigilance isn’t carelessness. It’s relationship. When the nervous system is actually working properly you have answers you cannot access to if it doesn't. It’s trusting the body to tell you the truth about everything. It’s resting because being tired is normal 3D reality procedure. It’s letting your body change as you age instead of treating every wrinkle as a battle to be won. There is a version of caring for a body that comes from love, and a version that comes from fear, and from the outside they can look almost identical. Of course the difference is huge.
 
 ## What the soul already knows
 
