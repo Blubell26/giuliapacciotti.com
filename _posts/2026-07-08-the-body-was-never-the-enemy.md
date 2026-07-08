@@ -26,30 +26,30 @@ So there’s something almost funny, in a sad way, about optimizing a body into 
 
 ## The fear underneath the routine
 
-But the interesting part isn’t the physiology. It’s the question nobody in these stories seems to ask: what are you actually afraid of?
+The question nobody in these stories seems to ask is: what are you actually afraid of?
 
-Because it’s never really death. Not in the way it’s presented. It’s something closer to *not being in control.* Which, if you sit with it for a second, is a strange thing to be afraid of losing, since none of us ever had it. You cannot lose control of a thing you were never holding. The heart has been beating without your permission since before you had language. The whole operation was always running itself. The fear just needed a body under total surveillance to finally notice.
+Because it’s never really death. Not in the way it’s presented. It’s something closer to *not being in control.* Which, is a strange thing to be afraid of losing, since none of us ever had it. You cannot lose control of a thing you were never holding. The heart has been beating without your permission since before you had language. The whole operation was always running itself. The fear just needed a body under total surveillance to finally notice.
 
-And maybe it’s something even harder to admit than that. Maybe it’s the terror of what would happen if you actually let yourself believe that immortality is real, that it was there all along, just never in the place you were looking. Not in the body you’ve been so attached to defending but somewhere else. Somewhere that doesn’t need biohacking to keep existing.
+And maybe it’s something even harder to admit. Maybe it’s the terror of what would happen if you actually let yourself believe that immortality is real, that it was there all along, just never in the place you were looking. Not in the body you’ve been so attached to defending but somewhere else. Somewhere that doesn’t need biohacking to keep existing. Just surrender.
 
 Trusting something bigger than your own control isn’t losing. But the ego reads it that way every time, because the ego was never built to come second to anything. So it calls control dignity, and gets the whole thing backwards.
 
-Trying to out-engineer that it’s a very expensive, very sophisticated form of not trusting yourself. Not trusting the mindblowing intelligence that grew you from two cells into a person without a single conscious instruction from you. That intelligence didn’t stop working the day you turned eighteen. It’s still running the show, mostly without your input, whether you stress over it or not.
+Trying to out-engineer that it’s a very expensive, very sophisticated form of not trusting yourself. Not trusting the mindblowing intelligence that grew you from two freakin cells into a person without a single conscious instruction from you. That intelligence didn’t stop working the day you turned eighteen. It’s still running the show, mostly without your input, whether you stress over it or not.
 
 ## Trust is not the same as neglect
 
-There is an easy version of this argument that just says *don’t take care of yourself, let go, surrender.* That’s not it either. Neglect is its own kind of fear. There are so many forms fear dresses up, and I’m not going to list them here.
+There is an easy version of this that just says *don’t take care of yourself, let go.* That’s not it either. Neglect is its own kind of fear. There are so many forms fear dresses up, and I’m not going to list them here.
 
-So, the alternative to hypervigilance isn’t carelessness. It’s relationship. When the nervous system is actually working properly you have answers you cannot access to in if not. It’s trusting the body to tell you the truth about everything. It’s resting because tired is normal procedure. It’s letting your body change as you age instead of treating every wrinkle and slowdown as a battle to be won. There is a version of caring for a body that comes from love, and a version that comes from fear, and from the outside they can look almost identical. Of course the difference is huge.
+So, the alternative to hypervigilance isn’t carelessness. It’s relationship. When the nervous system is actually working properly you have answers you cannot access to if it doesn't. It’s trusting the body to tell you the truth about everything. It’s resting because tired is normal procedure. It’s letting your body change as you age instead of treating every wrinkle and slowdown as a battle to be won. There is a version of caring for a body that comes from love, and a version that comes from fear, and from the outside they can look almost identical. Of course the difference is huge.
 
 ## What the soul already knows
 
-Underneath all of it is a question that has nothing to do with biomarkers. Your soul did not come here to win a contest against time. It came to have an experience, in a body, for exactly as long as that body holds. The point was never indefinite continuation. The point was living.
+Underneath all of it is something that has nothing to do with biomarkers. Your soul did not come here to win a contest against time or whatever else. It came to have an experience, in a body, for exactly as long as that body holds. The point was never indefinite continuation. The point was being.
 
 A person obsessed with never dying has, in a strange way, stopped being able to actually live. There is no version of this where you get out untouched by time. There is only the choice of whether you spend the time you have in a state of war with your own body, or in a state of trust and surrender with it.
 
-And there’s something else underneath even that. A soul insisting on staying in exactly this body, exactly this form, forever, is not evolution. It’s the opposite of evolution. It’s a soul trying to freeze a single frame of a much longer movie and call the freezing itself a triumph. Nothing that has ever grown, in the entire history of anything, grew by refusing to change shape. The very drive that claims to be racing toward the next stage of what a human can be is, underneath, terrified of the one thing every real next stage requires: letting the current form go.
+And there’s something else underneath even that. A soul insisting on staying in exactly this body, exactly this form, forever, is not evolution. It’s the opposite of evolution. It’s a soul trying to freeze a single frame of a much longer movie and call the freezing itself a triumph. Nothing that has ever grown, in the entire history of anything, grew by refusing to change shape. The very man who claims to be racing toward the next stage of what a human can be is, underneath, terrified of the one thing every real next stage requires: letting the current form go.
 
-We are not engines to govern. We don’t even own these bodies. They are the vehicle, nothing more and nothing less, and it matters enormously that we keep a vehicle in good shape so it can carry out what the soul actually came here to do. But there is a line, and once you cross it, keeping the vehicle becomes the whole journey. The upkeep becomes the purpose. And that is a soul struggle lived as discipline, and it pulls you exactly the opposite direction from where you meant to go.
+We are not engines to govern. We don’t even own these bodies. They are the vehicle, nothing more and nothing less, and it matters enormously that we keep a vehicle in good shape so it can carry out what the soul actually came here to do. But there is a line, and once you cross it, keeping the vehicle becomes the whole journey. The upkeep becomes the purpose. And that is a very dense soul struggle lived as discipline, and it pulls you exactly the opposite direction from where you meant to go.
 
 The body was never the enemy. It was always just trying to carry you somewhere.
