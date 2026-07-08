@@ -10,11 +10,11 @@ category: psycho-spiritual
 
 *What we are really trying to outrun when we try to outrun death*
 
-There is a certain kind of person right now, usually a man, usually wealthy, who has turned his body into a project. Blood panels every month. A team of doctors. Supplements timed to the hour. Sleep tracked to the minute. The goal stated plainly: don’t die. Or at least, don’t die on the timeline nature had in mind.
+There is a certain kind of person right now, usually a man, usually wealthy, who has turned his body into a project with blood panels every month, a team of doctors and supplements timed to the hour. Sleep tracked to the minute. The goal stated plainly: don’t die. Or at least, don’t die on the timeline nature had in mind.
 
-You’ve seen the headlines. The face has changed a few times, but the shape of the story hasn’t. A man who refuses to accept the terms of inhabiting an organic body at all.
+You’ve seen the headlines. The face has changed a few times, but the shape of the story hasn’t. A man who refuses to accept the terms of inhabiting an organic body at all, with its entropy.
 
-And the strange part of it is that he’s not entirely wrong. He is not just a body. None of us are. But instead of resting into that truth, he does the opposite of resting. He goes to war with the very thing he’s already, on some level, correctly sensed he isn’t reducible to. If you already suspect you’re more than the body, that should be the most relaxing realization a person can have. Instead it becomes the reason to control the body more tightly than anyone who actually believed they were only flesh ever would.
+And the weirdest part of it is that he’s not entirely wrong. He is of course not just a body. None of us are. But instead of resting into that truth, he does the opposite of resting. He goes to war with the very thing he’s already, on some level,sensed he isn’t reducible to. If you already suspect you’re more than the body, that should be the most relaxing realization a person can have. Instead it becomes the reason to control the body more tightly than anyone who actually believed they were only flesh ever would.
 
 I don’t know what will happen to any one of these people, medically. Nobody outside their own bloodwork does, and I’m not a doctor. But I know this pattern, because it’s an old one, and it doesn’t need a diagnosis to be worth looking at honestly.
 
