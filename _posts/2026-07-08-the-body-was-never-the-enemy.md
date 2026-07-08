@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Body Was Never the Enemy
+title: Don't Die!!!
 description: What obsessive longevity culture reveals about the fear underneath it, and what trusting the body actually looks like.
 date: 2026-07-08
 image:
