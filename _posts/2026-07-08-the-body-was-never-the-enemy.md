@@ -10,7 +10,7 @@ category: psycho-spiritual
 
 *What we are really trying to outrun when we try to outrun death*
 
-There is a certain kind of person right now, usually a man, usually wealthy, who has turned his body into a project with blood panels every month, a team of doctors and supplements timed to the hour. Sleep tracked to the minute. The goal stated plainly: don’t die. Or at least, don’t die on the timeline nature had in mind.
+There is a certain kind of person right now, usually a man, usually wealthy, who has turned his body into a project with blood panels every month, a team of doctors and supplements timed to the hour while sleep tracked to the minute. The goal stated plainly: don’t die. Or at least, don’t die on the timeline nature had in mind.
 
 You’ve seen the headlines. The face has changed a few times, but the shape of the story hasn’t. A man who refuses to accept the terms of inhabiting an organic body at all, with its entropy.
 
