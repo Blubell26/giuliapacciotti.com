@@ -46,7 +46,7 @@ So, the alternative to hypervigilance isn’t carelessness. It’s relationship.
 
 Underneath all of it is something that has nothing to do with biomarkers. Your soul did not come here to win a contest against time or whatever else. It came to have an experience, in a body, for exactly as long as that body holds. The point was never indefinite continuation. The point was being.
 
-A person obsessed with never dying has, in a strange way, stopped being able to actually live. There is no version of this where you get out untouched by time. There is only the choice of whether you spend the time you have in a state of war with your own body, or in a state of trust and surrender with it.
+A person obsessed with never dying has, in a strange way, stopped being able to actually live. There is no way of this where you get out untouched. Being touched is the whole point. There is only the choice of whether you spend the time you have in a state of war with your own body, or in a state of trust with it.
 
 And there’s something else underneath even that. A soul insisting on staying in exactly this body, exactly this form, forever, is not evolution. It’s the opposite of evolution. It’s a soul trying to freeze a single frame of a much longer movie and call the freezing itself a triumph. Nothing that has ever grown, in the entire history of anything, grew by refusing to change shape. The very man who claims to be racing toward the next stage of what a human can be is, underneath, terrified of the one thing every real next stage requires: letting the current form go.
 
