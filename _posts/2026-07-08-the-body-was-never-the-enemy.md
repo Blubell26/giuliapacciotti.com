@@ -12,7 +12,7 @@ category: psycho-spiritual
 
 There is a certain kind of person right now, usually a man, usually wealthy, who has turned his body into a project with blood panels every month, a team of doctors and supplements timed to the hour while sleep tracked to the minute. The goal stated plainly: don’t die. Or at least, don’t die on the timeline nature had in mind.
 
-You’ve seen the headlines. The face has changed a few times, but the shape of the story hasn’t. A man who refuses to accept the terms of inhabiting an organic body at all, with its entropy.
+You’ve seen the headlines. The face has changed a few times, but the shape of the story hasn’t. A man who refuses to accept the terms of inhabiting an organic body at all along with its entropy.
 
 And the weirdest part of it is that he’s not entirely wrong. He is of course not just a body. None of us are. But instead of resting into that truth, he does the opposite of resting. He goes to war with the very thing he’s already, on some level,sensed he isn’t reducible to. If you already suspect you’re more than the body, that should be the most relaxing realization a person can have. Instead it becomes the reason to control the body more tightly than anyone who actually believed they were only flesh ever would.
 
