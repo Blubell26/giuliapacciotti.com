@@ -16,11 +16,11 @@ You’ve seen the headlines. The face has changed a few times, but the shape of 
 
 And the weirdest part of it is that he’s not entirely wrong. He is of course not just a body. None of us are. But instead of resting into that truth, he does the opposite of resting. He goes to war with the very thing he’s already, on some level,sensed he isn’t reducible to. If you already suspect you’re more than the body, that should be the most relaxing realization a person can have. Instead it becomes the reason to control the body more tightly than anyone who actually believed they were only flesh ever would.
 
-I don’t know what will happen to any one of these people, medically. Nobody outside their own bloodwork does, and I’m not a doctor. But I know this pattern, because it’s an old one, and it doesn’t need a diagnosis to be worth looking at honestly.
+I don’t know what will happen to any one of these people, medically. Nobody outside their own bloodwork does, and I’m not a doctor. But I know this pattern, because it’s an old one and something I've already dived in.
 
 ## What hypervigilance actually does
 
-What is well understood, generally, in the body: living in a constant state of monitoring and threat-response is itself a stressor. The nervous system doesn’t distinguish neatly between “threat from outside” and “threat I am generating myself by treating my own body as an adversary that might betray me.” Chronic stress signaling has real, well-documented downstream effects on immune regulation. A body under constant surveillance is a body under constant alarm. That’s basic physiology.
+What is well understood, generally, about the body is that living in a constant state of monitoring and threat-response is itself a stressor. The nervous system doesn’t distinguish neatly between “threat from outside” and “threat I am generating myself by treating my own body as an adversary that might betray me.” Chronic stress signaling has real, well-documented downstream effects on immune regulation. A body under constant surveillance is a body under constant alarm. That’s basic physiology.
 
 So there’s something almost funny, in a sad way, about optimizing a body into a state of vigilance so total that the vigilance itself becomes the thing working against you. You cannot hacking your way out of a nervous system that has forgotten how to rest, because it has never been given permission to stop stressing.
 
@@ -28,9 +28,9 @@ So there’s something almost funny, in a sad way, about optimizing a body into 
 
 The question nobody in these stories seems to ask is: what are you actually afraid of?
 
-Because it’s never really death. Not in the way it’s presented. It’s something closer to *not being in control.* Which, is a strange thing to be afraid of losing, since none of us ever had it. You cannot lose control of a thing you were never holding. The heart has been beating without your permission since before you had language. The whole operation was always running itself. The fear just needed a body under total surveillance to finally notice.
+Because it’s never really death. Not in the way it’s presented. It’s something closer to *not being in control.* Which, is actually a strange thing to be afraid of losing, since none of us ever had it. You cannot lose control of a thing you were never holding. The heart has been beating without your permission since before you had language. The whole operation was always running itself.
 
-And maybe it’s something even harder to admit. Maybe it’s the terror of what would happen if you actually let yourself believe that immortality is real, that it was there all along, just never in the place you were looking. Not in the body you’ve been so attached to defending but somewhere else. Somewhere that doesn’t need biohacking to keep existing. Just surrender.
+Maybe it’s even the terror of what would happen if you actually let yourself believe that immortality is real, that it was there all along, just never in the place you were looking. Not in the body you’ve been so attached to defending but somewhere else. Somewhere that doesn’t need biohacking to keep existing. Just surrender.
 
 Trusting something bigger than your own control isn’t losing. But the ego reads it that way every time, because the ego was never built to come second to anything. So it calls control dignity, and gets the whole thing backwards.
 
@@ -38,7 +38,7 @@ Trying to out-engineer that it’s a very expensive, very sophisticated form of 
 
 ## Trust is not the same as neglect
 
-There is an easy version of this that just says *don’t take care of yourself, let go.* That’s not it either. Neglect is its own kind of fear. There are so many forms fear dresses up, and I’m not going to list them here.
+There is an easy version of this that just says *don’t take care of yourself, let go.* That’s not it either. Neglect is its own kind of fear. And there pare so many forms fear dresses up, I’m not going to list them here.
 
 So, the alternative to hypervigilance isn’t carelessness. It’s relationship. When the nervous system is actually working properly you have answers you cannot access to if it doesn't. It’s trusting the body to tell you the truth about everything. It’s resting because tired is normal procedure. It’s letting your body change as you age instead of treating every wrinkle and slowdown as a battle to be won. There is a version of caring for a body that comes from love, and a version that comes from fear, and from the outside they can look almost identical. Of course the difference is huge.
 
