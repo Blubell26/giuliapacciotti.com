@@ -25,12 +25,12 @@ That’s what I watched happen to the people who raised me. Not a failure of wil
 
 ## Clearing the head, not just the shelf
 
-Minimalism has helped me so much, clearing my own head and allowing growth. I’m grateful I made the choice to experience it. But I want to be honest about what it actually cleared. It wasn’t mainly the objects. Fewer things did make packing easier and mornings simpler, but the real shift was underneath that. Fewer things to be identified with. Fewer patterns treated as load bearing when they were really just habits nobody had questioned in years.
+Minimalism has helped me so much, clearing my own head and allowing growth. I’m grateful I made the choice to experience it. But I want to be honest about what it actually cleared. It wasn’t mainly the objects, the real shift was underneath that. Fewer things to be identified with. Fewer patterns that were really just habits nobody had questioned in years.
 
-Fromm would say that’s the whole difference between having less and being more free. You can own very little and still be entirely in the having mode, gripping tightly to the few things you do have, terrified of what happens if the identity built on them slips. Or you can own very little and be in the being mode, where the smallness isn’t a sacrifice, it’s just what’s left when you stop needing objects and routines to hold you together.
+Fromm would say that’s the whole difference between having less and being more free. You can own very little and still be entirely in the having mode, gripping tightly to the few things you do have, terrified of what happens if the identity built on them slips. Or you can own very little and be in the being mode, where the smallness isn’t a sacrifice at all but just what’s left when you stop needing objects and routines to hold you together.
 
 ## Still asking what’s necessary
 
-I didn’t set out to prove a philosophy right. I set out to live my truth, and the lessons came with it. What I know now is that the freedom worth having was never just about the size of the van or the number of boxes. It’s about not owning unnecessary things, and not owning unnecessary paradigms either.
+I didn’t set out to prove a philosophy right. I set out to live my truth, and the lessons came with it. What I know now is that the freedom worth having is about not owning unnecessary things, and not owning unnecessary paradigms either.
 
 Still here asking what’s actually necessary, and still a little surprised by how short that list turns out to be.
