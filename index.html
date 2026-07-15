@@ -161,7 +161,7 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 .hero-btns { animation-delay:0.35s; }
 
 .flip-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:3px; }
-.flip-wrap { display:block; height:380px; perspective:1000px; text-decoration:none; color:inherit; }
+.flip-wrap { display:block; aspect-ratio: 1.9 / 1; perspective:1000px; text-decoration:none; color:inherit; }
 .flip-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform 0.65s cubic-bezier(0.4,0.2,0.2,1); }
 .flip-wrap:hover .flip-inner, .flip-wrap:focus .flip-inner { transform:rotateX(180deg); }
 .flip-front, .flip-back { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; -webkit-transform:translateZ(0); transform:translateZ(0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2.5rem 2rem; text-align:center; -webkit-perspective:1000; perspective:1000; }
@@ -258,7 +258,7 @@ footer { background:var(--dark); color:white; padding:4rem 4rem 2rem; display:gr
 
         <a href="http://blubell26.github.io/Keepers/" target="_blank" class="flip-wrap">
           <div class="flip-inner">
-            <div class="flip-front" style="background:url(images/IMG_8187.png) 30% 60% / cover no-repeat;">
+            <div class="flip-front" style="background:url(images/IMG_8187.png) center/cover no-repeat;">
               <span class="flip-front-tag">Waitlist Open</span>
               <h3 class="flip-front-title">Keepers of the Wild Heart</h3>
             </div>
