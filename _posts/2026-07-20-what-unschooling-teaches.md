@@ -48,7 +48,7 @@ The kid will learn this in reversal. Watching us contain or firmly not accepting
 
 ## What a child learns when "no" is respected
 
-When a child learns to say no, I don't like that, or please stop, and the adult actually stops, instead of joking or "funnily disrespecting", something shifts. Not just in that moment. In how the child understands their own voice going forward.
+When a child learns to say no, I don't like that, or please stop, and the adult actually stops, instead of brushing it off as a joke or waving it away as kids being kids, something shifts. Not just in that moment. In how the child understands their own voice going forward.
 
 Teaching a child they have a right to their own space, their own feelings, their own limits, is teaching them they matter. 
 
@@ -57,4 +57,3 @@ A child who can hold a boundary with peers, with siblings, with adults, learns t
 
 When you honor your child's limit, you haven't lost authority. You've shown them their voice has actual power in the world. That single piece of knowledge becomes the foundation under every relationship they will ever build.
 
-Honoring their limits and yours today is how you get the resilient, confident adults of tomorrow.
