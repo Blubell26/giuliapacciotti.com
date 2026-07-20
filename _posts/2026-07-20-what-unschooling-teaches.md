@@ -8,7 +8,7 @@ thumb: images/IMG_8105.jpeg
 ---
 
 # There Is Discipline in Freedom
-*On unschooling and actually teaches about boundaries*
+*On containment, unschooling and what it actually teaches about boundaries*
 
 Unschooling gets read a certain way in this culture. People hear it and picture feral kids, no structure, a lingering neglect vibe hanging over the whole thing. Like freedom and boundaries cancel each other out, like you have to pick one.
 
