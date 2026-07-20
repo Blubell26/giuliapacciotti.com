@@ -23,7 +23,8 @@ This is the part that gets missed in the feral-kids image. Freedom without conta
 
 A child without boundaries gets walked on or they resort to apply anger/violence.
 They either tolerate things they should never have to tolerate, because nobody ever handed them the belief that their comfort was worth defending in the first place or they reject everything coming from the outside as a consequence of having lost trust in the adult to guide them properly.
-Also, strong boundaries protect kids from doing things just to fit in.
+
+Strong learned boundaries protect kids from doing things just to fit in.
 
 Kids who practice this are building the template for every mutually respectful relationship they'll have later.
 
