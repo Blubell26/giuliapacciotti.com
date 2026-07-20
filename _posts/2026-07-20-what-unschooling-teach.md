@@ -3,8 +3,8 @@ layout: post
 title: "There Is Discipline in Freedom"
 description: "Unschooling doesn't mean no boundaries. It means teaching kids their voice, their limits, and their comfort actually matter."
 date: 2026-07-20
-image: your-chosen-photo.jpg
-thumb: your-chosen-photo.jpg
+image: images/IMG_8105.jpeg
+thumb: images/IMG_8105.jpeg
 ---
 
 # There Is Discipline in Freedom
