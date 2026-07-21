@@ -5,6 +5,7 @@ description: "Unschooling doesn't mean no boundaries. It means teaching kids the
 date: 2026-07-20
 image: images/IMG_8105.jpeg
 thumb: images/IMG_8105.jpeg
+category: parenting-unschooling
 ---
 
 *On containment, unschooling and what it actually teaches about boundaries*
