@@ -23,7 +23,7 @@ There is so much discipline in freedom.
 
 ## What happens without this
 
-A child without boundaries gets walked on or they resort to apply anger/violence.
+A child without boundaries gets walked on or they resort to apply anger/violence. Both are the same wound expressed two ways, a child who never got a reliable read on where they end and someone else begins, showing it either by disappearing into what others want or by fighting or dismissing everything that comes near them.
 
 They either tolerate things they should never have to tolerate, because nobody ever handed them the belief that their comfort was worth defending in the first place or they reject everything coming from the outside as a consequence of having lost trust in the adult to guide them properly.
 
