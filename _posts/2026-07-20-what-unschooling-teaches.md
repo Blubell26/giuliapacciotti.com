@@ -16,7 +16,7 @@ I spent most of my life qualifying myself as a people pleaser, or an introvert, 
 
 ## The body learns limits before the mind does
 
-Kids need to feel containment. They need to push against something solid and feel where their own body stops and the world starts, before any of this becomes a mental or emotional concept. That physical experience comes first. A parent's guidance is what turns pushing against a wall into understanding a limit.
+Kids need to feel containment. They need to push against something solid and feel where their own body stops and the world starts, before any of this becomes a mental or emotional concept. A body that has never met an edge has nothing to translate the concept of a limit onto later. That physical experience comes first. A parent's guidance is what turns pushing against a wall into understanding a limit.
 
 This is the part that gets missed in the feral-kids image. Freedom without containment doesn't produce free kids. It produces kids who never got the chance to find their own edges, because nothing pushed back. Stray kids have a hard time becoming free, unschooled or not. That's the part nobody expects. 
 There is so much discipline in freedom.
