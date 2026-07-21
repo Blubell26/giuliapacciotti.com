@@ -21,6 +21,9 @@ Kids need to feel containment. They need to push against something solid and fee
 This is the part that gets missed in the feral-kids image. Freedom without containment doesn't produce free kids. It produces kids who never got the chance to find their own edges, because nothing pushed back. Stray kids have a hard time becoming free, unschooled or not. That's the part nobody expects. 
 There is so much discipline in freedom.
 
+Without boundaries we stay slaves of circumstance, pulled by whatever is louder in the moment. We lose the ability to know what we actually need, and even when we do know, we never learned we were allowed to protect it. We lose ourselves in this or that, whatever is being asked of us, whoever is in the room. 
+Much of society is built on people who never got this training. Adults who can’t say no, who can’t hold a line, who mistake going along with everything for being easy to love.​​​​​​​​​​​​​​​​
+
 ## What happens without this
 
 A child without boundaries gets walked on or they resort to apply anger/violence. Both are the same wound expressed two ways, a child who never got a reliable read on where they end and someone else begins, showing it either by disappearing into what others want or by fighting or dismissing everything that comes near them.
@@ -34,12 +37,14 @@ Strong learned boundaries protect kids from doing things just to fit in and are 
 
 Supporting a child's boundary is easy to talk about and hard to do, especially the moment they turn it on you. In my experience, that's exactly where most parents hesitate. We want cooperation. When a child pushes back, it can read as defiance.
 
-It isn't defiance. It's development.
+It isn't defiance. It's development. And an act from us is required.
 
-We need to understand when our own freedom is actually touched, and when it isn't, and act accordingly. If it isn't touched, we let the kid do their thing. Have their moment.
+We need to understand when our own freedom is actually touched, and when it isn't, and act accordingly. If it isn't touched, we let the kid do their thing. Have their moment of discovery or expression.
 
 If it is, we contain or redirect depending on age. That's it. That's the whole mechanism.
 
+A kid writing on the walls, screaming through the house, or leaving a mess behind isn’t the mirror of what happy and free looks like, he needs us to meet him there as it touches our freedom too, the freedom to not spend an hour cleaning up or repainting something we didn’t choose to have marked. 
+To assert: You can do this, but you take the consequence with you otherwise it is not acceptable, or the actual removal from the situation, depending on age, it's not punishment. That’s just what it means for two people’s freedom to exist in the same space. And we need to treat our kids as capable to understand this.
 
 These are boundaries, not rules imposed for their own sake, but a live read of where one person's freedom ends and another's begins.
 
