@@ -43,8 +43,7 @@ We need to understand when our own freedom is actually touched, and when it isn'
 
 If it is, we contain or redirect depending on age. That's it. That's the whole mechanism.
 
-A kid writing on the walls, screaming through the house, or leaving a mess behind isn’t the mirror of what happy and free looks like, he needs us to meet him there as it touches our freedom too, the freedom to not spend an hour cleaning up or repainting something we didn’t choose to have marked. 
-To assert: You can do this, but you take the consequence with you otherwise it is not acceptable, or the actual removal from the situation, depending on age, it's not punishment. That’s just what it means for two people’s freedom to exist in the same space. And we need to treat our kids as capable to understand this.
+A kid writing on the walls, screaming through the house, or leaving a mess behind isn’t the mirror of what happy and free looks like or unschooling is. He's a child who needs us to meet him there, because it touches our freedom too, the freedom to not spend an hour cleaning up or repainting something we didn’t choose to have marked. To assert: you can do this, but you take the consequence with you. Otherwise it isn’t acceptable, and the actual removal from the situation follows, depending on age. It’s not punishment. That’s just what it means for two people’s freedom to exist in the same space. And we need to treat our kids as capable of understanding this.​​​​​​​​​​​​​​​​
 
 These are boundaries, not rules imposed for their own sake, but a live read of where one person's freedom ends and another's begins.
 
