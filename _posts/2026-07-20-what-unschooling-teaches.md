@@ -43,7 +43,7 @@ We need to understand when our own freedom is actually touched, and when it isn'
 
 If it is, we contain or redirect depending on age. That's it. That's the whole mechanism.
 
-Parents who spend most of their day away from their kids, school taking up the bulk of it, end up handing this entire process to someone else by default. And a teacher managing thirty kids at once will never be able to meet each one individually the way this actually requires. What’s left in that gap is rarely containment and redirection. It’s just punishment, because punishment is what works in the moment when nobody has time to actually meet the kid where they are.
+Parents who spend most of their day away from their kids, school taking up the bulk of it, end up handing this entire process to someone else by default. And a teacher managing thirty kids at once will never be able to meet each one individually the way this actually requires. What happens is rarely containment and redirection. It’s just punishment, because punishment is what works in the moment when nobody has time to actually meet the kid where they are.
 
 A kid writing on the walls, screaming through the house, or leaving a mess behind isn’t the mirror of what happy and free looks like or unschooling is. He's a child who needs us to meet him there, because it touches our freedom too, the freedom to not spend an hour cleaning up or repainting something we didn’t choose to have marked. To assert: you can do this, but you take the consequence with you. Otherwise it isn’t acceptable, and the actual removal from the situation follows, depending on age. It’s not punishment. That’s just what it means for two people’s freedom to exist in the same space. And we need to treat our kids as capable of understanding this.​​​​​​​​​​​​​​​​
 
@@ -54,7 +54,7 @@ The kid will learn this in reversal. Watching us contain or firmly not accepting
 
 ## What a child learns when "no" is respected
 
-When a child learns to say no, I don't like that, or please stop, and the adult actually stops, instead of brushing it off as a joke or waving it away as kids being kids, something shifts. Not just in that moment. In how the child understands their own voice going forward.
+And when a child learns to say no, I don't like that, please stop, or this is not acceptable, and the adult actually stops and respect that, instead of brushing it off as a joke or waving it away as kids being kids, something shifts. Not just in that moment. In how the child understands their own voice going forward.
 
 Teaching a child they have a right to their own space, their own feelings, their own limits, is teaching them they matter. 
 
