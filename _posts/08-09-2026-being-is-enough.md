@@ -34,7 +34,7 @@ The most obvious cost is attention. A mind that has learned to associate stillne
 I notice this most clearly with my son. When I don’t have the ability to just watch my son build something out of sticks for twenty straight minutes without some part of me wondering what I should be doing instead, I know I need to stop and being. 
 
 When he is deep in something, building an elaborate structure out of whatever is lying around, narrating a story only he can follow, there is a version of me that used to feel a small itch of impatience watching it. Some part of me had been trained to see unstructured time as time lost or not yet justified.
-That itch is exactly what I do not want to hand him. I do not want him to grow up needing to justify his afternoons. I do not want his sense of being allowed to exist to depend on a running tally of what he has accomplished that day.
+That itch is exactly what I refused to hand him. I didn’t want him to grow up needing to justify his afternoons. I do not want his sense of being allowed to exist to depend on a running tally of what he has accomplished that day. 
 
 The world is loud about wanting your attention, and a mind that has already been trained to associate worth with productivity is an easy mind to steal attention from, because it is already looking for the next thing to chase.
 
@@ -42,12 +42,13 @@ The world is loud about wanting your attention, and a mind that has already been
 
 This is the part that matters most to me. I do not want my son’s sense of his own worth to be tethered to what he produces. I do not want him to grow up needing to chase in order to feel like he is allowed to rest.
 
-So when he spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, I try not to interrupt it with a suggestion for something more useful. That stillness is not empty. It is the exact thing I am trying to protect in him, the thing that gets trained out of most of us by the time we are adults.
+So when he spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, I try not to interrupt it with a suggestion for something more useful. But to see the incredible beauty in it.
+That stillness is not empty. It is the exact thing I am trying to protect in him, the thing that gets trained out of most of us by the time we are adults.
 
-I would rather he grow up with an attention span, with the ability to truly stay and be somewhere, with the felt knowledge that he does not have to earn his place in the world by constantly demonstrating his usefulness. That knowledge is not something you can explain to a child in words. It is something you protect by not constantly asking him to prove himself in the first place.
+I would rather he grow up with an attention span, with the ability to truly stay and be somewhere, with the felt knowledge that he does not have to earn his place in the world by constantly demonstrating his usefulness or capacity. That knowledge is not something you can explain to a child in words. It is something you protect by not constantly asking him to prove himself in the first place.
 
 ## Being Underneath the Doing
 
 None of this means doing is the enemy. I still work, I still build things, I still want things and go after them. But there is a difference between doing that comes from a full place and doing that comes from a hungry one. Doing that comes from being is expansive. It does not need to prove anything because there is nothing left to prove. Doing that comes from chasing is never enough, because the hole it is trying to fill was never a doing-shaped hole to begin with.
 
-I would rather be, I would rather have an attention span long enough to watch something without needing it to become something else. And protect the truth that being is enough, and is wonderful and is where peace is found. 
+I would rather be, I would rather have an attention span long enough to watch something without needing it to become something else. And protect the truth that being is enough, and is wonderful and is where all the peace is found. 
