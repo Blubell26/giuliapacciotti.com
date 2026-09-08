@@ -1,9 +1,9 @@
 ---
 layout: post
-title: “Being Is Enough”
+title: Being Is Enough
 description: On the swap from being to doing, and what I don’t want to hand my son.
 date: 2026-09-08
-image: IMG_0918.png
+image: images/IMG_0918.jpeg
 category: psycho-spiritual
 ---
 
