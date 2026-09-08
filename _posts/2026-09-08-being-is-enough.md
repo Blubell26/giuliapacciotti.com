@@ -7,8 +7,6 @@ image: images/IMG_0918.jpeg
 category: psycho-spiritual
 ---
 
-## Being Is Enough
-
 *We were beings. Now we are doings.*
 
 I know this sounds like a complaint about modern life, the usual noise about burnout and busyness and phones. That is not what I mean by it. What I mean is that somewhere along the way, existing stopped being enough on its own, and started needing a reason. Somewhere we started having nervous systems that have forgotten how to rest inside themselves, because resting has started to feel like falling behind. You can feel the difference in your own body if you pay attention. Sit down and do nothing for five minutes. Not scroll, not plan, not even relax on purpose. Just sit. For most adults, something in the chest starts to protest almost immediately. 
