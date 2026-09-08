@@ -3,7 +3,7 @@ layout: post
 title: “Being Is Enough”
 description: On the swap from being to doing, and what I don’t want to hand my son.
 date: 2026-09-08
-image:
+image: IMG_0918.png
 category: psycho-spiritual
 ---
 
@@ -11,7 +11,7 @@ category: psycho-spiritual
 
 *We were beings. Now we are doings.*
 
-I know this sounds like a complaint about modern life, the usual noise about burnout and busyness and phones. That is not what I mean by it. What I mean is that somewhere along the way, existing stopped being enough on its own, and started needing a reason. Somewhen we started having nervous systems that have forgotten how to rest inside themselves, because resting has started to feel like falling behind. You can feel the difference in your own body if you pay attention. Sit down and do nothing for five minutes. Not scroll, not plan, not even relax on purpose. Just sit. For most adults, something in the chest starts to protest almost immediately. 
+I know this sounds like a complaint about modern life, the usual noise about burnout and busyness and phones. That is not what I mean by it. What I mean is that somewhere along the way, existing stopped being enough on its own, and started needing a reason. Somewhere we started having nervous systems that have forgotten how to rest inside themselves, because resting has started to feel like falling behind. You can feel the difference in your own body if you pay attention. Sit down and do nothing for five minutes. Not scroll, not plan, not even relax on purpose. Just sit. For most adults, something in the chest starts to protest almost immediately. 
 
 ## The Swap
 
