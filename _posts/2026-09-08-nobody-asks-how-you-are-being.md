@@ -38,12 +38,12 @@ The world is loud about wanting your attention, and a mind that has already been
 
 ## Teaching a Child Being Is Enough
 
-This is the part that matters most to me. I do not want my son’s sense of his own worth to be tethered to what he produces. I do not want him to grow up needing to chase in order to feel like he is allowed to rest.
+This is the part that matters most to me. 
 
-So when he spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, I try not to interrupt it with a suggestion for something more useful. But to see the incredible beauty in it.
-That stillness is not empty. It is the exact thing I am trying to protect in him, the thing that gets trained out of most of us by the time we are adults.
+When a kid spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, try not to interrupt it with a suggestion for something more useful. But to see the incredible beauty in it.
+That stillness is not empty. It is the exact thing I am trying to protect in kids, the thing that gets trained out of most of us by the time we are adults.
 
-I would rather he grow up with an attention span, with the ability to truly stay and be somewhere, with the felt knowledge that he does not have to earn his place in the world by constantly demonstrating his usefulness or capacity. That knowledge is not something you can explain to a child in words. It is something you protect by not constantly asking him to prove himself in the first place.
+I would rather my son grow up with an attention span, with the ability to truly stay and be somewhere, with the felt knowledge that he does not have to earn his place in the world by constantly demonstrating his usefulness or capacity. That knowledge is not something you can explain to a child in words. It is something you protect by not constantly asking him to prove himself in the first place.
 
 ## Being Underneath the Doing
 
