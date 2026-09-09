@@ -31,7 +31,8 @@ The most obvious cost is attention. A mind that has learned to associate stillne
 
 I notice this most clearly with my son.  I have never once cared what he ends up making with the sticks, the words or the mornings. I’ve never steered it, never asked what it’s for. What I actually watch, every time, is how he is while he’s making it. Whether he’s still in his body, still somewhere real, or already somewhere else. When I don’t have the ability to just watch that for twenty straight minutes without some part of me wondering what I should be doing instead, I know I need to stop and being.
 
-When he is deep in something, building an elaborate structure out of whatever is lying around, narrating a story only he can follow, there is something in me that used to feel a small itch of impatience watching it. Some part of me had been trained to see unstructured time as time lost or not yet justified.
+When he is deep in something, building an elaborate structure out of whatever is lying around, narrating a story only he can follow, there was something in me that used to feel a small itch of impatience watching it.
+
 That itch is exactly what I refused to hand him. I didn’t want him to grow up needing to justify his afternoons. I do not want his sense of being allowed to exist to depend on a running tally of what he has accomplished that day. 
 
 The world is loud about wanting your attention, and a mind that has already been trained to associate worth with productivity is an easy mind to steal attention from, because it is already looking for the next thing to chase.
@@ -40,7 +41,7 @@ The world is loud about wanting your attention, and a mind that has already been
 
 This is the part that matters most to me. 
 
-When a kid spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, try not to interrupt it with a suggestion for something more useful. But to see the incredible beauty in it.
+When a kid spends an entire afternoon doing what looks like nothing, when he lies in the grass and watches clouds move for longer than feels reasonable to anyone measuring productivity, try not to interrupt it with a suggestion for something more useful. But see and witness the incredible beauty in it.
 That stillness is not empty. It is the exact thing I am trying to protect in kids, the thing that gets trained out of most of us by the time we are adults.
 
 I would rather my son grow up with an attention span, with the ability to truly stay and be somewhere, with the felt knowledge that he does not have to earn his place in the world by constantly demonstrating his usefulness or capacity. That knowledge is not something you can explain to a child in words. It is something you protect by not constantly asking him to prove himself in the first place.
