@@ -20,7 +20,7 @@ I think about this a lot in relation to my son. I am not trying to protect him f
 
 ## Nobody asks how you are being
 
-Once that swap happens, it is very hard to notice, because everything around you is built to reinforce it. By the time most of us are grown, the swap is complete and invisible. We no longer experience ourselves as beings who sometimes do things. We experience ourselves as doings, full stop, with being reduced to the pause between tasks, a pause that itself gets filled with more doing the moment it is noticed. Productivity becomes identity. Your output becomes the thing people ask about when they ask how you are doing. Nobody asks how you are being.
+Once that swap happens, it is very hard to notice, because everything around you is built to reinforce it. By the time most of us are grown, the swap is complete and invisible. We no longer experience ourselves as beings who sometimes do things. We experience ourselves as doings, full stop, with being reduced to the pause between tasks, a pause that itself gets filled with more doing the moment it is noticed. Productivity becomes identity. Your output becomes the thing people ask about when they ask how you are doing. 
 
 And a person who has swapped being for doing will keep swapping, because doing never actually satisfies the hunger that being was supposed to satisfy in the first place. 
 You cannot achieve your way into feeling like you are enough. The two things are not the same. You can spend your whole life mistaking one for the other and never once feel the relief you were chasing.
