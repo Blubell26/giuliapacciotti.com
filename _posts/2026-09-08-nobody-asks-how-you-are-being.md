@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Being Is Enough
+title: Nobody Asks How You Are Being
 description: On the swap from being to doing, and what I don’t want to hand my son.
 date: 2026-09-08
 image: images/IMG_0918.jpeg
