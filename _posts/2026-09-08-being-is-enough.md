@@ -29,9 +29,9 @@ You cannot achieve your way into feeling like you are enough. The two things are
 
 The most obvious cost is attention. A mind that has learned to associate stillness with falling behind cannot stay still. A person who is always proving something jump from a thing to the next, because staying still means the proving stops. So the attention fragments. The mind keeps moving. It finishes one thing already half thinking about the next, present nowhere in particular, everywhere at once and nowhere at all.
 
-I notice this most clearly with my son. When I don’t have the ability to just watch my son build something out of sticks for twenty straight minutes without some part of me wondering what I should be doing instead, I know I need to stop and being. 
+I notice this most clearly with my son.  I have never once cared what he ends up making with the sticks, the words or the mornings. I’ve never steered it, never asked what it’s for. What I actually watch, every time, is how he is while he’s making it. Whether he’s still in his body, still somewhere real, or already somewhere else. When I don’t have the ability to just watch that for twenty straight minutes without some part of me wondering what I should be doing instead, I know I need to stop and being.
 
-When he is deep in something, building an elaborate structure out of whatever is lying around, narrating a story only he can follow, there is a version of me that used to feel a small itch of impatience watching it. Some part of me had been trained to see unstructured time as time lost or not yet justified.
+When he is deep in something, building an elaborate structure out of whatever is lying around, narrating a story only he can follow, there is something in me that used to feel a small itch of impatience watching it. Some part of me had been trained to see unstructured time as time lost or not yet justified.
 That itch is exactly what I refused to hand him. I didn’t want him to grow up needing to justify his afternoons. I do not want his sense of being allowed to exist to depend on a running tally of what he has accomplished that day. 
 
 The world is loud about wanting your attention, and a mind that has already been trained to associate worth with productivity is an easy mind to steal attention from, because it is already looking for the next thing to chase.
