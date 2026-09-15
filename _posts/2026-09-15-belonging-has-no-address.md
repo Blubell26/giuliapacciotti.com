@@ -40,9 +40,10 @@ This is why people who have lived in many places sometimes describe a strange ki
 
 My son has never had a “house”. No childhood bedroom is waiting for him anywhere, nothing attached to a specific place, no return address, no single place he will one day go back to and measure himself against. And yet he is one of the most secure people I know. His sense of belonging never had a house to lose, His security was never handed to him by circumstances so it had to be built somewhere else from the start. It was built, choice by choice, in relationship, in routine, in the people around him, in, most importantly, himself.
 
-images/IMG_1194.jpeg
-
 ## Bringing it home instead of finding it there
+
+![](/images/IMG_1197.jpeg)
+
 
 If belonging cannot be retrieved from a place, the only remaining option is that it has to be built, and rebuilt, wherever a person happens to be standing. Continuously. It is less like finding your way back to a house and more like learning to build a fire that will hold and keep you warm no matter what ground you are camped on.
 
