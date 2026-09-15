@@ -3,7 +3,7 @@ layout: post
 title: Belonging Has No address
 description: Belonging is not something you return to and find intact. It is something you build inside, wherever you are.
 date: 2026-09-15
-image: belonging-post.jpg
+image: images/IMG_1194.jpeg
 category: psycho-spiritual
 ---
 
