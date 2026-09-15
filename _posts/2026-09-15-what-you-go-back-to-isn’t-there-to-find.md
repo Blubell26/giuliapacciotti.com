@@ -7,7 +7,7 @@ image: belonging-post.jp
 category: psycho-spiritual
 ---
 
-*On belonging, looking for what was never going to be found by “going back” and the difference between returning and arriving*
+*On belonging, what was never going to be found by “going back” and the difference between returning and arriving*
 
 A woman goes back to the country she lived in for sixteen years. She moved there young, left it in her forties, and this is her first real visit in years. Somewhere underneath the excitement of the trip there is an expectation she hasn’t said out loud even to herself, that belonging will be there waiting for her, the way she left it, ready to be picked back up.
 
