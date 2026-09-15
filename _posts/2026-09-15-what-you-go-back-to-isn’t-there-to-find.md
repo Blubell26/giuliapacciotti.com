@@ -1,11 +1,11 @@
---
+---
 ## layout: post
 title: What You Go Back To Isn’t There to Find
 description: Belonging is not something you return to and find intact. It is something you build inside, wherever you are.
 date: 2026-09-15
 image: belonging-post.jp
 category: psycho-spiritual
---
+---
 
 *On belonging, looking for what was never going to be found by “going back” and the difference between returning and arriving*
 
