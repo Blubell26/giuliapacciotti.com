@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What You Go Back For Isn’t There to Find
+title: What You Go Back For Is Nowhere to Be Found
 description: Belonging is not something you return to and find intact. It is something you build inside, wherever you are.
 date: 2026-09-15
 image: belonging-post.jpg
