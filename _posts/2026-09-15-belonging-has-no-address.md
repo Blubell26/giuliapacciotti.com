@@ -18,7 +18,7 @@ This is such a common shape of disappointment. We go back to the house, the city
 ## The story we tell about roots
 
 Belonging gets talked about as though it is geographic. You belong somewhere. You have roots. You build roots. You go back to your roots. You need to have roots somewhere.
-The language itself treats belonging like a plant, something that grows into a specific patch of ground and cannot be moved without dying a little. Like constant death was not a foundation of life,
+The language itself treats belonging like a plant, something that grows into a specific patch of ground and cannot be moved without dying a little. 
 
 It is a comforting story for many because it gives belonging an address. If belonging lives in a place, then all you have to do is go there. You do not have to build anything else. You just have to go back.
 
@@ -26,7 +26,8 @@ Except most people who go back to that address find exactly what the woman in th
 
 None of that can be found by returning to an address, because none of it was ever located there. Even if sometimes it truly feels as that.
 
-The acts that actually produce it
+## The acts that actually produce it
+
 Belonging looks like something that happens to you. You walk into a place and either feel it or you don’t, the way weather happens to you. But look closer at what actually produces the feeling. It is not the place but a set of small ongoing acts like showing up, paying attention, letting yourself be known, letting others matter to you, again and again, in that place. Stop doing those things and the feeling fades, even if the place stays exactly the same. Do those things in a place you have never been before and the feeling can grow there instead.
 That is the first crack in the idea that belonging is given. If it depended only on the place, it would not fade when the acts stopped, and it would not appear somewhere new when the acts started. It tracks the doing, not the location.
 The second crack is what happens on return visits. The place has not changed the way you have. The streets are intact. What is missing is the ongoing act of choosing that place, day after day, which stopped the moment you left and was never picked back up in the same way. The disappointment of a return trip is not proof that belonging lived there and vanished. It is proof that belonging never lived somewhere.
@@ -38,6 +39,8 @@ Belonging is a state, built out of safety, familiarity, and being known, and all
 This is why people who have lived in many places sometimes describe a strange kind of relief. Nowhere is holding their belonging hostage, because they stopped expecting any single place to hold it for them. And it is also why people who have lived their whole life in one place can still feel like strangers in it, restless in their nervous systems and thinking they ll find it somewhere else. because proximity is not the thing that creates belonging. Time in a location and belonging to it are not the same.
 
 My son has never had a “house”. No childhood bedroom is waiting for him anywhere, nothing attached to a specific place, no return address, no single place he will one day go back to and measure himself against. And yet he is one of the most secure people I know. His sense of belonging never had a house to lose, His security was never handed to him by circumstances so it had to be built somewhere else from the start. It was built, choice by choice, in relationship, in routine, in the people around him, in, most importantly, himself.
+
+images/IMG_1194.jpeg
 
 ## Bringing it home instead of finding it there
 
