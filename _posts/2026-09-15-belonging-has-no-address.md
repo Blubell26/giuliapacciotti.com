@@ -42,8 +42,7 @@ My son has never had a “house”. No childhood bedroom is waiting for him anyw
 
 ## Bringing it home instead of finding it there
 
-![](/images/IMG_1197.jpeg)
-
+<img src="/images/IMG_1197.jpeg" alt="" style="max-width: 500px; width: 100%; display: block; margin: 0 auto;">
 
 If belonging cannot be retrieved from a place, the only remaining option is that it has to be built, and rebuilt, wherever a person happens to be standing. Continuously. It is less like finding your way back to a house and more like learning to build a fire that will hold and keep you warm no matter what ground you are camped on.
 
