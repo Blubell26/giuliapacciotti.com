@@ -44,7 +44,7 @@ My son has never had a “house”. No childhood bedroom is waiting for him anyw
 
 ## What actually built it for him
 
-Most kids with a house and stability have safety attached to the house, the school, the routine, the geography. That kind of security is conditional on the external structure holding still. When the structure ever moves, a divorce, a move, a parent’s job loss, the felt sense of safety often moves with it, because it was never separated from the external conditions to begin with.
+Most kids with a house and stability have safety attached to the house, the school, the routine, the geography. And we, parents, are made to think is an absolute necessity. But that kind of security is conditional on the external structure holding still. When the structure ever moves, a divorce, a move, a parent’s job loss, the felt sense of safety often moves with it, because it was never separated from the external conditions to begin with.
 My son’s security was never attached to any external thing because there wasn’t one continuously available to attach to. It was built entirely in relationship, with me, directly, with nothing external to lean on or hide behind. That is a harder thing to build than house-based security. But once it exists, it isn’t hostage to circumstances the way the other kind is. 
 
 
