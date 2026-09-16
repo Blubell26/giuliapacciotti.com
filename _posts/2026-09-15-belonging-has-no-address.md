@@ -17,22 +17,22 @@ This is such a common disappointment, and it isn’t only about places. We go ba
 
 ## The story we tell about roots
 
-Belonging gets talked about as though it is geographic. You belong somewhere. You have roots. You build roots. You go back to your roots. You need to have roots somewhere.
+Belonging gets talked about as though you belong somewhere. You have roots. You build roots. You go back to your roots. 
 The language itself treats belonging like a plant, something that grows into a specific patch of ground and cannot be moved without dying a little.
 
 It is a comforting story for many because it gives belonging a location, an address, a familiar face, a situation you can name. If belonging lives there, then all you have to do is go back to it. You do not have to build anything else.
 
-Except most people who go back, whether to a place, a situation, or a person, find exactly what the woman in this story found: not betrayal or decline, just absence. The place is still there. The person is still there. The streets are the same, the face is the same. What is missing is a feeling that never actually belonged to any of it to begin with. It was in something else, in a nervous system that once felt safe, even out of an illusionary moment, and known in that context, in relationships that have since moved or changed or ended, in some shape of the self that no longer exists.
+Except most people who go back at some point, whether to a place, a situation, or a person, find exactly what the woman in this story found: not betrayal or decline, just absence. The place is still there. The person is still there. The streets are the same, the face is the same. What is missing is a feeling that never actually belonged to any of it to begin with. It was in something else, in a nervous system that once felt safe, even out of an illusionary past moment, and known in that context, in relationships that have since moved or changed or ended, in some shape of the self that no longer exists.
 
 None of that can be found by returning, because none of it was ever located out there. Even if sometimes it truly feels as that.
 
 ## Where safety actually starts
 
-Safety starts as something given, not built. As children, it comes from the people around us, or it doesn’t, and whatever we’re shown becomes the template. Some people are shown the real thing. Others are shown inconsistency mistaken for intensity, control mistaken for care, and they grow up reaching for that instead, because it’s the only version of safety their nervous system ever learned to recognize.
+Safety starts as something given, not built. As children, it only comes from the very people around us, or it doesn’t, and whatever we’re shown becomes the template. Some people are shown the real thing. Others are shown inconsistency mistaken for intensity, control mistaken for care, and they grow up reaching for that instead, because it’s the only version of safety their nervous system ever learned to recognize.
 
-What changes later it’s where safety has to come from. The people who once supplied it are gone, or grown up, or were never quite supplying the authentic thing to begin with. At some point the only way forward is learning to generate, from the inside, the same feeling that was once only ever given.
+What changes later it’s where safety has to come from. The people who once supplied it are gone, or grown up, or were never quite supplying the authentic thing to begin with. At some point the only way forward is learning to generate, from the inside, the same feeling.
 
-This is also why people go back to relationships that are actually toxic for them. Because it’s familiar, and familiarity gets mistaken for belonging so easily that most people never separate the two. The nervous system doesn’t distinguish between “known” and “safe.” It just recognizes something it’s met before, and calls that recognition home.
+This is also why people, uncapable of generating it themselves, go back to relationships that are actually toxic for them. Because it’s familiar, and familiarity gets mistaken for belonging so easily that most people never separate the two. The nervous system doesn’t distinguish between “known” and “safe.” It just recognizes something it’s met before, and calls that recognition home.
 
 Recognizing someone is not the same as being safe with them. Going back to a familiar person restores the recognition, not the safety, and it’s the safety that is going to produce belonging in the first place.
 
