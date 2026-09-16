@@ -39,12 +39,13 @@ That is the first crack in the idea that belonging is given. If it depended only
 The second crack is what happens on return visits, whatever is being returned to. The place, the person, the old situation, none of it has changed the way you have. It is all still intact on the surface. What is missing is the ongoing act of choosing it, day after day, which stopped the moment you left and was never picked back up in the same way. The disappointment of a return is not proof that belonging lived there and vanished. It is proof that belonging was never in that place, or that person, or that situation to begin with.
 
 ## Where safety actually starts
+
 Safety starts as something given, not built. As children, it comes from the people around us, or it doesn’t, and whatever we’re shown becomes the template. Some people are shown the real thing. Others are shown something that only wears its shape, inconsistency mistaken for intensity, control mistaken for care, and they grow up reaching for that instead, because it’s the only version of safety their nervous system ever learned to recognize.
 What changes later isn’t the need for safety. It’s where it has to come from. The people who once supplied it are gone, or grown up, or were never quite supplying the real thing to begin with. At some point the only way forward is learning to generate, from the inside, the same feeling that was once only ever given.
 
 ## What belonging is actually made of
 
-Belonging is a state, built out of safety, familiarity, and being known, and all three of those things live in people and nervous systems, not in addresses. You can stand in the exact house you grew up in and feel none of it, because the people who made it feel that way are gone, or never felt it because you lived within an unsafe environment, or because you yourself have changed enough.
+Belonging is a state, built out of safety, familiarity, and being known, and all three of those things live in people and nervous systems, not in addresses. You can stand in the exact house you grew up in and feel none of it, because the people who made it feel that way are gone, or because you yourself have changed enough.
 
 This is why people who have lived in many places sometimes describe a strange kind of relief. Nowhere, and no one, is holding their belonging hostage, because they stopped expecting any single place or person to hold it for them. And it is also why people who have lived their whole life in one place, or stayed inside one long relationship, can still feel like strangers in it, restless in their nervous systems, convinced belonging must be waiting somewhere else, with someone else. Proximity is not the thing that creates belonging. Time spent somewhere, or with someone, and belonging to it are not the same.
 
