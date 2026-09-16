@@ -7,7 +7,7 @@ image: images/IMG_1194.jpeg
 category: psycho-spiritual
 ---
 
-*On what was never going to be found by “going back” and the difference between returning and arriving*
+*On what was never going to be found by “going back” to something and the difference between returning and arriving*
 
 A woman goes back to the country she lived in for sixteen years. She moved there young, left it in her forties, and this is her first real visit in years. Somewhere underneath the excitement of the trip there is an expectation she hasn’t said out loud even to herself, that belonging will be there waiting for her, the way she left it, ready to be picked back up.
 
@@ -22,22 +22,24 @@ The language itself treats belonging like a plant, something that grows into a s
 
 It is a comforting story for many because it gives belonging an address. If belonging lives in a place, then all you have to do is go there. You do not have to build anything else. You just have to go back.
 
-Except most people who go back to that address find exactly what the woman in this story found: not betrayal or decline, just absence. The place is still there. The streets are the same. What is missing is a feeling that never belonged to those streets to begin with. It was housed in something else, in a nervous system that once felt safe and known in that context, in relationships that have since moved or changed or ended, in some shape of the self that no longer exists.
+Except most people who go back to that address find exactly what the woman in this story found: not betrayal or decline, just absence. The place is still there. The streets are the same. What is missing is a feeling that never belonged there to begin with. It was housed in something else, in a nervous system that once felt safe, even out of an illusionary moment, and known in that context, in relationships that have since moved or changed or ended, in some shape of the self that no longer exists.
 
 None of that can be found by returning to an address, because none of it was ever located there. Even if sometimes it truly feels as that.
 
 This is also why people go back to relationships that are actually toxic for them. Because it’s familiar, and familiarity gets mistaken for belonging so easily that most people never separate the two. The nervous system doesn’t distinguish between “known” and “safe.” It just recognizes the shape of something it’s met before, and calls that recognition home.
 
+Recognizing someone is not the same as being safe with them. Going back to a familiar person restores the recognition, not the safety, and it’s the safety that was ever going to produce belonging in the first place.
+
 
 ## The acts that actually produce it
 
-Belonging looks like something that happens to you. You walk into a place and either feel it or you don’t, the way weather happens to you. But look closer at what actually produces the feeling. It is not the place but a set of small ongoing acts like showing up, paying attention, letting yourself be known, letting others matter to you, again and again, in that place. Stop doing those things and the feeling fades, even if the place stays exactly the same. Do those things in a place you have never been before and the feeling can grow there instead.
+Belonging looks like something that happens to you. You walk into a place and either feel it or you don’t, the way weather happens to you. But look closer at what actually produces the feeling. It is a set of small ongoing acts like showing up, paying attention, letting yourself be known, letting others matter to you, open up, trust, again and again, in that place. Stop doing those things and the feeling fades, even if the place stays exactly the same. Do those things in a place you have never been before and the feeling can grow there instead.
 That is the first crack in the idea that belonging is given. If it depended only on the place, it would not fade when the acts stopped, and it would not appear somewhere new when the acts started. It tracks the doing, not the location.
 The second crack is what happens on return visits. The place has not changed the way you have. The streets are intact. What is missing is the ongoing act of choosing that place, day after day, which stopped the moment you left and was never picked back up in the same way. The disappointment of a return trip is not proof that belonging lived there and vanished. It is proof that belonging was never in that place to begin with.
 
 ## What belonging is actually made of
 
-Belonging is a state, built out of safety, familiarity, and being known, and all three of those things live in people and nervous systems. You can stand in the exact house you grew up in and feel none of it, because the people who made it feel that way are gone, or never felt it because you lived with a unsafe environment or because you yourself have changed enough.
+Belonging is a state, built out of safety, familiarity, and being known, and all three of those things live in people and nervous systems. You can stand in the exact house you grew up in and feel none of it, because the people who made it feel that way are gone, or never felt it because you lived within an unsafe environment or because you yourself have changed enough.
 
 This is why people who have lived in many places sometimes describe a strange kind of relief. Nowhere is holding their belonging hostage, because they stopped expecting any single place to hold it for them. And it is also why people who have lived their whole life in one place can still feel like strangers in it, restless in their nervous systems, convinced belonging must be waiting somewhere else. Proximity is not the thing that creates belonging. Time in a location and belonging to it are not the same.
 
