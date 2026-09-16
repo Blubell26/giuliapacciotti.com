@@ -38,16 +38,14 @@ Recognizing someone is not the same as being safe with them. Going back to a fam
 
 ## What belonging is actually made of
 
-Belonging, familiarity, safety all live in people and nervous systems, not in addresses. You can stand in the exact house you grew up in and feel none of it, because it was never the house doing the work to begin with.
-
-This is why people who have lived in many places sometimes describe a strange kind of relief. Nowhere, and no one, is holding their belonging hostage, because they stopped expecting any single place or person to hold it for them. And it is also why people who have lived their whole life in one place, or stayed inside one long relationship, can still feel like strangers in it, restless in their nervous systems, convinced belonging must be waiting somewhere else, with someone else. Proximity is not the thing that creates belonging. Time spent somewhere, or with someone, and belonging to it are not the same.
+Belonging, familiarity, safety all live in people and nervous systems. You can stand in the exact house you grew up in and feel none of it.
 
 My son has never had a “house”. No childhood bedroom is waiting for him anywhere, nothing truly attached to a specific place, no return address, no single place he will one day go back to and measure himself against. And yet he is one of the most secure people I know. His sense of belonging never had a house to lose, his security was never handed to him by circumstances so it had to be built somewhere else from the start. It was built, choice by choice, in relationships, in routine, in the people around him, in, most importantly, himself.
 
 ## What actually built it for him
 
 Most kids with a house and stability have safety attached to the house, the school, the routine, the geography. That kind of security is conditional on the external structure holding still. When the structure ever moves, a divorce, a move, a parent’s job loss, the felt sense of safety often moves with it, because it was never separated from the external conditions to begin with.
-My son’s security was never attached to any external thing because there wasn’t one continuously available to attach to. It was built entirely in relationship, with me, directly, with nothing external to lean on or hide behind. That is a harder thing to build than house-based security. But once it exists, it isn’t hostage to circumstances the way the other kind is. He is not more secure despite the lack of a house. He is more secure partly because there was no house available to substitute for the real safety, so the real safety had to get built instead.
+My son’s security was never attached to any external thing because there wasn’t one continuously available to attach to. It was built entirely in relationship, with me, directly, with nothing external to lean on or hide behind. That is a harder thing to build than house-based security. But once it exists, it isn’t hostage to circumstances the way the other kind is. 
 
 
 ## Bringing it home instead of finding it there
