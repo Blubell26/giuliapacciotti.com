@@ -26,6 +26,9 @@ Except most people who go back to that address find exactly what the woman in th
 
 None of that can be found by returning to an address, because none of it was ever located there. Even if sometimes it truly feels as that.
 
+This is also why people go back to relationships that are actually toxic for them. Because it’s familiar, and familiarity gets mistaken for belonging so easily that most people never separate the two. The nervous system doesn’t distinguish between “known” and “safe.” It just recognizes the shape of something it’s met before, and calls that recognition home.
+
+
 ## The acts that actually produce it
 
 Belonging looks like something that happens to you. You walk into a place and either feel it or you don’t, the way weather happens to you. But look closer at what actually produces the feeling. It is not the place but a set of small ongoing acts like showing up, paying attention, letting yourself be known, letting others matter to you, again and again, in that place. Stop doing those things and the feeling fades, even if the place stays exactly the same. Do those things in a place you have never been before and the feeling can grow there instead.
