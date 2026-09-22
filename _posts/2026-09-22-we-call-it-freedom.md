@@ -3,7 +3,7 @@ layout: post
 title: We Call It Freedom Because Nobody Stops Us
 description: Nobody stops us from injecting toxins into our own faces, so we call it freedom. A post about choices that arrive already designed.
 date: 2026-09-21
-image: 
+image: images/IMG_1426.jpeg
 category: psycho-spiritual
 ---
 
