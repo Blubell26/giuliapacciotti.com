@@ -13,6 +13,7 @@ There are clinics in almost every city and village now where a person can sit in
 
 ## Freedom as the absence of a hand on your collar
 
+
 The philosopher Isaiah Berlin split liberty in two. Negative liberty: nobody interferes with you. Positive liberty: you are actually the author of your own life. Ours is a culture that has become extremely good at the first and has thrown the other out of the window. Just like that.
 Basically If no one is holding your arm, you are free. Case closed. Whatever you do with your arm is your business, and any question about why you wanted to do it is treated as an insult.
 
@@ -20,11 +21,13 @@ But wanting is not a neutral thing that happens to neutral minds. And I tell you
 
 ## We have seen this before
 
+
 In 1929 a man named Edward Bernays, working for a tobacco company, arranged for a group of young women to light cigarettes in front of the press during New York’s Easter parade. The newspapers were told these were “torches of freedom.” Women smoking in public was not done at the time, so lighting up looked like liberation, and a product that had nothing to do with liberation was suddenly standing in its clothes.
 
 Nobody was forced. That was the whole trick. You attach the product to something people already want, and then you step back and let them choose. Every woman who lit one up did it in her own eyes as a free act, and in a sense it was. I cannot read that story now without hearing the clinic in it.
 
-## A menu is not a life
+## A menu is always a menu
+
 
 Whether you are free between just a few choices, nobody really seems to thinks about it.
 
@@ -35,6 +38,7 @@ The strange part is how sincere it all feels from the inside. Nobody experiences
 I am not interested in shaming anyone in that chair, shaming is not the point and it never has been. People are tired. They look at their own face after a hard year of keeping up with all the bullshits we are constantly throw at and they do the best they can in their position.
 
 ## What a free choice would need
+
 
 If a choice is going to be called free, it should survive a few questions. Would I want this if no one had ever told me I was lacking it? Could I say no without paying for it socially? Do I know what is actually going into my body, and who benefits from my saying yes? What am I losing by doing this?
 Most of what we call freedom would wobble a little under those. I think wobble is the right word.
