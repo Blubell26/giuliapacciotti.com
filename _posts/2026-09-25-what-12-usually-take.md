@@ -4,7 +4,7 @@ title: What Twelve Usually Takes, and What He Kept
 description: On the conditions a child needs before tenderness can occur to him, and what it means when he still turns toward you instead of away.
 date: 2026-09-25
 image: images/IMG_1528.jpeg
-categories: parenting-unschooling
+category: parenting-unschooling
 ---
 
 *On the conditions a child needs before tenderness can occur to him*
