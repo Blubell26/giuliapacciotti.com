@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "At 12 He Made Me a Gift While I Was Still Asleep"
+title: What Twelve Usually Takes, and What He Kept
 description: On the conditions a child needs before tenderness can occur to him, and what it means when he still turns toward you instead of away.
 date: 2026-09-25
 image: 
