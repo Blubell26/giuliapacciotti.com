@@ -10,7 +10,7 @@ categories: parenting unschooling
 
 *On the conditions a child needs before tenderness can occur to him*
 
-I woke up this morning to find my son had turned his bed into a fort. Blanket draped over the frame, a kangaroo print pulled low so I couldn't see underneath. He was making me a birthday gift, in secret, before I was even out of bed.
+I woke up this morning to find my son had turned his bed into a fort. Blanket draped over the window, a kangaroo print pulled low so I couldn't see underneath. He was making me a birthday gift, in secret, before I was even out of bed.
 
 My first feeling was simple. Then it turned into a question I couldn't put down. Do kids still have time for this. Time to notice a date on a calendar and decide, unprompted, that they want to make something with their hands for someone they love. Or has that capacity been subtly engineered out of most childhoods, replaced by a schedule so full there's no room left for a thought like that to arrive.
 
