@@ -3,7 +3,7 @@ layout: post
 title: "The Most Innocent Pizza There Is"
 description: A margherita pizza costs me two days of clean eating. What happens when food stops sustaining us, and what real, whole ingredients look like.
 date: 2026-10-02
-image: images/IMG_1748.jpeg
+image: images/IMG_1755.jpeg
 category: natural-healing
 ---
 
