@@ -63,7 +63,8 @@ It isn't food the way a tomato is food, but it comes from the same instinct: kee
 
 ---
 
-If you'd like to have a look at what that kind of simplicity looks like, here is Zilara: https://zilara.com/GiuliaPacciotti
+If you'd like to have a look at what that kind of simplicity looks like, here is [Zilara](https://zilara.com/GiuliaPacciotti).
+
 
 (referral link, I may earn a commission if you purchase)
 
