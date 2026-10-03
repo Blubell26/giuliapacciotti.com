@@ -41,6 +41,8 @@ Whoever said it first, it holds. That order flipped, and eating stopped being th
 
 A tomato is still a tomato. Olive oil is still olive oil. The problem isn't food. It's what we've done to it. We need to remember what food was supposed to do in the first place.
 
+I think it is much less about following a specific diet than about eating as close to source as possible.
+
 ## Normal is not the same as fine
 
 Eating like this, at every meal, has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
