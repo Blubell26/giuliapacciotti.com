@@ -9,12 +9,12 @@ category: natural-healing
 
 *On a body that says no thank you, and a world that stopped listening*
 
-I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer it to make us want more of it. More refined things. Takeaways made with oils not even my van would run on. Neurotoxic and extremely addictive glucose -syrup added to almost everything. More hyperpalatable combinations.
+I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer it to make us want more of it. More refined things. More hyperpalatable combinations. Takeaways made with oils not even my van would run on but hey, tasty. Neurotoxic and extremely addictive glucose-syrup added to almost everything you find in a supermarket shelf. 
 More of the thing that makes you want another one.
 
-And I realised I can't even eat a normal margherita pizza without needing two days of clean eating afterwards. Two days. For a pizza. The most innocent pizza there is.
+And I realised I can't even eat a normal margherita pizza these days without needing two days of clean eating afterwards. Two days. For a pizza. The most innocent pizza there is.
 
-Meanwhile people are eating that stuff at every meal. Breakfast, lunch, dinner, and whatever is in the car.
+Meanwhile people are eating extremely controversial stuff at every meal. Breakfast, lunch, dinner, and whatever is in the car.
 
 
 ## When normal gets loud
@@ -35,7 +35,7 @@ People ingurgitate no matter what, in every sense, and then suddenly they become
 
 > Eat to live, not live to eat.
 
-*Said some thousands years ago Socrates*
+*Said, some thousands years ago,Socrates*
 
 Whoever said it first, it holds. That order flipped, and eating stopped being the thing that fed a life and became the thing a life is organised around. The craving, the guilt, the reset, the craving again.
 
@@ -43,9 +43,9 @@ A tomato is still a tomato. Olive oil is still olive oil. The problem isn't food
 
 ## Normal is not the same as fine
 
-Eating like this, gluttony at every meal, has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
+Eating like this, at every meal, has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
 
-So here I am with my slightly offended body, saying no thank you to what it creates havoc in my body like it's a revolution, while the rest of the world says yes to everything, as long as it's tasty enough, all day.
+So here I am with my slightly offended body, saying no thank you to what creates havoc in my body like it's a revolution, while the rest of the world says yes to everything, as long as it's tasty enough, all day.
 
 Food was never meant to be this, but to be what sustains us, not what keeps us down.
 
@@ -57,7 +57,7 @@ The opposite of engineered is not complicated. It is whole things, kept simple, 
 
 That is why I've been looking at Zilara. Their call is whole plants and clean labels: herbs, wholefoods supplements, essential oils, fulvic minerals, black seed oil, teas, all pressed, dried, blended and bottled in one facility in Cincinnati, with every ingredient named in full and no fillers added just to make manufacturing easier. Every incoming lot is identity-tested, and every ingredient comes from a vetted supplier.
 
-The founder's conviction is that the body recognizes food, not chemicals. And mine too when I think about food supplements. Their founder page says they build around whole-plant complexes rather than isolated synthetic vitamins. So basically, the whole plants makes sense holistically. 
+The founder's conviction is that the body recognizes food, not chemicals. Their founder page says they build around whole-plant complexes rather than isolated synthetic vitamins. So basically, the whole plants makes sense again as nature created it. 
 
 It isn't food the way a tomato is food, but it comes from the same instinct: keep it whole, keep it honest, and let people see what wholefoods can add back to their lives.
 
