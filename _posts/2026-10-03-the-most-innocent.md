@@ -4,12 +4,12 @@ title: "The Most Innocent Pizza There Is"
 description: A margherita pizza costs me two days of clean eating. What happens when food stops sustaining us, and what real, whole ingredients look like.
 date: 2026-10-02
 image: IMG_1748.png
-thumb: IMG_1748.png
+category: natural-healing
 ---
 
 *On a body that says no thank you, and a world that stopped listening*
 
-I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer food to make us want more of it. More refined things. More hyperpalatable combinations.
+I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer it to make us want more of it. More refined things. More hyperpalatable combinations.
 More of the thing that makes you want another one.
 
 And I realised I can't even eat a normal margherita pizza without needing two days of clean eating afterwards. Two days. For a pizza. The most innocent pizza there is.
@@ -43,7 +43,7 @@ A tomato is still a tomato. Olive oil is still olive oil. The problem isn't food
 
 ## Normal is not the same as fine
 
-Eating like this, gluttony at every meal has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
+Eating like this, gluttony at every meal, has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
 
 So here I am with my slightly offended body, saying no thank you to what it creates havoc in my body like it's a revolution, while the rest of the world says yes to everything, as long as it's tasty enough, all day.
 
@@ -63,8 +63,8 @@ It isn't food the way a tomato is food, but it comes from the same instinct: kee
 
 ---
 
-If you'd like to have a look at what that kind of simplicity looks like, here is Zilara: 
+If you'd like to have a look at what that kind of simplicity looks like, here is Zilara: https://zilara.com/GiuliaPacciotti
 
-[If this is an affiliate or referral link, add your disclosure here in your own words]
+(referral link, I may earn a commission if you purchase)
 
-*Zilara's products are not intended to diagnose, treat, cure or prevent any disease.*
+*Zilara's products are not intended to diagnose, treat, cure or prevent any disease.*(but they are amazing)
