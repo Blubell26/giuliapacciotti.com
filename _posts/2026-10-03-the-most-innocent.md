@@ -53,7 +53,7 @@ Food was never meant to be this, but to be what sustains us, not what keeps us d
 
 Eating real food creates freedom. When you know exactly what is in something, nothing is working on you behind your back.
 
-The opposite of engineered is not complicated. It is whole things, kept simple, a simple basic diet and something to add that helps our body thrive with nothing hiding behind a label. Most people feel overwhelmed by the complexity of the food today. And they are starting asking questions.
+The opposite of engineered is not complicated. It is whole things, kept simple, a simple basic diet and something to add that helps our body thrive with nothing hiding behind a label. Most people feel overwhelmed by the complexity of the food today. And they are starting asking questions. If you are taking synthetic supplements you are doing a very similar thing as eating processed food.
 
 That is why I've been looking at Zilara. Their call is whole plants and clean labels: herbs, wholefoods supplements, essential oils, fulvic minerals, black seed oil, teas, all pressed, dried, blended and bottled in one facility in Cincinnati, with every ingredient named in full and no fillers added just to make manufacturing easier. Every incoming lot is identity-tested, and every ingredient comes from a vetted supplier.
 
