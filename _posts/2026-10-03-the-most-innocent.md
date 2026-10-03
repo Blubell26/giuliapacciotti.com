@@ -9,7 +9,7 @@ category: natural-healing
 
 *On a body that says no thank you, and a world that stopped listening*
 
-I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer it to make us want more of it. More refined things. Takeaways made with oils not even my van would run on. Neurotoxic Glucose-syrup added to almost everything. More hyperpalatable combinations.
+I was talking to my son today about how people just want more and more regarding food. Somewhere along the way we figured out how to engineer it to make us want more of it. More refined things. Takeaways made with oils not even my van would run on. Neurotoxic and extremely addictive glucose -syrup added to almost everything. More hyperpalatable combinations.
 More of the thing that makes you want another one.
 
 And I realised I can't even eat a normal margherita pizza without needing two days of clean eating afterwards. Two days. For a pizza. The most innocent pizza there is.
