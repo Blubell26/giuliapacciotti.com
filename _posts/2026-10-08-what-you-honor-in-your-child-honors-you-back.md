@@ -3,7 +3,7 @@ layout: post
 title: "What you Honor in your Child Honors You Back"
 description: Children give back the respect they receive. What respect really means with kids, and why it starts with how we meet the person in front of us.
 date: 2026-10-07
-image: respect.jpg
+image: images/IMG_1934.jpeg
 category: parenting-unschooling
 ---
 
