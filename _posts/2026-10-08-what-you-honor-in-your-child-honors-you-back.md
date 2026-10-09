@@ -25,19 +25,19 @@ It is being able to hear the second meaning in their words. A child who says "I 
 
 Every child comes with their own timing, their own way of learning, their own way of being in the world. Honoring that means letting go of the picture we carried of who they would be, and of where they should be by now compared to everyone else. A child can feel when they are being measured against a standard that was never theirs. They can also feel when they are simply being seen.
 
-Part of this is not taking things personally. Most of what a child does is not about us. The locked door, the tone, the refusal, the mood that comes out of nowhere. It talks about us not them. So instead of taking it personally so the child now has to manage our hurt on top of their own, we should reflect on what has happened and how we managed it.
+Part of this is not taking things personally. Most of what a child does is not about us. The locked door, the tone, the refusal, the mood that comes out of nowhere. However how we see it, talks about us not them. So instead of taking it personally and having the child now managing our hurt on top of their own, we should reflect on what has happened and how we managed our own emotions and expectations around it.
 
-Part of it is not overdoing. Not hovering, not fixing, not explaining everything three times, not stepping in before they have had a chance to try. All of that comes from love, but it quietly says I don't think you can handle this. And trusting their abilities is the opposite message. Children feel it the moment it is there, and the moment it is missing, and they grow into whichever one they are given.
+Part of it is not overdoing. Not hovering, not fixing, not explaining everything three times, not stepping in before they have had a chance to try. All of that says, I don't think you can handle this because I don’t think I can handle this. And trusting their abilities is the opposite message. Children feel it the moment it is there, and the moment it is missing, and they grow into whichever one they are given.
 
 ## Boundaries without a fight
 
-Respecting them does not mean having no boundaries of our own. We are people too, and we are allowed to have limits. What changes is how we hold them. Calm, and non negotiable. No raised voice, no bargaining, no waiting for the child to agree, no long justification that turns the boundary into a debate.
+Respecting them does not mean having no boundaries of our own. What changes is how we hold them. Calm, and non negotiable. No raised voice, no bargaining, no waiting for the child to agree, no long justification that turns the boundary into a debate.
 
 A boundary set from calm is simply a boundary. A boundary set from fear becomes a power struggle, and a child feels the difference immediately, long before they could ever explain it. When we hold a limit without needing to win, there is nothing to push against. And a child who is not being controlled has almost no reason to rebel.
 
 ## Getting out of the controlling mind
 
-Underneath all of this sits the controlling mind, the part of us that believes everything falls apart the moment we loosen our grip. It wants to manage the outcome, predict the child, secure the future. It sounds like responsibility, but most of the time it is fear of what happens if we are not in charge of everything.
+Underneath all of this sits the controlling mind, the part of us that believes everything falls apart the moment we loosen our grip. It wants to manage the outcome, predict the child, secure the future. 
 
 Getting out of it means having faith in the flow of life. Trust that the person in front of us is on a path that is unfolding, and that we do not have to force it to unfold.
 
