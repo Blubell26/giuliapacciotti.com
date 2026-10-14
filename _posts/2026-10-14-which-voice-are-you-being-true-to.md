@@ -23,7 +23,7 @@ Most of us don't. We take the personality we were shaped into for the self, and 
 Run that logic for a minute and see where it goes. A trauma response becomes authenticity. A narcissistic outburst becomes authenticity. Projecting my shadow onto you becomes me being honest. A belief absorbed from my family, my culture or my religion before I could question it becomes my truth. Even a desire that was never mine at all becomes who I really am.
 Our society is shaped by all of this.
 
-A society built on expressing whatever we feel we are, without asking who feels it, will mostly express its wound
+A society built on expressing whatever we feel we are, without asking who feels it, will mostly express its wounds.
 
 ## Whose voice is it
 
@@ -41,7 +41,7 @@ Robert A. Johnson, who trained in the Jungian tradition and also spent time at t
 
 This is why it frustrates me when inner work gets packaged into a short post with ten points. There is no list that tells you, this is my shadow, this is an inner child part, this is something else entirely. Frameworks can orient us but cannot discern for us.
 
-Differentiation grows slowly, through years of obsessive self-observation. Radical honesty. Shadow work and inner child work. Paying attention to the body. Meditation. Psychological maturity. And the repeated, uncomfortable return to whatever we would rather not see in ourselves.
+Differentiation grows slowly, through years of obsessive self-observation. Radical honesty and emptiness. Shadow work and inner child work. Paying attention to the body. Meditation. Psychological maturity. And the repeated, uncomfortable return to whatever we would rather not see in ourselves.
 
 There is another habit that keeps us from this, and I think it runs underneath most of the self-help world. We add. When we feel lost, we reach for another practice, another teacher, another framework, another identity to put on. Even the spiritual path gets turned into something to accumulate, and we end up with a very decorated personality that still doesn't know who is wearing it.
 
