@@ -50,4 +50,4 @@ None of this can be rushed, and the impatient ego hates that. Impatience is not 
 
 This is also why pop-spiritual teachings, and especially a lot of channeled material, are so appealing right now. They are fast, they flatter, and they fit a short attention span. They let us feel advanced without the confrontation that would make us so. Instead of supporting real development they feed spiritual bypassing, and the seeker ends up overestimating their own level of being and wandering a maze they believe is a path.
 
-I don't think "be yourself" is a wrong sentence. I think it is an unfinished one. It needs a question in front of it: which self? I would rather keep asking that for the rest of my life than answer it too quickly and finding myself with someone I am not.
+I don't think "be yourself" is a wrong sentence. I think it is an unfinished one. It needs a question in front of it: which self? I would rather keep asking that for the rest of my life than answer it too quickly and end up with someone I am not.
