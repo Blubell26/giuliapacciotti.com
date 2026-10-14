@@ -40,7 +40,9 @@ This is why it frustrates me when inner work gets packaged into a short post wit
 
 Differentiation grows slowly, through years of obsessive self-observation. Radical honesty. Shadow work and inner child work. Paying attention to the body. Meditation. Psychological maturity. And the repeated, uncomfortable return to whatever we would rather not see in ourselves.
 
-We also tend to go about this by adding. Another practice, another teacher, another framework, another layer of identity to wear. I feel it is much easier to find out who we are by removing. Every belief we see was handed to us, every role we stop performing, every desire we realise was never ours, takes something away. And what remains gets easier to recognise.
+There is another habit that keeps us from this, and I think it runs underneath most of the self-help world. We add. When we feel lost, we reach for another practice, another teacher, another framework, another identity to put on. Even the spiritual path gets turned into something to accumulate, and we end up with a very decorated personality that still doesn't know who is wearing it.
+
+I feel it works the other way round. Finding out who we are is much more a matter of removing. Every belief we see was handed to us, every role we stop performing, every desire we realise was never ours, takes something away. Differentiation itself is subtraction: this is not mine, this is not mine, this is not mine. Nothing new is built. What is left when enough has fallen away is not something we produced, and it doesn't need defending.
 
 Over time something changes. We get familiar with the texture of our own psyche, the way you learn the sound of a voice you hear every day. We begin to feel, in the body and not in the head, the difference between an abandonment wound and a shame complex, between a trauma response and a belief we inherited, between a projection and a genuine perception. And behind all of it, quietly, something that was never any of those things.
 
@@ -48,7 +50,7 @@ None of this means becoming suspicious of every thought. It means loosening the 
 
 ## The sword over our era
 
-Our era has its own sword of Damocles, and it is the endless freedom of choice. Everyone is told they are free, and everyone is choosing, all day, whatever they like. But if the one choosing is a bundle of conditioning, wounds and borrowed desires, then choice is just how the puppet moves. People feel free precisely because they are always choosing, and the more options there are, the less anyone stops to ask who is choosing.
+Our era has its own sword of Damocles, and it is the endless freedom of choice. We are told we are free, so we choose all day long and call it proof. But if the one choosing is a bundle of conditioning, wounds and borrowed desires, then choice is just how the puppet moves. People feel free because they are always choosing, and the more options there are, the less anyone stops to ask who is choosing.
 Choice only means something once we know who is doing the choosing.
 
 ## The danger of hurry
