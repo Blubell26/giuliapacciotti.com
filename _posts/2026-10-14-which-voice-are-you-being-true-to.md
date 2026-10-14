@@ -1,11 +1,11 @@
-——-
+---
 layout: post
 title: "Which Voice Are You Being True To?"
 description: "Just be yourself sounds like freedom, but few of us can tell our own voice from wounds and conditioning. On the slow work of differentiation."
-date: 2026-10-14
+date: 2026-10-11
 image: which-voice-flower.jpg
 thumb: which-voice-flower.jpg
-——-
+---
 
 # Which Voice Are You Being True To?
 
