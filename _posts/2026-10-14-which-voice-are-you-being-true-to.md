@@ -50,7 +50,7 @@ None of this means becoming suspicious of every thought. It means loosening the 
 
 ## The sword over our era
 
-Our era has its own sword of Damocles, and it is the endless freedom of choice. We are told we are free, so we choose all day long and call it proof. But if the one choosing is a bundle of conditioning, wounds and borrowed desires, then choice is just how the puppet moves. People feel free because they are always choosing, and the more options there are, the less anyone stops to ask who is choosing.
+Our era has its own sword of Damocles, and it is the endless freedom of choice. We are told we are free, so we choose all day long and call it proof. But if the one choosing is a bundle of conditioning, wounds and borrowed desires, then choice is just how the puppet moves. 
 Choice only means something once we know who is doing the choosing.
 
 ## The danger of hurry
