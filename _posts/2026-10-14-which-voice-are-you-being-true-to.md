@@ -21,7 +21,7 @@ These sentences are everywhere, and they sound like freedom. Nobody wants to arg
 Most of us don't. We take the personality we were shaped into for the self, and we claim everything that moves through us as ours. A thought arrives, a craving, a sudden urge to withdraw or to attack, and it is stamped "mine" before we have looked at it. And if it is mine, then acting on it is authenticity.
 
 Run that logic for a minute and see where it goes. A trauma response becomes authenticity. A narcissistic outburst becomes authenticity. Projecting my shadow onto you becomes me being honest. A belief absorbed from my family, my culture or my religion before I could question it becomes my truth. Even a desire that was never mine at all becomes who I really am.
-Our society is shaped by this belief.
+Our society is shaped by all of this.
 
 A society built on expressing whatever we feel we are, without asking who feels it, will mostly express its wound
 
