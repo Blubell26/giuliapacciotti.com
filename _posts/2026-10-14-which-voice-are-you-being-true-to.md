@@ -29,7 +29,7 @@ A society built on expressing whatever we feel we are, without asking who feels 
 
 Marion Woodman, the Jungian analyst, said there is no sense talking about being true to yourself
 
-> until you are sure what voice you are being true to.
+<blockquote style="border-left:3px solid #c8956d; background:#f5f0e8; margin:1.5rem 0; padding:1rem 1.25rem; font-style:italic;">until you are sure what voice you are being true to.</blockquote>
 
 *Marion Woodman*
 
