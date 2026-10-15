@@ -25,6 +25,8 @@ Our society is shaped by all of this.
 
 A society built on expressing whatever we feel we are, without asking who feels it, will mostly express its wounds.
 
+It is also a perfect excuse. If this is just who I am, then nothing needs to be examined and nothing needs to change. The words that sound like self-acceptance close the door on the one thing that could show me who I am.
+
 ## Whose voice is it
 
 Marion Woodman, the Jungian analyst, said there is no sense talking about being true to yourself
