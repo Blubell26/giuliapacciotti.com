@@ -45,7 +45,7 @@ There is another habit that keeps us from this, and I think it runs underneath m
 
 I feel it works the other way round. Finding out who we are is much more a matter of removing. Every belief we see was handed to us, every role we stop performing, every desire we realise was never ours, takes something away. Differentiation itself is subtraction: this is not mine, this is not mine, this is not mine. Nothing new is built. What is left when enough has fallen away is not something we produced, and it doesn't need defending.
 
-Over time something changes. We get familiar with the texture of our own psyche, the way you learn the sound of a voice you hear every day. We begin to feel, in the body and not in the head, the difference between an abandonment wound and a shame complex, between a trauma response and a belief we inherited, between a projection and a genuine perception. And behind all of it, something that was never any of those things.
+Over time something changes. We get familiar with the texture of our own psyche, the way you learn the sound of a voice you hear every day. We begin to feel, in the body and not in the head, the difference between an abandonment wound and a shame complex, between a trauma response and a belief we inherited, between a projection and a genuine perception. And behind all of it, something that is none of those things.
 
 None of this means becoming suspicious of every thought. It means loosening the reflex that says "I" and "mine" to everything that passes through.
 
