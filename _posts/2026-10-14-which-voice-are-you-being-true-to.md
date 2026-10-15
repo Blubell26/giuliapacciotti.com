@@ -39,8 +39,6 @@ Robert A. Johnson, who trained in the Jungian tradition and also spent time at t
 
 ## It does not fit in a list
 
-This is why it frustrates me when inner work gets packaged into a short post with ten points. There is no list that tells you, this is my shadow, this is an inner child part, this is something else entirely. Frameworks can orient us but cannot discern for us.
-
 Differentiation grows slowly, through years of obsessive self-observation. Radical honesty and emptiness. Shadow work and inner child work. Paying attention to the body. Meditation. Psychological maturity. And the repeated, uncomfortable return to whatever we would rather not see in ourselves.
 
 There is another habit that keeps us from this, and I think it runs underneath most of the self-help world. We add. When we feel lost, we reach for another practice, another teacher, another framework, another identity to put on. Even the spiritual path gets turned into something to accumulate, and we end up with a very decorated personality that still doesn't know who is wearing it.
