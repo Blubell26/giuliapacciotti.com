@@ -47,7 +47,7 @@ I think it is much less about following a specific diet than about eating as clo
 
 Eating like this, at every meal, has become so common that it no longer looks like a choice. It just looks like another day. But normal is not the same as fine. A whole society can drift into something strange and call it ordinary, because everyone around it is drifting too.
 
-So here I am with my slightly offended body, saying no thank you to what creates havoc in my body like it's a revolution, while the rest of the world says yes to everything, as long as it's tasty enough, all day.
+So here I am with my slightly offended body, saying no thank you to what creates havoc in it like it's a revolution, while the rest of the world says yes to everything, as long as it's tasty enough, all day.
 
 Food was never meant to be this, but to be what sustains us, not what keeps us down.
 
