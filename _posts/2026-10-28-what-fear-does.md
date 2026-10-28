@@ -64,7 +64,9 @@ It is easy to confuse this with worrying about situations, but they are nearly o
 The Stoic rehearsal, which later writers called the premeditation of evils, asks one question and KEEPS answering it. 
 And then what? Where would I sleep? Who would I call? What would I still have?
 
-Try it with something small first. Keep asking « and then what » until you run out of things to imagine. Most people run out sooner than they expect. Somewhere in there you find ordinary things and you realise it's just another ordinary (or extraordinary) life experience.
+Every time you go through it in your head, you find out you would cope. You would work something out, ask for help, adjust. That is resilience, and it gets built by looking at the worst case, not by avoiding it.
+
+Try it with something small first. Keep asking « and then what » until you run out of things to imagine. Most people run out sooner than they expect. Somewhere in there you’ll find ordinary things and you realise ..it's just life.
 
 
 Let's not confuse safety with life, or security with being alive.
