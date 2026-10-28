@@ -9,7 +9,7 @@ category: psycho-spiritual
 
 # What Fear Does When You Never Look at It
 
-*On the worst case and the cost of avoidance*
+*On the « worst case scenario » and the cost of avoidance*
 
 Most of us carry a worst case around. Something we have thought about or felt, like a dark shape at the edge of the room that we so nicely and accurately arrange the furniture around. Ask someone to describe theirs and they will hesitate. They know it is bad. They would prefer not tell you what a day inside it looks like.
 
