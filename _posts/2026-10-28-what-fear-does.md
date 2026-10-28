@@ -61,7 +61,7 @@ That is the price of our ‘worst case’ we never look at: a slow loss of colou
 ## Rehearsing is not ruminating
 
 It is easy to confuse this with worrying about situations, but they are nearly opposites. Worry circles. It asks what if and never answers. 
-The Stoic rehearsal, which later writers called the premeditation of evils, asks one question and KEEPS answering it. 
+The Stoic rehearsal, which later writers called the premeditation of evils, asks one question and **keeps** answering it. 
 And then what? Where would I sleep? Who would I call? What would I still have?
 
 Every time you go through it in your head, you find out you would cope. You would work something out, ask for help, adjust. That is resilience, and it gets built by looking at the worst case, not by avoiding it.
