@@ -7,6 +7,15 @@ image: images/IMG_2695.png
 category: psycho-spiritual 
 ---
 
+<style>
+blockquote {
+  border-left: 3px solid #c8956d;
+  margin: 1.5em 0;
+  padding-left: 1em;
+  font-style: italic;
+}
+</style>
+
 # What Fear Does When You Never Look at It
 
 *On the « worst case scenario » and the cost of avoidance*
