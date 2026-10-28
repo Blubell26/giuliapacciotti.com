@@ -28,7 +28,7 @@ And that hesitation is where a knot lives.
 
 Seneca noticed this nearly two thousand years ago.
 
-> There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.
+>**There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.**
 
 *Seneca, Letters to Lucilius*
 
