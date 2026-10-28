@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Fear Does When You Never Look at It"
+title: "What Fear Does When You Don’t Look at It"
 description: Seneca said we suffer more in imagination than in reality. Why we never look at our worst case, and what changes when we finally do.
 date: 2026-10-28
 image: filename.jpg
