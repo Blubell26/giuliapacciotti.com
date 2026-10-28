@@ -69,6 +69,6 @@ Every time you go through it in your head, you find out you would cope. You woul
 Try it with something small first. Keep asking « and then what » until you run out of things to imagine. Most people run out sooner than they expect. Somewhere in there you’ll find ordinary things and you realise ..it's just life.
 
 
-Let's not confuse safety with life, or security with being alive.
+Let's not confuse security with being and staying alive.
 
 
